@@ -1,0 +1,18 @@
+# https://github.com/gohugoio/hugoThemes#themetoml
+name = "Extend Simple Resume"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = "http://example.com/"
+tags = ["cv", "resume", "minimalist"]
+features = []
+min_version = "0.41.0"
+
+[author]
+  name = "Tomy Hsieh"
+  homepage = "https://tomy.tech"
+
+[original]
+  name = "Tyler Lawson"
+  homepage = "https://tyler-lawson.com"
+  repo = "https://github.com/tylerjlawson/simple-resume"

@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Tomy Hsieh"
+theme = "extend-simple-resume"
+# theme = "simple-resume"
