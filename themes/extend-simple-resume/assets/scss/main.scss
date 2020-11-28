@@ -60,7 +60,8 @@ ul {
   }
 }
 
-.wrap {
+.container {
+  display: grid;
   margin: 0 auto;
   max-width: 690px;
   padding: 0.3in 0.5in;
@@ -87,21 +88,22 @@ header {
   border-bottom: 3px solid $black;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  // grid-area: header;
 
   .page-title {
     display: flex;
     justify-content: space-between;
   }
-
+  
   a + a {
-    border-left: 2px solid $black;
-    margin-left: .5rem;
-    padding-left: .5rem;
+    display: block;
+    margin-top: .5rem;
   }
 }
 
 section {
   margin-bottom: 1rem;
+  // grid-area: section;
 }
 
 footer {
@@ -109,6 +111,30 @@ footer {
   margin-right: auto;
   color: $gray;
   text-align: center;
+  // grid-area: footer;
+  
+  div {
+    margin-bottom: .5rem;
+  }
+  
+  a + a {
+    margin-left: .5rem;
+  }
+  
+  .line {
+    display: inline-block;
+  }
+}
+
+@include media(">phone") {
+  header {
+    a + a {
+      display: inline-block;
+      border-left: 2px solid $black;
+      margin-left: .5rem;
+      padding-left: .5rem;
+    }
+  }
 }
 
 @include media(">tablet") {
@@ -116,7 +142,7 @@ footer {
     padding: 3rem;
   }
 
-  .box {
+  .page {
     background-color: $white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     margin: auto;

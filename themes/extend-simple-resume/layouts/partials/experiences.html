@@ -1,10 +1,13 @@
+{{ with .Site.Data.content.experiences }}
 <section>
   <h2>Experience</h2>
   {{ range . }}
   <div>
     <div class="heading-line">
       <h3>{{ .position }} at {{ .company }} - {{ .location }}</h3>
-      <h3>{{ .startdate }} - {{ if .enddate }}{{ .enddate }}{{ else }}Current{{ end }}</h3>
+      <h3>
+        {{ .startdate }} - {{ if .enddate }}{{ .enddate }}{{ else }}Current{{ end }}
+      </h3>
     </div>
     <ul>
       {{ range .points }}
@@ -14,3 +17,4 @@
   </div>
   {{ end }}
 </section>
+{{ end }}

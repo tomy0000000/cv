@@ -1,14 +1,14 @@
 name = "Tomy Hsieh"
 email = "tomy0000000@gmail.com"
 phone = "+886-988-780-175"
-website = "https://tomy.me"
+website = "tomy.me"
 github = "tomy0000000"
+linkedin = "tomy0000000"
 
 [[schools]]
 name = "National Chung Hsing University"
 location = "Taichung, TW"
 startdate = "Sep. 2019"
-enddate = "Jun. 2022"
 degrees = ["Bachelor of Computer Science"]
 
 [[schools]]
@@ -23,10 +23,17 @@ position = "Research Assistant"
 company = "UDIC Lab @ NCHU"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
-enddate = "Present"
 points = [
   "Server Maintanence and security consultant",
   "Leader of project LegalHack 2020"
+]
+
+[[info]]
+name = "Skills"
+points = [
+  "Python (5+ Years)",
+  "JavaScript (4+ Years)",
+  "C & C++ (4+ Years)"
 ]
 
 [[info]]

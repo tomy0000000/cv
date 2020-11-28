@@ -1,6 +1,23 @@
+{{ with .Site.Data.content }}
 <footer>
-    <div class="container">
-        <span class="line">Copyright © 2020 Tomy Hsieh.</span>
-        <span class="line">All rights reserved.</span>
-    </div>
+  <div>
+    <a href="mailto:{{ .email }}">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="tel:{{ .phone }}">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a href="https://github.com/{{ .github }}">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/{{ .linkedin }}">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="//{{ .website }}">
+      <i class="fas fa-globe"></i>
+    </a>
+  </div>
+  <span class="line">Copyright © 2020 {{ .name }}.</span>
+  <span class="line">All rights reserved.</span>
 </footer>
+{{ end }}
