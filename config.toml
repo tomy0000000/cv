@@ -1,5 +1,5 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Tomy Hsieh"
-theme = "extend-simple-resume"
+theme = "Not-Just-Simple-CV"
 publishDir = "docs"

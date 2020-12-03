@@ -39,18 +39,9 @@ ul {
       display: inline; }
 
 .container {
-  display: grid;
   margin: 0 auto;
   max-width: 690px;
-  padding: 0.3in 0.5in; }
-
-.heading-line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between; }
+  padding: 20mm; }
 
 a {
   color: #000;
@@ -69,8 +60,17 @@ header {
     display: block;
     margin-top: .5rem; }
 
+main {
+  column-count: 2; }
+
+div {
+  break-inside: avoid; }
+
 section {
+  column-span: all;
   margin-bottom: 1rem; }
+  section ul {
+    break-inside: avoid; }
 
 footer {
   margin-left: auto;
@@ -84,14 +84,35 @@ footer {
   footer .line {
     display: inline-block; }
 
+@page {
+  size: A4 portrait;
+  margin: 20mm; }
+
+@media print {
+  .container {
+    padding: 0; }
+  footer {
+    display: none; } }
+
 @media (min-width: 451px) {
+  section.half {
+    column-span: none; }
+  section .heading-line {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; } }
+
+@media (min-width: 769px) {
   header a + a {
     display: inline-block;
     border-left: 2px solid #000;
     margin-left: .5rem;
     padding-left: .5rem; } }
 
-@media (min-width: 769px) {
+@media (min-width: 1025px) {
   body {
     padding: 3rem; }
   .page {
