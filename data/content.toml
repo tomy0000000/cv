@@ -20,44 +20,74 @@ degrees = ["Bachelor of Computer Science"]
 
 [[experiences]]
 position = "Research Assistant"
-company = "UDIC Lab @ NCHU"
+company = "UDIC Lab, NCHU"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
-  "Server Maintanence and security consultant",
-  "Leader of project LegalHack 2020"
+  "Server maintenance and security architecture designing",
+  "Leader of project LegalHack 2020",
 ]
 
 [[info]]
-name = "Skills"
+name = "Programming Languages"
+half = true
 points = [
-  "Python (5+ Years)",
-  "JavaScript (4+ Years)",
-  "C & C++ (4+ Years)"
+  "Python (Since 2016)",
+  "C & C++ (Since 2017)",
+  "JavaScript (Since 2017)",
+  "React & Vue.js (Since 2019)",
 ]
 
 [[info]]
-name = "Qualification"
+name = "Dev-Ops Experiences"
+half = true
 points = [
-  "Some people see things that are and ask, Why? Some people dream of things that never were and ask, Why not? Some people have to go to work and don't have time for all that.",
-  "Don't tech your children to read... teach them to *question* what they read, teach them to question everything.",
-  "Trying to be happy by accumulating possessions is like trying to satisfy hunger by taping sanwiches all over your body",
-  "Have you ever noticed that anybody driving slower than you is an idiot and anyone going faster is a maniac?",
-  "Think off-center",
-  "It's all bullshit, and it's bad for ya",
-  "Not only do I not know what's going on, I wouldn't know what to do about it if I did.",
-  "Seven dirty words"
+  "Development: Git, CI, Agile Development, Test-Driven Development",
+  "Cloud Services: Google Cloud & AWS",
+  "Microservice platform: Heroku, Vercel, Netlify",
+  "Web Server: Apache, Nginx",
+  "Database: MySQL, Postgres, Redis",
+  "Virtualization: Docker",
 ]
 
 [[info]]
-name = "Some Quotes"
+name = "Honors and Awards"
 points = [
-  "Some people see things that are and ask, Why? Some people dream of things that never were and ask, Why not? Some people have to go to work and don't have time for all that.",
-  "Don't tech your children to read... teach them to *question* what they read, teach them to question everything.",
-  "Trying to be happy by accumulating possessions is like trying to satisfy hunger by taping sanwiches all over your body",
-  "Have you ever noticed that anybody driving slower than you is an idiot and anyone going faster is a maniac?",
-  "Think off-center",
-  "It's all bullshit, and it's bad for ya",
-  "Not only do I not know what's going on, I wouldn't know what to do about it if I did.",
-  "Seven dirty words"
+  "LegalTech Hackthon Special Award (2020)",
+]
+
+[[info]]
+name = "Professional Activities"
+points = [
+  "Volunteer of Yuan Ze University College of Informatics Orientation Camp (2018)",
+  "Attendee of PyCon Taiwan (2018, 2020)",
+  "Attendee of Mobile Open Platform Conference (2018, 2020)",
+  "Attendee of Students' Information Technology Conference (2020)",
+  "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
+  "Attendee of Hacks In Taiwan Conference (2020)",
+]
+
+[[info]]
+name = "Side Projects"
+points = [
+  "Cafe Crawler (2016)",
+  "YZU Portal SDK (2017)",
+  "YZU CI Camp Website + Sen-Tree-Pay (2018)",
+  "Tubee (2018)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
+  "Coinc (2019)",
 ]
