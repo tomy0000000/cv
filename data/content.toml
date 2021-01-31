@@ -5,18 +5,22 @@ website = "tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-[[schools]]
+[[educations]]
 name = "National Chung Hsing University"
 location = "Taichung, TW"
 startdate = "Sep. 2019"
 degrees = ["Bachelor of Computer Science"]
 
-[[schools]]
+[[educations]]
 name = "Yuan-Ze University"
 location = "Taoyuan, TW"
 startdate = "Sep. 2017"
 enddate = "Aug. 2019"
 degrees = ["Bachelor of Computer Science"]
+points = [
+  "GPA: 3.44/4.0",
+  "Selected as 2018 Soochow University Delegation",
+]
 
 [[experiences]]
 position = "Research Assistant"
@@ -73,6 +77,6 @@ points = [
   "Cafe Crawler (2016)",
   "YZU Portal SDK (2017)",
   "YZU CI Camp Website + Sen-Tree-Pay (2018)",
-  "Tubee (2018)",
+  "Tubee (2018~)",
   "Coinc (2019)",
 ]
