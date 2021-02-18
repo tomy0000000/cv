@@ -1,15 +1,9 @@
 name = "Tomy Hsieh"
 email = "tomy0000000@gmail.com"
 phone = "+886-988-780-175"
-website = "tomy.me"
+website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
-
-[[educations]]
-name = "National Chung Hsing University"
-location = "Taichung, TW"
-startdate = "Sep. 2019"
-degrees = ["Bachelor of Computer Science"]
 
 [[educations]]
 name = "Yuan-Ze University"
@@ -19,8 +13,14 @@ enddate = "Aug. 2019"
 degrees = ["Bachelor of Computer Science"]
 points = [
   "GPA: 3.44/4.0",
-  "Selected as 2018 Soochow University Delegation",
+  "Selected as Delegation of 2018 Soochow University",
 ]
+
+[[educations]]
+name = "National Chung Hsing University"
+location = "Taichung, TW"
+startdate = "Sep. 2019"
+degrees = ["Bachelor of Computer Science"]
 
 [[experiences]]
 position = "Research Assistant"
@@ -40,6 +40,7 @@ points = [
   "C & C++ (Since 2017)",
   "JavaScript (Since 2017)",
   "React & Vue.js (Since 2019)",
+  "Swift (Since 2020)"
 ]
 
 [[info]]
