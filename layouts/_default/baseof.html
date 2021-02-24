@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.Title }}</title>
+    <link rel="icon" href="/favicon.png">
+    {{- partial "tags_css.html" . -}}
+  </head>
+  <body>
+    <div class="page">
+      <div class="container">
+        {{- partial "header.html" . -}}
+        {{ block "main" . }}
+        {{ end }}
+        {{- partial "footer.html" . -}}
+      </div>
+    </div>
+  </body>
+</html>

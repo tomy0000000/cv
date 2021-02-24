@@ -6,21 +6,28 @@ github = "tomy0000000"
 linkedin = "tomy0000000"
 
 [[educations]]
-name = "Yuan-Ze University"
-location = "Taoyuan, TW"
-startdate = "Sep. 2017"
-enddate = "Aug. 2019"
-degrees = ["Bachelor of Computer Science"]
-points = [
-  "GPA: 3.44/4.0",
-  "Selected as Delegation of 2018 Soochow University",
-]
-
-[[educations]]
 name = "National Chung Hsing University"
 location = "Taichung, TW"
 startdate = "Sep. 2019"
 degrees = ["Bachelor of Computer Science"]
+points = [
+  "Major GPA: 3.44/4.0",
+  "Achieved overall 3rd place out of 90 on coding assignment of Algorithm",
+]
+
+[[educations]]
+name = "Yuan-Ze University"
+location = "Taoyuan, TW"
+startdate = "Sep. 2017"
+enddate = "Jan. 2019"
+degrees = ["Completed Freshman & Sophmore Year Coursework"]
+points = [
+  "Major GPA: 3.44/4.0",
+  "Rank top 2% on Collegiate Programming Examination (CPE) on the second year of Bachelor's program",
+  "Achieved overall 1st place out of 40 on coding exam of Data Structure",
+  "Selected as representative team member of ICPC Asia Taipei Regional Contest",
+  "Selected as delegation to visit Soochow University in 2018",
+]
 
 [[experiences]]
 position = "Research Assistant"
@@ -28,8 +35,9 @@ company = "UDIC Lab, NCHU"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
-  "Server maintenance and security architecture designing",
-  "Leader of project LegalHack 2020",
+  "Establish and maintaining secure ML experiment environment on 20+ server",
+  "Leading the project of LegalHack 2020 with NT$10000 of special award",
+  "On-going research: Complex Question Generation Based on BART"
 ]
 
 [[info]]
@@ -47,8 +55,8 @@ points = [
 name = "Dev-Ops Experiences"
 half = true
 points = [
-  "Development: Git, CI, Agile Development, Test-Driven Development",
-  "Cloud Services: Google Cloud & AWS",
+  "Development: Git, CI, Agile Development",
+  "Cloud Services: Google Cloud, AWS",
   "Microservice platform: Heroku, Vercel, Netlify",
   "Web Server: Apache, Nginx",
   "Database: MySQL, Postgres, Redis",
@@ -56,7 +64,7 @@ points = [
 ]
 
 [[info]]
-name = "Honors and Awards"
+name = "Leadership and Awards"
 points = [
   "LegalTech Hackthon Special Award (2020)",
 ]

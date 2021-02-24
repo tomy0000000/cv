@@ -2,13 +2,12 @@ baseURL = "https://cv.tomy.me/"
 defaultContentLanguage = "en"
 publishDir = "docs"
 theme = "Not-Just-Simple-CV"
+title = "Tomy Hsieh"
 
 [languages]
   [languages.en]
     languageName = "English"
     weight = 1
-    title = "Tomy Hsieh"
   [languages.zh-tw]
     languageName = "繁體中文 (台灣)"
     weight = 2
-    title = "謝繼緯"
