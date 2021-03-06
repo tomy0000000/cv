@@ -1,91 +1,110 @@
 name = "謝繼緯"
 email = "tomy0000000@gmail.com"
 phone = "+886-988-780-175"
-website = "https://tomy.me"
+website = "https://cv.tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
 [[educations]]
 name = "國立中興大學"
 location = "台中"
-startdate = "2019"
-degrees = ["學士, 資訊科技與工程學系"]
+startdate = "2019 年 9 月"
+degrees = ["資訊科技與工程學系學士，預計 2022 畢業；轉學生"]
 points = [
-  "核心 GPA：3.44/4.0",
-  "在演算法課程實作作業 90 名學生中表現排名第三",
+  "核心 GPA：3.14/4.0",
+  "在資訊檢索課程期末評分實作開放問答機器人，在 10 多組中排名第二",
+  "在大數據分析課程期末專題報告中使用 Airbnb 歷史數據預測旅館訂房趨勢，獲得整體最高評分",
+  "在演算法課程 8 次作業、90 名學生中總分排名第三",
+  "2021 年科技部大專學生研究計畫候選執行學生",
+  "2021 學年度德國交換學生候選學生",
 ]
 
 [[educations]]
 name = "元智大學"
 location = "桃園"
-startdate = "2017"
-enddate = "2019"
+startdate = "2017 年 9 月"
+enddate = "2019 年 1 月"
 degrees = ["完成大學一、二年級學業"]
 points = [
-  "核心 GPA：3.49/4.0",
-  "在大二的大學程式能力檢定 CPE 中排名全國前 2%",
-  "在資料結構課程上機測驗 40 名學生中表現排名第一",
-  "獲選代表參加國際大學生程式設計競賽 (ICPC) 台灣地區賽",
-  "獲選為 2018 蘇州大學代表參訪團",
+  "核心 GPA：3.44/4.0",
+  "在 2018 年冬季場大學程式能力檢定 (CPE) 2000+ 名應試者中排名全國前 2%",
+  "在資料結構課程上機測驗 40 名學生中實作紅黑樹表現排名第一",
+  "獲選代表參加 2018 國際大學生程式設計競賽 (ICPC) 台灣地區賽",
+  "獲選為資訊學院 2018 蘇州大學代表參訪團",
 ]
 
 [[experiences]]
 position = "研究助理"
-company = "中興大學普及資料與智慧運算實驗室"
+company = "中興大學普及資料與智慧運算實驗室 (UDIC)"
 location = "台中"
 startdate = "2020 年 7 月"
 points = [
-  "伺服器維運、安全架構設計",
-  "2020 法律黑客松專案負責人",
-  "進行中：基於 BART 模型之問句生成模型品質提升之研究"
+  "在超過 15 台伺服器中設計並維護安全的機器學習實驗環境",
+  "透過重組原始碼架構及更換伺服器部署減少 90% 的網頁大小",
+  "進行中研究：基於 BART 模型之問句生成模型品質提升之研究",
 ]
 
 [[info]]
-name = "程式語言"
+name = "社團幹部、團隊合作"
+points = [
+  "擔任政大附中流行音樂社活動，與另外 3 間他校社團舉辦聯合展演，吸引約 1000 多名觀眾入場觀看 (2016)",
+  "擔任元智資訊學院四系聯合迎新活動組組長兼學術組支援，活動合計共 300 多名學生參與 (2018)",
+  "擔任興大劇坊場器及社團經營及事務顧問 (2020)",
+]
+
+[[info]]
+name = "語言證照、證書及獲獎"
+points = [
+  "英文 (托福：88, 2020)",
+  "Google - 數位行銷基礎知識完整版 (2018)",
+  "Coursera - Introduction to Cloud Identity (2020)",
+  "法律科技黑客松特別獎：法院判決書圖像化搜尋系統 (2020)",
+  "科技部大專學生研究計畫 (審查中，UDIC 進行中研究) (2021)",
+]
+
+[[info]]
+name = "程式語言、框架"
 half = true
 points = [
-  "Python (Since 2016)",
-  "C & C++ (Since 2017)",
-  "JavaScript (Since 2017)",
-  "React & Vue.js (Since 2019)",
-  "Swift (Since 2020)"
+  "Python: 資料科學、機器學習、後端...等各種應用 (6年)",
+  "C/C++: 程式競賽、資料結構實作 (5 Years)",
+  "ES6 JavaScript: 基礎網頁程式設計 (5 Years)",
+  "React & Vue.js: 前端應用 (3 Years)",
+  "Java: 資料結構及演算法實作 (2 Years)",
+  "C: Unix 系統程式設計 (1 Year)",
+  "Swift: iOS App 開發 (1 Year)",
 ]
 
 [[info]]
-name = "Dev-Ops 工具經歷"
+name = "開發、維運工具"
 half = true
 points = [
   "開發: Git, CI, Agile Development",
   "雲端平台: Google Cloud, AWS",
-  "微服務平台: Heroku, Vercel, Netlify",
+  "PaaS 平台: Heroku, Vercel, Netlify",
   "網頁伺服器: Apache, Nginx",
   "資料庫: MySQL, Postgres, Redis",
   "虛擬化: Docker",
 ]
 
 [[info]]
-name = "課外活動及獲獎"
-points = [
-  "2020 法律黑客松，特別獎",
-]
-
-[[info]]
-name = "社群參與"
-points = [
-  "2018 元智大學資訊學院迎新活動 (活動籌畫、網頁設計及伺服器維護)",
-  "PyCon 會眾 (2018, 2020)",
-  "MOPCON 會眾 (2018, 2020)",
-  "SITCON 會眾 (2020)",
-  "COSCUP 會眾 (2020)",
-  "HITCON 會眾 (2020)",
-]
-
-[[info]]
 name = "Side Projects"
 points = [
-  "Cafe Crawler (2016)",
-  "YZU Portal SDK (2017)",
-  "YZU CI Camp Website + Sen-Tree-Pay (2018)",
-  "Tubee (2018~)",
-  "Coinc (2019)",
+  "Cafe Crawler：使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
+  "YZU Portal SDK：操作元智學生 Portal 系統的 Python 開發模組 (2017)",
+  "YZU CI Camp Website + Sen-Tree-Pay：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
+  "Tubee：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
+  "Coinc：為 Alfred 打造的貨幣轉換插件 (2019)",
+]
+
+[[info]]
+name = "黑客松、社群年會及訓練課程"
+points = [
+  "2018 XR 開發者黑客松",
+  "Python 年會 (PyCon) (2018, 2020)",
+  "行動科技應用開發者年會 (MOPCON) (2018, 2020)",
+  "學生計算機年會 (SITCON) (2020)",
+  "開源人年會 (COSCUP) (2020)",
+  "Hacks In Taiwan 台灣駭客年會 (HITCON) (2020)",
+  "新型態資安實務主題課程 (AIS3) (2020)",
 ]

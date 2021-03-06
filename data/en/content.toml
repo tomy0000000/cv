@@ -1,7 +1,7 @@
 name = "Tomy Hsieh"
 email = "tomy0000000@gmail.com"
 phone = "+886-988-780-175"
-website = "https://tomy.me"
+website = "https://cv.tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
@@ -9,10 +9,14 @@ linkedin = "tomy0000000"
 name = "National Chung Hsing University"
 location = "Taichung, TW"
 startdate = "Sep. 2019"
-degrees = ["Bachelor of Computer Science"]
+degrees = ["Bachelor of Computer Science, Expected Jun. 2022; Transfer Student"]
 points = [
-  "Major GPA: 3.44/4.0",
-  "Achieved overall 3rd place out of 90 on coding assignment of Algorithm",
+  "Major GPA: 3.14/4.0",
+  "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
+  "Graded 1st place among 10+ teams on final project of predicting hotel booking demand using various regression and classifying analysis",
+  "Achieved overall 3rd place out of 90 on 8 coding assignments of Algorithm",
+  "Graded 100% perfect for optional assignment of implementing a simple FTP server from scratch with C in the course of File Processing",
+  "Candidate of school representative of foreign exchange to Germany in 2022",
 ]
 
 [[educations]]
@@ -23,69 +27,85 @@ enddate = "Jan. 2019"
 degrees = ["Completed Freshman & Sophmore Year Coursework"]
 points = [
   "Major GPA: 3.44/4.0",
-  "Rank top 2% on Collegiate Programming Examination (CPE) on the second year of Bachelor's program",
+  "Rank top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
   "Achieved overall 1st place out of 40 on coding exam of Data Structure",
-  "Selected as representative team member of ICPC Asia Taipei Regional Contest",
-  "Selected as delegation to visit Soochow University in 2018",
+  "Selected as representative team member of ICPC Asia Taipei Regional Contest in 2018",
+  "Selected as delegation of College of Informatics to visit Soochow University in 2018",
 ]
 
 [[experiences]]
 position = "Research Assistant"
-company = "UDIC Lab, NCHU"
+company = "Ubiquitous Data & Intelligent Computing Lab (UDIC), NCHU"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
-  "Establish and maintaining secure ML experiment environment on 20+ server",
-  "Leading the project of LegalHack 2020 with NT$10000 of special award",
-  "On-going research: Complex Question Generation Based on BART"
+  "Establish and maintaining a secure, scalable ML experiment runtime environments on 15+ physical servers",
+  "Minimize lab website size over 90% by restructuring the codebase and modifying server deployment",
+  "On-going academic research: Complex Question Generation Based on BART",
 ]
 
 [[info]]
-name = "Programming Languages"
+name = "Leadership, Student Group"
+points = [
+  "As event general coordinator of Pop Music Club, leading a team of 5 in Pop Music Club and conducting a joint public presentation with 3 other clubs, attract estimated over 1000+ of audience (2016)",
+  "As both chief director of event planning and support of full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
+  "Equipment section, and executive consultant of Drama Club (2020)",
+]
+
+[[info]]
+name = "Languages, Certificates and Awards"
+points = [
+  "Chinese (Native)",
+  "English (ETS TOEFL: 88, 2020)",
+  "Google - Fundamentals of Digital Marketing (2018)",
+  "Coursera - Introduction to Cloud Identity (2020)",
+  "Special Award for searching algorithm on structual graph of verdict at LegalTech Hackthon (2020)",
+  "Candidate of Ministry of Science and Technology Research Scholarship in association with on-going resesrach at UDIC Lab (2021)",
+]
+
+[[info]]
+name = "Programming Languages & Stacks"
 half = true
 points = [
-  "Python (Since 2016)",
-  "C & C++ (Since 2017)",
-  "JavaScript (Since 2017)",
-  "React & Vue.js (Since 2019)",
-  "Swift (Since 2020)"
+  "Python: Data science, Machine Learning, backend, and all the other fancy stuffs (6 Years)",
+  "C/C++: Fundamental programming and data structure (5 Years)",
+  "ES6 JavaScript: Basic web programming (5 Years)",
+  "React & Vue.js: Frontend engineering (3 Years)",
+  "Java: Algorithm implement (2 Years)",
+  "C: Unix system programming (1 Year)",
+  "Swift: iOS App development (1 Year)",
 ]
 
 [[info]]
-name = "Dev-Ops Experiences"
+name = "Toolchains"
 half = true
 points = [
   "Development: Git, CI, Agile Development",
-  "Cloud Services: Google Cloud, AWS",
-  "Microservice platform: Heroku, Vercel, Netlify",
+  "Cloud Computing Platform: Google Cloud, AWS",
+  "PaaS: Heroku, Vercel, Netlify",
   "Web Server: Apache, Nginx",
   "Database: MySQL, Postgres, Redis",
   "Virtualization: Docker",
 ]
 
 [[info]]
-name = "Leadership and Awards"
+name = "Side Projects"
 points = [
-  "LegalTech Hackthon Special Award (2020)",
+  "Cafe Crawler: Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
+  "YZU Portal SDK: Python module for acccessing Yuan-Ze University Student Portal System (2017)",
+  "YZU CI Camp Website + Sen-Tree-Pay: Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
+  "Tubee: A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
+  "Coinc: Fiat and crypto currency conversion workflow for Alfred (2019)",
 ]
 
 [[info]]
-name = "Professional Activities"
+name = "Hackathon, Conference, and Trainning Program"
 points = [
-  "Volunteer of Yuan Ze University College of Informatics Orientation Camp (2018)",
+  "Attendee of 2018 XR Hack Fest",
   "Attendee of PyCon Taiwan (2018, 2020)",
   "Attendee of Mobile Open Platform Conference (2018, 2020)",
   "Attendee of Students' Information Technology Conference (2020)",
   "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
   "Attendee of Hacks In Taiwan Conference (2020)",
-]
-
-[[info]]
-name = "Side Projects"
-points = [
-  "Cafe Crawler (2016)",
-  "YZU Portal SDK (2017)",
-  "YZU CI Camp Website + Sen-Tree-Pay (2018)",
-  "Tubee (2018~)",
-  "Coinc (2019)",
+  "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
 ]
