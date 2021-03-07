@@ -84,7 +84,8 @@ points = [
   "Cloud Computing Platform: Google Cloud, AWS",
   "PaaS: Heroku, Vercel, Netlify",
   "Web Server: Apache, Nginx",
-  "Database: MySQL, Postgres, Redis",
+  "Database: MySQL, Postgres, MongoDB, Redis",
+  "Distributed Computing: Hadoop, Spark",
   "Virtualization: Docker",
 ]
 

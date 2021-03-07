@@ -83,7 +83,8 @@ points = [
   "雲端平台: Google Cloud, AWS",
   "PaaS 平台: Heroku, Vercel, Netlify",
   "網頁伺服器: Apache, Nginx",
-  "資料庫: MySQL, Postgres, Redis",
+  "資料儲存: MySQL, Postgres, MongoDB, Redis",
+  "分散式運算: Hadoop, Spark",
   "虛擬化: Docker",
 ]
 
