@@ -47,19 +47,21 @@ points = [
 [[info]]
 name = "社團幹部、團隊合作"
 points = [
-  "擔任政大附中流行音樂社活動，與另外 3 間他校社團舉辦聯合展演，吸引約 1000 多名觀眾入場觀看 (2016)",
+  "擔任政大附中流行音樂社活動，與另外 3 間友社舉辦聯合展演，吸引約 1000 多名觀眾入場觀看 (2016)",
   "擔任元智資訊學院四系聯合迎新活動組組長兼學術組支援，活動合計共 300 多名學生參與 (2018)",
   "擔任興大劇坊場器及社團經營及事務顧問 (2020)",
 ]
 
 [[info]]
-name = "語言證照、證書及獲獎"
+name = "語言證照、線上證書、獲獎及漏洞回報"
 points = [
-  "英文 (托福：88, 2020)",
+  "英文 (ETS TOEFL：88, 2020)",
   "Google - 數位行銷基礎知識完整版 (2018)",
-  "Coursera - Introduction to Cloud Identity (2020)",
+  "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
   "法律科技黑客松特別獎：法院判決書圖像化搜尋系統 (2020)",
   "科技部大專學生研究計畫 (審查中，UDIC 進行中研究) (2021)",
+  "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
+  "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
 [[info]]
@@ -91,21 +93,22 @@ points = [
 [[info]]
 name = "Side Projects"
 points = [
-  "Cafe Crawler：使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
-  "YZU Portal SDK：操作元智學生 Portal 系統的 Python 開發模組 (2017)",
-  "YZU CI Camp Website + Sen-Tree-Pay：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
-  "Tubee：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
-  "Coinc：為 Alfred 打造的貨幣轉換插件 (2019)",
+  "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler)：使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
+  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK)：操作元智學生 Portal 系統的 Python 開發模組 (2017)",
+  "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
+  "[Tubee](https://github.com/tomy0000000/Tubee)：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
+  "[Coinc](https://github.com/tomy0000000/Coinc)：為 Alfred 打造的貨幣轉換插件 (2019)",
 ]
 
 [[info]]
 name = "黑客松、社群年會及訓練課程"
 points = [
+  "2017 資訊之芽 Python 語法班",
   "2018 XR 開發者黑客松",
   "Python 年會 (PyCon) (2018, 2020)",
   "行動科技應用開發者年會 (MOPCON) (2018, 2020)",
   "學生計算機年會 (SITCON) (2020)",
+  "新型態資安實務主題課程 (AIS3) (2020)",
   "開源人年會 (COSCUP) (2020)",
   "Hacks In Taiwan 台灣駭客年會 (HITCON) (2020)",
-  "新型態資安實務主題課程 (AIS3) (2020)",
 ]

@@ -58,9 +58,11 @@ points = [
   "Chinese (Native)",
   "English (ETS TOEFL: 88, 2020)",
   "Google - Fundamentals of Digital Marketing (2018)",
-  "Coursera - Introduction to Cloud Identity (2020)",
+  "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
   "Special Award for searching algorithm on structual graph of verdict at LegalTech Hackthon (2020)",
   "Candidate of Ministry of Science and Technology Research Scholarship in association with on-going resesrach at UDIC Lab (2021)",
+  "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
+  "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
 [[info]]
@@ -92,16 +94,17 @@ points = [
 [[info]]
 name = "Side Projects"
 points = [
-  "Cafe Crawler: Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
-  "YZU Portal SDK: Python module for acccessing Yuan-Ze University Student Portal System (2017)",
-  "YZU CI Camp Website + Sen-Tree-Pay: Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
-  "Tubee: A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
-  "Coinc: Fiat and crypto currency conversion workflow for Alfred (2019)",
+  "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
+  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for acccessing Yuan-Ze University Student Portal System (2017)",
+  "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
+  "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
+  "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and crypto currency conversion workflow for Alfred (2019)",
 ]
 
 [[info]]
 name = "Hackathon, Conference, and Trainning Program"
 points = [
+  "Selected trainee of NTU Sprout progrm on Python Programming (2017)",
   "Attendee of 2018 XR Hack Fest",
   "Attendee of PyCon Taiwan (2018, 2020)",
   "Attendee of Mobile Open Platform Conference (2018, 2020)",
