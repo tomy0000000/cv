@@ -65,27 +65,26 @@ points = [
 ]
 
 [[info]]
-name = "程式語言、框架"
+name = "程式技能、語言及框架"
 half = true
 points = [
-  "Python: 資料科學、機器學習、後端...等各種應用 (6年)",
-  "C/C++: 程式競賽、資料結構實作 (5 Years)",
-  "ES6 JavaScript: 基礎網頁程式設計 (5 Years)",
-  "React & Vue.js: 前端應用 (3 Years)",
-  "Java: 資料結構及演算法實作 (2 Years)",
-  "C: Unix 系統程式設計 (1 Year)",
-  "Swift: iOS App 開發 (1 Year)",
+  "資料結構、演算法及系統程式設計：C, C++, Java (6年)",
+  "資料科學、機器學習：Python (5年)",
+  "網頁後端開發：Python (Flask, Django), PHP (Laravel), NodeJS (Express) (5年)",
+  "網頁基礎程式設計：ES6 JavaScript, jQuery, Bootstrap (5年)",
+  "網頁前端開發：React, Vue (3年)",
+  "iOS App 開發：Swift, Flutter (1年)",
 ]
 
 [[info]]
 name = "開發、維運工具"
 half = true
 points = [
-  "開發: Git, CI, Agile Development",
+  "開發: Git, Git flow, CI, Agile Development",
   "雲端平台: Google Cloud, AWS",
   "PaaS 平台: Heroku, Vercel, Netlify",
   "網頁伺服器: Apache, Nginx",
-  "資料儲存: MySQL, Postgres, MongoDB, Redis",
+  "資料庫 & 快取: MySQL, Postgres, MongoDB, Redis, RabbitMQ",
   "分散式運算: Hadoop, Spark",
   "虛擬化: Docker",
 ]
@@ -98,6 +97,7 @@ points = [
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
   "[Tubee](https://github.com/tomy0000000/Tubee)：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
   "[Coinc](https://github.com/tomy0000000/Coinc)：為 Alfred 打造的貨幣轉換插件 (2019)",
+  "[Querator AI](http://app.queratorai.com): 以 BERT 為基礎的問題生成網頁介面 (2020)",
 ]
 
 [[info]]

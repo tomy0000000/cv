@@ -66,27 +66,26 @@ points = [
 ]
 
 [[info]]
-name = "Programming Languages & Stacks"
+name = "Programming skill, languages, and stacks"
 half = true
 points = [
-  "Python: Data science, Machine Learning, backend, and all the other fancy stuffs (6 Years)",
-  "C/C++: Fundamental programming and data structure (5 Years)",
-  "ES6 JavaScript: Basic web programming (5 Years)",
-  "React & Vue.js: Frontend engineering (3 Years)",
-  "Java: Algorithm implement (2 Years)",
-  "C: Unix system programming (1 Year)",
-  "Swift: iOS App development (1 Year)",
+  "Data structure, Algorithm, Unix system programming: C, C++, Java, Go (6 Years)",
+  "Data science, Machine Learning: Python (5 Years)",
+  "Backend development: Python (Flask, Django), PHP (Laravel), NodeJS (Express) (5 Years)",
+  "Basic web programming: ES6 JavaScript, jQuery, Bootstrap (5 Years)",
+  "Frontend development: React, Vue (3 Years)",
+  "iOS App development: Swift, Flutter (1 Year)",
 ]
 
 [[info]]
 name = "Toolchains"
 half = true
 points = [
-  "Development: Git, CI, Agile Development",
+  "Development: Git, Git flow, CI, Agile Development",
   "Cloud Computing Platform: Google Cloud, AWS",
   "PaaS: Heroku, Vercel, Netlify",
   "Web Server: Apache, Nginx",
-  "Database: MySQL, Postgres, MongoDB, Redis",
+  "Database & Memcache: MySQL, Postgres, MongoDB, Redis, RabbitMQ",
   "Distributed Computing: Hadoop, Spark",
   "Virtualization: Docker",
 ]
@@ -99,6 +98,7 @@ points = [
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
   "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
   "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and crypto currency conversion workflow for Alfred (2019)",
+  "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020)",
 ]
 
 [[info]]
