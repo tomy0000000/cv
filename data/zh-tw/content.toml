@@ -39,6 +39,7 @@ company = "中興大學普及資料與智慧運算實驗室 (UDIC)"
 location = "台中"
 startdate = "2020 年 7 月"
 points = [
+  "主要研究領域：自然語言處理",
   "在超過 15 台伺服器中設計並維護安全的機器學習實驗環境",
   "透過重組原始碼架構及更換伺服器部署減少 90% 的網頁大小",
   "進行中研究：基於 BART 模型之問句生成模型品質提升之研究",
@@ -61,6 +62,7 @@ points = [
   "法律科技黑客松特別獎：法院判決書圖像化搜尋系統 (2020)",
   "科技部大專學生研究計畫 (審查中，UDIC 進行中研究) (2021)",
   "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
+  "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
   "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
@@ -69,7 +71,7 @@ name = "程式技能、語言及框架"
 half = true
 points = [
   "資料結構、演算法及系統程式設計：C, C++, Java (6年)",
-  "資料科學、機器學習：Python (5年)",
+  "資料科學、機器學習、自然語言處理：Python (5年)",
   "網頁後端開發：Python (Flask, Django), PHP (Laravel), NodeJS (Express) (5年)",
   "網頁基礎程式設計：ES6 JavaScript, jQuery, Bootstrap (5年)",
   "網頁前端開發：React, Vue (3年)",
@@ -90,14 +92,18 @@ points = [
 ]
 
 [[info]]
-name = "Side Projects"
+name = "Projects"
 points = [
   "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler)：使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
   "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK)：操作元智學生 Portal 系統的 Python 開發模組 (2017)",
+  "[Monoploy](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): 純 JavaScript 撰寫的大富翁遊戲 (2017)",
+  "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): 台南即時公車查詢 Web App (2018)",
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
   "[Tubee](https://github.com/tomy0000000/Tubee)：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
   "[Coinc](https://github.com/tomy0000000/Coinc)：為 Alfred 打造的貨幣轉換插件 (2019)",
+  "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): 使用維基百科資料及 TF-IDF 搭建的簡易單選題 QA 機器人 (2020)",
   "[Querator AI](http://app.queratorai.com): 以 BERT 為基礎的問題生成網頁介面 (2020)",
+  "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): 簡易版 FTP 伺服-客戶端 (2020)",
 ]
 
 [[info]]
