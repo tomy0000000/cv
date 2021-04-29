@@ -35,11 +35,10 @@ points = [
 
 [[experiences]]
 position = "Research Assistant"
-company = "Ubiquitous Data & Intelligent Computing Lab (UDIC), NCHU"
+company = "Natural Language Processing Lab, NCHU"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
-  "Natural Language Processing as main research topic",
   "Establish and maintaining a secure, scalable ML experiment runtime environments on 15+ physical servers",
   "Minimize lab website size over 90% by restructuring the codebase and modifying server deployment",
   "On-going academic research: Complex Question Generation Based on BART",
