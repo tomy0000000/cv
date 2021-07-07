@@ -16,7 +16,7 @@ points = [
   "Graded 1st place among 10+ teams on final project of predicting hotel booking demand using various regression and classifying analysis",
   "Achieved overall 3rd place out of 90 on 8 coding assignments of Algorithm",
   "Graded 100% perfect for optional assignment of implementing a simple FTP server from scratch with C in the course of File Processing",
-  "Candidate of school representative of foreign exchange to Germany in 2022",
+  "School representative of foreign exchange student to ECE Paris in 2022",
 ]
 
 [[educations]]
@@ -53,16 +53,16 @@ points = [
 ]
 
 [[info]]
-name = "Languages, Certificates and Awards"
+name = "Languages, Certificates, Awards, Bug Reports"
 points = [
   "Chinese (Native)",
   "English (ETS TOEFL: 88, 2020)",
   "Google - Fundamentals of Digital Marketing (2018)",
   "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
-  "Special Award for searching algorithm on structual graph of verdict at LegalTech Hackthon (2020)",
-  "Candidate of Ministry of Science and Technology Research Scholarship in association with on-going resesrach at UDIC Lab (2021)",
   "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
   "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
+  "Special Award, 2020 LegalTech Hackthon: *Search Algorithm for Knowledge Graphed Verdict*",
+  "Honorable Mention among 40+ contestants, 2021 Departmental Information Project Contest: *Question Generation Quality Enhancement based on BART*",
   "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
