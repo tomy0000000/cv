@@ -11,10 +11,10 @@ location = "台中"
 startdate = "2019 年 9 月"
 degrees = ["資訊科技與工程學系學士，預計 2022 畢業；轉學生"]
 points = [
-  "核心 GPA：3.14/4.0",
+  "核心 GPA: 3.14/4.0",
   "在資訊檢索課程期末評分實作開放問答機器人，在 10 多組中排名第二",
   "在大數據分析課程期末專題報告中使用 Airbnb 歷史數據預測旅館訂房趨勢，獲得整體最高評分",
-  "在演算法課程 8 次作業、90 名學生中總分排名第三",
+  "在演算法課程 8 次作業, 90 名學生中總分排名第三",
   "110 學年度第二學期法國中央理工學院交換學生",
 ]
 
@@ -23,9 +23,9 @@ name = "元智大學"
 location = "桃園"
 startdate = "2017 年 9 月"
 enddate = "2019 年 1 月"
-degrees = ["完成大學一、二年級學業"]
+degrees = ["完成大學一, 二年級學業"]
 points = [
-  "核心 GPA：3.44/4.0",
+  "核心 GPA: 3.44/4.0",
   "在 2018 年冬季場大學程式能力檢定 (CPE) 2000+ 名應試者中排名全國前 2%",
   "在資料結構課程上機測驗 40 名學生中實作紅黑樹表現排名第一",
   "獲選代表參加 2018 國際大學生程式設計競賽 (ICPC) 台灣地區賽",
@@ -40,11 +40,11 @@ startdate = "2020 年 7 月"
 points = [
   "在超過 15 台伺服器中設計並維護安全的機器學習實驗環境",
   "透過重組原始碼架構及更換伺服器部署減少 90% 的網頁大小",
-  "進行中研究：基於 BART 模型之問句生成模型品質提升之研究",
+  "進行中研究: 基於 BART 模型之問句生成模型品質提升之研究",
 ]
 
 [[info]]
-name = "社團幹部、團隊合作"
+name = "社團幹部, 團隊合作"
 points = [
   "擔任政大附中流行音樂社活動，與另外 3 間友社舉辦聯合展演，吸引約 1000 多名觀眾入場觀看 (2016)",
   "擔任元智資訊學院四系聯合迎新活動組組長兼學術組支援，活動合計共 300 多名學生參與 (2018)",
@@ -52,35 +52,53 @@ points = [
 ]
 
 [[info]]
-name = "語言證照、線上證書、獲獎及漏洞回報"
+name = "語言證照, 線上證書, 獲獎及漏洞回報"
 points = [
-  "英文 (ETS TOEFL：88, 2020)",
+  "英文 (ETS TOEFL: 88, 2020)",
   "Google - 數位行銷基礎知識完整版 (2018)",
   "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
   "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
   "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
-  "2020 法律科技黑客松，特別獎：*法院判決書圖像化搜尋演算法*",
-  "109 學年度資工系資訊專題競賽，在 40 多組中獲佳作：*基於 BART 模型之問句生成模型品質提升之研究*",
+  "2020 法律科技黑客松，特別獎: *法院判決書圖像化搜尋演算法*",
+  "109 學年度資工系資訊專題競賽，在 40 多組中獲佳作: *基於 BART 模型之問句生成模型品質提升之研究*",
   "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
 [[info]]
-name = "程式技能、語言及框架"
+name = "程式語言, 技能及框架"
 half = true
-points = [
-  "資料結構、演算法及系統程式設計：C, C++, Java (6年)",
-  "資料科學、機器學習、自然語言處理：Python (5年)",
-  "網頁後端開發：Python (Flask, Django), PHP (Laravel), NodeJS (Express) (5年)",
-  "網頁基礎程式設計：ES6 JavaScript, jQuery, Bootstrap (5年)",
-  "網頁前端開發：React, Vue (3年)",
-  "iOS App 開發：Swift, Flutter (1年)",
+
+[[info.points]]
+name = "主力語言: Python (精熟)"
+details = [
+  "網頁爬蟲: Requests, BeautifulSoup, Scrapy",
+  "網頁後端: Flask, Django, FastAPI",
+  "機器學習: PyTorch, PyTorch Lightning",
+  "自然語言處理: HuggingFace Transformers",
+]
+
+[[info.points]]
+name = "其他 (普通)"
+details = [
+  "資料結構, 演算法: C, C++, Java",
+  "網頁前端: ES6 JavaScript, jQuery, React",
+  "自動化, 手稿: Shell/Bash",
+  "Unix 系統維運: Ubuntu, Debian"
+]
+
+[[info.points]]
+name = "其他 (入門)"
+details = [
+  "網頁前端: Vue",
+  "網頁後端: PHP (Laravel), Go",
+  "iOS App: Swift",
 ]
 
 [[info]]
-name = "開發、維運工具"
+name = "開發, 維運工具"
 half = true
 points = [
-  "開發: Git, Git flow, CI, Agile Development",
+  "開發: Git, Git Flow, CI, Agile Development",
   "雲端平台: Google Cloud, AWS",
   "PaaS 平台: Heroku, Vercel, Netlify",
   "網頁伺服器: Apache, Nginx",
@@ -92,20 +110,20 @@ points = [
 [[info]]
 name = "Projects"
 points = [
-  "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler)：使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
-  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK)：操作元智學生 Portal 系統的 Python 開發模組 (2017)",
+  "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): 使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
+  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): 操作元智學生 Portal 系統的 Python 開發模組 (2017)",
   "[Monoploy](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): 純 JavaScript 撰寫的大富翁遊戲 (2017)",
   "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): 台南即時公車查詢 Web App (2018)",
-  "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)：於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站、點數系統 (Laravel) (2018)",
-  "[Tubee](https://github.com/tomy0000000/Tubee)：YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
-  "[Coinc](https://github.com/tomy0000000/Coinc)：為 Alfred 打造的貨幣轉換插件 (2019)",
+  "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): 於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站, 點數系統 (Laravel) (2018)",
+  "[Tubee](https://github.com/tomy0000000/Tubee): YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
+  "[Coinc](https://github.com/tomy0000000/Coinc): 為 Alfred 打造的貨幣轉換插件 (2019)",
   "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): 使用維基百科資料及 TF-IDF 搭建的簡易單選題 QA 機器人 (2020)",
   "[Querator AI](http://app.queratorai.com): 以 BERT 為基礎的問題生成網頁介面 (2020)",
   "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): 簡易版 FTP 伺服-客戶端 (2020)",
 ]
 
 [[info]]
-name = "黑客松、社群年會及訓練課程"
+name = "黑客松, 社群年會及訓練課程"
 points = [
   "2017 資訊之芽 Python 語法班",
   "2018 XR 開發者黑客松",

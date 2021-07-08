@@ -35,7 +35,7 @@ points = [
 
 [[experiences]]
 position = "Research Assistant"
-company = "Natural Language Processing Lab, NCHU"
+company = "Natural Language Processing Lab, NCHU (Previously Ubiquitous Data & Intelligent Computing Lab)"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
@@ -67,22 +67,40 @@ points = [
 ]
 
 [[info]]
-name = "Programming skill, languages, and stacks"
+name = "Programming languages, skill, and stacks"
 half = true
-points = [
-  "Data structure, Algorithm, Unix system programming: C, C++, Java, Go (6 Years)",
-  "Data science, Machine Learning, Natural Language Processing: Python (5 Years)",
-  "Backend development: Python (Flask, Django), PHP (Laravel), NodeJS (Express) (5 Years)",
-  "Basic web programming: ES6 JavaScript, jQuery, Bootstrap (5 Years)",
-  "Frontend development: React, Vue (3 Years)",
-  "iOS App development: Swift, Flutter (1 Year)",
+
+[[info.points]]
+name = "Main focus: Python (Expert)"
+details = [
+  "Web Scraping: Requests, BeautifulSoup, Scrapy",
+  "Backend Programming: Flask, Django, FastAPI",
+  "Machine Learning: PyTorch, PyTorch Lightning",
+  "Natural Language Processing: HuggingFace Transformers",
+]
+
+[[info.points]]
+name = "Proficient level"
+details = [
+  "Data structure, Algorithm: C, C++, Java",
+  "Frontend Programming: ES6 JavaScript, jQuery, React",
+  "Automation, Scripting: Shell/Bash",
+  "Unix system operation: Ubuntu, Debian",
+]
+
+[[info.points]]
+name = "Novice level"
+details = [
+  "Frontend Programming: Vue",
+  "Backend Programming: PHP (Laravel), Go",
+  "iOS App: Swift",
 ]
 
 [[info]]
 name = "Toolchains"
 half = true
 points = [
-  "Development: Git, Git flow, CI, Agile Development",
+  "Development: Git, Git Flow, CI, Agile Development",
   "Cloud Computing Platform: Google Cloud, AWS",
   "PaaS: Heroku, Vercel, Netlify",
   "Web Server: Apache, Nginx",
