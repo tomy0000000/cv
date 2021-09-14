@@ -24,7 +24,7 @@ name = "Yuan-Ze University"
 location = "Taoyuan, TW"
 startdate = "Sep. 2017"
 enddate = "Jan. 2019"
-degrees = ["Completed Freshman & Sophmore Year Coursework"]
+degrees = ["Completed Freshman & Sophomore Year Coursework"]
 points = [
   "Major GPA: 3.44/4.0",
   "Rank top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
@@ -61,7 +61,7 @@ points = [
   "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
   "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
   "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
-  "Special Award, 2020 LegalTech Hackthon: *Search Algorithm for Knowledge Graphed Verdict*",
+  "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
   "Honorable Mention among 40+ contestants, 2021 Departmental Information Project Contest: *Question Generation Quality Enhancement based on BART*",
   "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
@@ -113,8 +113,8 @@ points = [
 name = "Projects"
 points = [
   "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
-  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for acccessing Yuan-Ze University Student Portal System (2017)",
-  "[Monoploy](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoloy game written in pure JavaScript (2017)",
+  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for accessing Yuan-Ze University Student Portal System (2017)",
+  "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
   "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
   "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
@@ -125,9 +125,9 @@ points = [
 ]
 
 [[info]]
-name = "Hackathon, Conference, and Trainning Program"
+name = "Hackathon, Conference, and Training Program"
 points = [
-  "Selected trainee of NTU Sprout progrm on Python Programming (2017)",
+  "Selected trainee of NTU Sprout program on Python Programming (2017)",
   "Attendee of 2018 XR Hack Fest",
   "Attendee of PyCon Taiwan (2018, 2020)",
   "Attendee of Mobile Open Platform Conference (2018, 2020)",
