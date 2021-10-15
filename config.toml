@@ -1,8 +1,9 @@
 baseURL = "https://cv.tomy.me/"
 defaultContentLanguage = "en"
-publishDir = "docs"
+publishDir = "public"
 theme = "Not-Just-Simple-CV"
 title = "Tomy Hsieh"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 favicon = "favicon.png"
@@ -16,3 +17,6 @@ facebookPixel = "1165349783920085"
   [languages.zh-tw]
     languageName = "繁體中文 (台灣)"
     weight = 2
+
+[blackfriday]
+    extensions = ["hardLineBreak"]
