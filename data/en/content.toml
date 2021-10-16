@@ -11,12 +11,12 @@ location = "Taichung, TW"
 startdate = "Sep. 2019"
 degrees = ["Bachelor of Computer Science, Expected Jun. 2022; Transfer Student"]
 points = [
-  "Major GPA: 3.14/4.0",
+  "Major GPA: 3.21/4.0",
   "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
   "Graded 1st place among 10+ teams on final project of predicting hotel booking demand using various regression and classifying analysis",
   "Achieved overall 3rd place out of 90 on 8 coding assignments of Algorithm",
   "Graded 100% perfect for optional assignment of implementing a simple FTP server from scratch with C in the course of File Processing",
-  "School representative of foreign exchange student to ECE Paris in 2022",
+  "Nominated for foreign exchange student to ECE Paris in Spring 2022 Semester",
 ]
 
 [[educations]]
@@ -34,21 +34,46 @@ points = [
 ]
 
 [[experiences]]
+position = "Software Engineer Internship"
+company = "Intel Corporation, Client Computing Group, Chrome Team"
+location = "Taipei, TW"
+startdate = "Jul. 2021"
+
+[[experiences.points]]
+name = "Debug Agile System"
+details = [
+  "Developing and maintaining the Django Full-stack website for test report visualization",
+  "Improve the code maintainability by upgrading major version of Python and Django",
+  "Database normalization and migration from SQLite to MySQL",
+  "Integrate with JIRA issue tracker for automate alarm and report",
+  "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
+  "Componentlize the core module for system extensibility to different department",
+]
+
+[[experiences.points]]
+name = "Machine Learning Engineering for Canary Project"
+details = [
+  "Deploy the time series classification system as RESTful API with FastAPI",
+]
+
+[[experiences]]
 position = "Research Assistant"
 company = "Natural Language Processing Lab, NCHU (Previously Ubiquitous Data & Intelligent Computing Lab)"
 location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
-  "Establish and maintaining a secure, scalable ML experiment runtime environments on 15+ physical servers",
-  "Minimize lab website size over 90% by restructuring the codebase and modifying server deployment",
-  "On-going academic research: Complex Question Generation Based on BART",
+  "Conducting my independent research: Complex Question Generation Based on BART",
+  "Designing and maintaining a secure, scalable ML experiment runtime environment across 15+ on premise server",
+  "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improve deployment",
+  "Leading a team on developing and engineering the Question Generation Platform, Querator AI",
 ]
+pagebreak = true
 
 [[info]]
 name = "Leadership, Student Group"
 points = [
-  "As event general coordinator of Pop Music Club, leading a team of 5 in Pop Music Club and conducting a joint public presentation with 3 other clubs, attract estimated over 1000+ of audience (2016)",
-  "As both chief director of event planning and support of full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
+  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with 3 other clubs, attract estimated over 1000+ of audience (2016)",
+  "As both Chief Director of event planning and full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
   "Equipment section, and executive consultant of Drama Club (2020)",
 ]
 
@@ -108,6 +133,7 @@ points = [
   "Distributed Computing: Hadoop, Spark",
   "Virtualization: Docker",
 ]
+pagebreak = true
 
 [[info]]
 name = "Projects"
@@ -120,8 +146,9 @@ points = [
   "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
   "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and crypto currency conversion workflow for Alfred (2019)",
   "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple choice QA bot with Wikipedia corpus and TF-IDF (2020)",
-  "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020)",
+  "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
   "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): Simple implementation of FTP Server-Client (2020)",
+  "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on bluetooth signal (2021)",
 ]
 
 [[info]]
@@ -131,8 +158,9 @@ points = [
   "Attendee of 2018 XR Hack Fest",
   "Attendee of PyCon Taiwan (2018, 2020)",
   "Attendee of Mobile Open Platform Conference (2018, 2020)",
-  "Attendee of Students' Information Technology Conference (2020)",
+  "Attendee of Students' Information Technology Conference (2020, 2021)",
   "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
   "Attendee of Hacks In Taiwan Conference (2020)",
   "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
 ]
+pagebreak = true

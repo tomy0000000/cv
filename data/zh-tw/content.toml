@@ -11,7 +11,7 @@ location = "台中"
 startdate = "2019 年 9 月"
 degrees = ["資訊科學與工程學系學士，預計 2022 畢業；轉學生"]
 points = [
-  "核心 GPA: 3.14/4.0",
+  "核心 GPA: 3.21/4.0",
   "在資訊檢索課程期末評分實作開放問答機器人，在 10 多組中排名第二",
   "在大數據分析課程期末專題報告中使用 Airbnb 歷史數據預測旅館訂房趨勢，獲得整體最高評分",
   "在演算法課程 8 次作業, 90 名學生中總分排名第三",
@@ -33,22 +33,47 @@ points = [
 ]
 
 [[experiences]]
+position = "實習軟體工程師"
+company = "英特爾公司 Chrome 部門"
+location = "台北"
+startdate = "2021 年 7 月"
+
+[[experiences.points]]
+name = "Debug Agile 系統"
+details = [
+  "開發並維護用於視覺化測試報告的 Django 全端網頁",
+  "透過升級 Python 及 Django 主辦本以增進原始碼可維護性",
+  "遷移資料庫由 SQLite 至 MySQL 並實行資料正規化",
+  "串接 JIRA 問題追蹤平台達成問題回報及警告自動化",
+  "UI 介面重新設計，使用者滿意度超過 85%",
+  "模組化核心部件使系統能夠讓各部門根據需求客製化",
+]
+
+[[experiences.points]]
+name = "Canary 專案機器學習工程"
+details = [
+  "使用 FastAPI 部署 RESTful API 伺服器提供時間序列資料分類服務",
+]
+
+[[experiences]]
 position = "研究助理"
 company = "中興大學自然語言處理實驗室 (前普及資料與智慧運算實驗室)"
 location = "台中"
 startdate = "2020 年 7 月"
 points = [
-  "在超過 15 台伺服器中設計並維護安全的機器學習實驗環境",
-  "透過重組原始碼架構及更換伺服器部署減少 90% 的網頁大小",
-  "進行中研究: 基於 BART 模型之問句生成模型品質提升之研究",
+  "完成獨立專題研究：基於 BART 模型之問句生成模型品質提升之研究",
+  "設計並維護安全、具有擴容彈性的機器學習實驗環境至超過 15 台本地伺服器",
+  "透過優化 webpack 設定以及改善伺服器部署來減少實驗室網頁大小並提升載入速度超過 90%",
+  "領導團隊開發實驗室問題生成展示平台，Querator AI"
 ]
+pagebreak = true
 
 [[info]]
 name = "社團幹部, 團隊合作"
 points = [
   "擔任政大附中流行音樂社活動，與另外 3 間友社舉辦聯合展演，吸引約 1000 多名觀眾入場觀看 (2016)",
   "擔任元智資訊學院四系聯合迎新活動組組長兼學術組支援，活動合計共 300 多名學生參與 (2018)",
-  "擔任興大劇坊場器及社團經營及事務顧問 (2020)",
+  "擔任興大劇坊場器及社團經營事務顧問 (2020)",
 ]
 
 [[info]]
@@ -106,6 +131,7 @@ points = [
   "分散式運算: Hadoop, Spark",
   "虛擬化: Docker",
 ]
+pagebreak = true
 
 [[info]]
 name = "Projects"
@@ -118,8 +144,9 @@ points = [
   "[Tubee](https://github.com/tomy0000000/Tubee): YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
   "[Coinc](https://github.com/tomy0000000/Coinc): 為 Alfred 打造的貨幣轉換插件 (2019)",
   "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): 使用維基百科資料及 TF-IDF 搭建的簡易單選題 QA 機器人 (2020)",
-  "[Querator AI](http://app.queratorai.com): 以 BERT 為基礎的問題生成網頁介面 (2020)",
+  "[Querator AI](http://app.queratorai.com): 以 BERT 為基礎的問題生成網頁介面 (2020~)",
   "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): 簡易版 FTP 伺服-客戶端 (2020)",
+  "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): 視覺化圖書館人流並預測趨勢 (2021)",
 ]
 
 [[info]]
@@ -129,8 +156,9 @@ points = [
   "2018 XR 開發者黑客松",
   "Python 年會 (PyCon) (2018, 2020)",
   "行動科技應用開發者年會 (MOPCON) (2018, 2020)",
-  "學生計算機年會 (SITCON) (2020)",
+  "學生計算機年會 (SITCON) (2020, 2021)",
   "新型態資安實務主題課程 (AIS3) (2020)",
   "開源人年會 (COSCUP) (2020)",
   "Hacks In Taiwan 台灣駭客年會 (HITCON) (2020)",
 ]
+pagebreak = true
