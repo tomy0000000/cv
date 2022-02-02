@@ -1,5 +1,5 @@
 name = "Tomy Hsieh"
-email = "tomy0000000@gmail.com"
+email = "jobs@tomy.me"
 phone = "+886-988-780-175"
 website = "https://cv.tomy.me"
 github = "tomy0000000"
@@ -11,12 +11,11 @@ location = "Taichung, TW"
 startdate = "Sep. 2019"
 degrees = ["Bachelor of Computer Science, Expected Jun. 2022; Transfer Student"]
 points = [
-  "Major GPA: 3.21/4.0",
+  "Major GPA: 3.24/4.0",
   "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
-  "Graded 1st place among 10+ teams on final project of predicting hotel booking demand using various regression and classifying analysis",
-  "Achieved overall 3rd place out of 90 on 8 coding assignments of Algorithm",
-  "Graded 100% perfect for optional assignment of implementing a simple FTP server from scratch with C in the course of File Processing",
-  "Nominated for foreign exchange student to ECE Paris in Spring 2022 Semester",
+  "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
+  "Ranked overall 3rd place out of 90 on 8 coding assignments of Algorithm",
+  "School representative for exchange to ECE Paris in Spring 2022 Semester",
 ]
 
 [[educations]]
@@ -27,10 +26,10 @@ enddate = "Jan. 2019"
 degrees = ["Completed Freshman & Sophomore Year Coursework"]
 points = [
   "Major GPA: 3.44/4.0",
-  "Rank top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
+  "Rank national top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
   "Achieved overall 1st place out of 40 on coding exam of Data Structure",
-  "Selected as representative team member of ICPC Asia Taipei Regional Contest in 2018",
-  "Selected as delegation of College of Informatics to visit Soochow University in 2018",
+  "School representative of ICPC Asia Taipei Regional Contestant in 2018",
+  "School representative of Soochow University delegation member in 2018",
 ]
 
 [[experiences]]
@@ -43,17 +42,18 @@ startdate = "Jul. 2021"
 name = "Debug Agile System"
 details = [
   "Developing and maintaining the Django Full-stack website for test report visualization",
-  "Improve the code maintainability by upgrading major version of Python and Django",
   "Database normalization and migration from SQLite to MySQL",
-  "Integrate with JIRA issue tracker for automate alarm and report",
+  "Integrate with JIRA issue tracker for automating alarm and report",
   "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
-  "Componentlize the core module for system extensibility to different department",
+  "Componentlize the core module for system extensibility to a different department",
 ]
 
 [[experiences.points]]
 name = "Machine Learning Engineering for Canary Project"
 details = [
-  "Deploy the time series classification system as RESTful API with FastAPI",
+  "Independently research and develop time series machine learning models for different user scenarios.",
+  "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
+  "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
 ]
 
 [[experiences]]
@@ -63,17 +63,20 @@ location = "Taichung, TW"
 startdate = "Jul. 2020"
 points = [
   "Conducting my independent research: Complex Question Generation Based on BART",
-  "Designing and maintaining a secure, scalable ML experiment runtime environment across 15+ on premise server",
-  "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improve deployment",
-  "Leading a team on developing and engineering the Question Generation Platform, Querator AI",
+  "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise server",
+  "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
+  "Lead a team on building ML model demonstration website boilerplate for the lab with cookiecutter",
+  "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
+  "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
 ]
 pagebreak = true
 
 [[info]]
 name = "Leadership, Student Group"
 points = [
-  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with 3 other clubs, attract estimated over 1000+ of audience (2016)",
+  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with 3 other clubs, attracting 1000+ audience (2016)",
   "As both Chief Director of event planning and full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
+  "As CFO of Student Association of CSE Departments, pushing affair of financial transparency, publishing monthly financial statements during the term of office (2018)",
   "Equipment section, and executive consultant of Drama Club (2020)",
 ]
 
@@ -92,7 +95,7 @@ points = [
 ]
 
 [[info]]
-name = "Programming languages, skill, and stacks"
+name = "Programming languages, skills, and stacks"
 half = true
 
 [[info.points]]
@@ -143,12 +146,12 @@ points = [
   "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
   "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
-  "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool build with Flask, PostgreSQL, Celery (2018~)",
-  "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and crypto currency conversion workflow for Alfred (2019)",
-  "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple choice QA bot with Wikipedia corpus and TF-IDF (2020)",
+  "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool built with Flask, PostgreSQL, Celery (2018~)",
+  "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and cryptocurrency conversion workflow for Alfred (2019)",
+  "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple-choice QA bot with Wikipedia corpus and TF-IDF (2020)",
   "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
   "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): Simple implementation of FTP Server-Client (2020)",
-  "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on bluetooth signal (2021)",
+  "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on Bluetooth signal (2021)",
 ]
 
 [[info]]
