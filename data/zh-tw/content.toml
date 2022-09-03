@@ -1,5 +1,5 @@
 name = "謝繼緯"
-email = "jobs@tomy.me"
+email = "hi@tomy.me"
 phone = "+886-988-780-175"
 website = "https://cv.tomy.me"
 github = "tomy0000000"
@@ -9,12 +9,25 @@ linkedin = "tomy0000000"
 name = "國立中興大學"
 location = "台中"
 startdate = "2019 年 9 月"
-degrees = ["資訊科學與工程學系學士，預計 2022 年 6 月畢業；轉學生"]
+enddate = "2019 年 6 月"
+degrees = ["資訊科學與工程學系學士；轉學生"]
 points = [
-  "核心 GPA: 3.24/4.0",
+  "核心 GPA: 3.23/4.0",
   "在資訊檢索課程期末評分實作開放問答機器人，在 10 多組中排名第二",
   "在演算法課程 8 次作業, 90 名學生中總分排名第三",
   "獲選 2022 年春季赴法國中央理工學院交換",
+]
+
+[[educations]]
+name = "法國中央電子理工學院"
+location = "巴黎，法國"
+startdate = "2022 年 1 月"
+enddate = "2022 年 4 月"
+degrees = ["交換學生"]
+points = [
+  "2022 年春季代表中興大學赴法國中央理工學院交換",
+  "修習課程含機器學習、資訊安全、資訊系統管理",
+  "參與該校國際學生社團活動",
 ]
 
 [[educations]]
@@ -36,6 +49,7 @@ position = "實習軟體工程師"
 company = "Intel, Chrome 部門"
 location = "台北"
 startdate = "2021 年 7 月"
+enddate = "2022 年 12 月"
 
 [[experiences.points]]
 name = "Debug Agile 系統"
@@ -57,9 +71,10 @@ details = [
 
 [[experiences]]
 position = "研究助理"
-company = "中興大學自然語言處理實驗室 (前普及資料與智慧運算實驗室)"
+company = "[中興大學自然語言處理實驗室](https://nlpnchu.org)"
 location = "台中"
 startdate = "2020 年 7 月"
+enddate = "2022 年 12 月"
 points = [
   "完成獨立專題研究：基於 BART 模型之問句生成模型品質提升之研究",
   "設計並維護安全、具有擴容彈性的機器學習實驗環境至超過 20 台本地伺服器",
@@ -82,13 +97,13 @@ points = [
 [[info]]
 name = "語言證照, 線上證書, 獲獎及漏洞回報"
 points = [
-  "英文 (ETS TOEFL: 88, 2020)",
+  "英文 (TOEFL: 88, 2020)",
   "Google - 數位行銷基礎知識完整版 (2018)",
   "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
   "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
   "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
-  "2020 法律科技黑客松，特別獎: *法院判決書圖像化搜尋演算法*",
-  "109 學年度資工系資訊專題競賽，在 40 多組中獲佳作: *基於 BART 模型之問句生成模型品質提升之研究*",
+  "法律科技黑客松，特別獎: *法院判決書圖像化搜尋演算法* (2020)",
+  "資工系資訊專題競賽，在 40 多組中獲佳作: *基於 BART 模型之問句生成模型品質提升之研究* (2021)",
   "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
 
@@ -109,7 +124,7 @@ details = [
 name = "其他 (普通)"
 details = [
   "資料結構, 演算法: C, C++, Java",
-  "網頁前端: ES6 JavaScript, jQuery, React",
+  "網頁前端: TypeScript, React",
   "自動化, 手稿: Shell/Bash",
   "Unix 系統維運: Ubuntu, Debian"
 ]
@@ -129,10 +144,10 @@ points = [
   "開發: Git, Git Flow, CI, Agile Development",
   "雲端平台: Google Cloud, AWS",
   "PaaS 平台: Heroku, Vercel, Netlify",
-  "網頁伺服器: Apache, Nginx",
+  "網頁伺服器: Apache, Nginx, traefik",
   "資料庫 & 快取: MySQL, Postgres, MongoDB, Redis, RabbitMQ",
   "分散式運算: Hadoop, Spark",
-  "虛擬化: Docker",
+  "開發維運: Docker, Ansible",
 ]
 pagebreak = true
 
@@ -153,11 +168,13 @@ points = [
 ]
 
 [[info]]
-name = "黑客松, 社群年會及訓練課程"
+name = "社群參與"
 points = [
   "2017 資訊之芽 Python 語法班",
   "2018 XR 開發者黑客松",
-  "Python 年會 (PyCon) (2018, 2020)",
+  "PyCon 台灣 (2018, 2020)",
+  "PyCon 德國 多元參與補助及活動志工/議程主持人 (2022)",
+  "EuroPython 多元參與補助 (2022)",
   "行動科技應用開發者年會 (MOPCON) (2018, 2020)",
   "學生計算機年會 (SITCON) (2020, 2021)",
   "新型態資安實務主題課程 (AIS3) (2020)",
