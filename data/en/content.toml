@@ -12,32 +12,21 @@ startdate = "Sep. 2019"
 enddate = "Jun. 2022"
 degrees = ["Bachelor of Computer Science; Transfer Student"]
 points = [
-  "Major GPA: 3.23/4.0",
+  "Major GPA: 3.23/4.3",
   "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
   "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
-  "Ranked overall 3rd place out of 90 on 8 coding assignments of Algorithm",
-]
-
-[[educations]]
-name = "École centrale d'électronique"
-location = "Paris, FR"
-startdate = "Jan. 2022"
-enddate = "Apr. 2022"
-degrees = ["Exchange Student"]
-points = [
+  "Ranked overall 3rd place out of 90 in the coding assignments of algorithm",
   "NCHU School representative for exchange to ECE Paris in Spring 2022 Semester",
-  "Taking courses in Machine Learning, Cybersecurity, and Management of Information Systems",
-  "Participating in the ECE Paris International activities",
 ]
 
 [[educations]]
 name = "Yuan-Ze University"
 location = "Taoyuan, TW"
 startdate = "Sep. 2017"
-enddate = "Jan. 2019"
+enddate = "Aug. 2019"
 degrees = ["Completed Freshman & Sophomore Year Coursework"]
 points = [
-  "Major GPA: 3.44/4.0",
+  "Major GPA: 3.49/4.3",
   "Rank national top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
   "Achieved overall 1st place out of 40 on coding exam of Data Structure",
   "School representative of ICPC Asia Taipei Regional Contestant in 2018",
