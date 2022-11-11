@@ -15,7 +15,7 @@ points = [
   "Major GPA: 3.23/4.3",
   "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
   "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
-  "Ranked overall 3rd place out of 90 in the coding assignments of algorithm",
+  "Ranked overall 3rd place out of 90 in the coding assignments of algorithm course",
   "NCHU School representative for exchange to ECE Paris in Spring 2022 Semester",
 ]
 
@@ -66,7 +66,7 @@ startdate = "Jul. 2020"
 enddate = "Dec. 2021"
 points = [
   "Conducting my independent research: Complex Question Generation Based on BART",
-  "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise server",
+  "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
   "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
   "Lead a team on building ML model demonstration website boilerplate for the lab with cookiecutter",
   "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
@@ -77,7 +77,7 @@ pagebreak = true
 [[info]]
 name = "Leadership, Student Group"
 points = [
-  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with 3 other clubs, attracting 1000+ audience (2016)",
+  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience (2016)",
   "As both Chief Director of event planning and full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
   "As CFO of Student Association of CSE Departments, pushing affair of financial transparency, publishing monthly financial statements during the term of office (2018)",
   "Equipment section, and executive consultant of Drama Club (2020)",
@@ -163,7 +163,7 @@ points = [
   "Selected trainee of NTU Sprout program on Python Programming (2017)",
   "Attendee of 2018 XR Hack Fest",
   "Attendee of PyCon Taiwan (2018, 2020)",
-  "Diversity-sponsored attendee, and volunteer of event staff/session chair of PyCon DE (2022)",
+  "Diversity-sponsored attendee and volunteer of event staff/session chair of PyCon DE (2022)",
   "Diversity-sponsored attendee of EuroPython (2022)",
   "Attendee of Mobile Open Platform Conference (2018, 2020)",
   "Attendee of Students' Information Technology Conference (2020, 2021)",
