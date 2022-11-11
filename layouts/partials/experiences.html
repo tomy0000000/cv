@@ -1,0 +1,42 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.content.experiences }}
+<section>
+  <h2>{{ i18n "experiences" }}</h2>
+  {{ range . }}
+  <div class="experience{{ if and (isset . "pagebreak") (.pagebreak) }} page-break{{ end }}">
+    <div class="heading">
+      <div>
+        <h3>{{ .position }}</h3>
+        <p>
+          <em>{{ .company | markdownify }}</em>
+        </p>
+      </div>
+      <div>
+        <h3>
+          {{ .startdate }} - {{ if .enddate }}{{ .enddate }}{{ else }}{{ i18n "current" }}{{ end }}
+        </h3>
+        <p>
+          <em>{{ .location }}</em>
+        </p>
+      </div>
+    </div>
+    <ul>
+      {{ range .points }}
+        {{ if eq (printf "%T" .) "string" }}
+          <li>{{ . | markdownify }}</li>
+        {{ else }}
+          <li>
+            {{ .name }}
+            <ul>
+              {{ range .details }}
+              <li>{{ . }}</li>
+              {{ end }}
+            </ul>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+{{ end }}

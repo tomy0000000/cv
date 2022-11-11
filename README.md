@@ -14,3 +14,6 @@ hugo server -D
 hugo -D
 ```
 
+## Acknowledgment
+
+This theme is an extended work based on [tylerjlawson/simple-resume](https://github.com/tylerjlawson/simple-resume).

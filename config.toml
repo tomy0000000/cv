@@ -1,7 +1,6 @@
 baseURL = "https://cv.tomy.me/"
 defaultContentLanguage = "en"
 publishDir = "public"
-theme = "Not-Just-Simple-CV"
 title = "Tomy Hsieh"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 

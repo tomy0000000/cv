@@ -1,0 +1,37 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.content }}
+<footer>
+  <div class="icons">
+    <a target="_blank" href="mailto:{{ .email }}">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a target="_blank" href="tel:{{ .phone }}">
+      <i class="fas fa-phone"></i>
+    </a>
+    <a target="_blank" href="https://github.com/{{ .github }}">
+      <i class="fab fa-github"></i>
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/{{ .linkedin }}">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a target="_blank" href="{{ .website }}">
+      <i class="fas fa-globe"></i>
+    </a>
+    {{ $pdf := print "static/" site.Language.Lang ".pdf" }}
+    {{ if (fileExists $pdf) -}}
+      <a target="_blank" href="{{ print site.Language.Lang ".pdf" | relURL }}">
+        <i class="fas fa-print"></i>
+      </a>
+    {{- end }}
+  </div>
+  <div class="langs">
+    {{ range $.Site.Home.AllTranslations }}
+    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </div>
+  <div class="copyright">
+    <span>Copyright © {{ now.Format "2006" }} {{ .name }}.</span>
+    <span>{{ i18n "all_rights_reserved" }}</span>
+  </div>
+</footer>
+{{ end }}

@@ -1,0 +1,31 @@
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.content.educations }}
+<section>
+  <h2>{{ i18n "education" }}</h2>
+  {{ range . }}
+  <div class="education{{ if and (isset . "pagebreak") (.pagebreak) }} page-break{{ end }}">
+    <div class="heading">
+      <div>
+        <h3>{{ .name }}</h3>
+        {{ range .degrees }}
+        <p>
+          <em>{{ . }}</em>
+        </p>
+        {{ end }}
+      </div>
+      <div>
+        <h3>{{ .startdate }} - {{ if .enddate }}{{ .enddate }}{{ else }}{{ i18n "current" }}{{ end }}</h3>
+        <p>
+          <em>{{ .location }}</em>
+        </p>
+      </div>
+    </div>
+    <ul>
+      {{ range .points }}
+      <li>{{ . | markdownify }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+</section>
+{{ end }}
