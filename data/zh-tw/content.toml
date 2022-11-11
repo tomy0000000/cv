@@ -1,5 +1,5 @@
 name = "謝繼緯"
-email = "hi@tomy.me"
+email = "cv@tomy.me"
 phone = "+886-988-780-175"
 website = "https://cv.tomy.me"
 github = "tomy0000000"
@@ -144,7 +144,7 @@ name = "Projects"
 points = [
   "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): 使用 Python 爬取連鎖咖啡廳資訊並輸出為符合 Google My Maps 的 .kml 檔案 (2016)",
   "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): 操作元智學生 Portal 系統的 Python 開發模組 (2017)",
-  "[Monoploy](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): 純 JavaScript 撰寫的大富翁遊戲 (2017)",
+  "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): 純 JavaScript 撰寫的大富翁遊戲 (2017)",
   "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): 台南即時公車查詢 Web App (2018)",
   "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): 於 Google Cloud Platform 搭建元智資訊學院聯合迎新網站, 點數系統 (Laravel) (2018)",
   "[Tubee](https://github.com/tomy0000000/Tubee): YouTube 頻道訂閱及監看系統 (Flask, PostgreSQL, Celery) (2018~)",
