@@ -25,13 +25,14 @@
         {{ if eq (printf "%T" .) "string" }}
           <li>{{ . | markdownify }}</li>
         {{ else }}
-          <li>
-            {{ .name }}
-            <ul>
-              {{ range .details }}
-              <li>{{ . }}</li>
-              {{ end }}
-            </ul>
+          <li>{{ .name }}
+            {{ with .details }}
+              <ul>
+                {{ range . }}
+                  <li>{{ . }}</li>
+                {{ end }}
+              </ul>
+            {{ end }}
           </li>
         {{ end }}
       {{ end }}

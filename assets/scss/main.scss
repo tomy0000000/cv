@@ -69,6 +69,10 @@ ul {
   }
 }
 
+li ul {
+  padding-bottom: 0rem;
+}
+
 .container {
   margin: 0 auto;
   max-width: 690px;

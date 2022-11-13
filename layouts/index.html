@@ -14,11 +14,13 @@
               <li>{{ . | markdownify }}</li>
             {{ else }}
               <li>{{ .name }}
-                <ul>
-                  {{ range .details }}
-                    <li>{{ . }}</li>
-                  {{ end }}
-                </ul>
+                {{ with .details }}
+                  <ul>
+                    {{ range . }}
+                      <li>{{ . }}</li>
+                    {{ end }}
+                  </ul>
+                {{ end }}
               </li>
             {{ end }}
           {{ end }}

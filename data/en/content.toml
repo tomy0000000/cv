@@ -16,7 +16,8 @@ points = [
   "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
   "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
   "Ranked overall 3rd place out of 90 in the coding assignments of algorithm course",
-  "NCHU School representative for exchange to ECE Paris in Spring 2022 Semester",
+  "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants: *Question Generation Quality Enhancement based on BART* (2021)",
+  "School representative for exchange to ECE Paris in Spring 2022 Semester",
 ]
 
 [[educations]]
@@ -44,18 +45,18 @@ enddate = "Dec. 2021"
 name = "Debug Agile System"
 details = [
   "Developing and maintaining the Django Full-stack website for test report visualization",
-  "Database normalization and migration from SQLite to MySQL",
-  "Integrate with JIRA issue tracker for automating alarm and report",
-  "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
-  "Componentlize the core module for system extensibility to a different department",
+  # "Database normalization and migration from SQLite to MySQL",
+  # "Integrate with JIRA issue tracker for automating alarm and report",
+  # "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
+  # "Componentlize the core module for system extensibility to a different department",
 ]
 
 [[experiences.points]]
 name = "Machine Learning Engineering for Canary Project"
 details = [
   "Independently research and develop time series machine learning models for different user scenarios.",
-  "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
-  "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
+  # "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
+  # "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
 ]
 
 [[experiences]]
@@ -65,81 +66,14 @@ location = "Taichung, TW"
 startdate = "Jul. 2020"
 enddate = "Dec. 2021"
 points = [
-  "Conducting my independent research: Complex Question Generation Based on BART",
+  "Independent research: Question Generation Quality Enhancement based on BART",
   "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
   "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
-  "Lead a team on building ML model demonstration website boilerplate for the lab with cookiecutter",
+  # "Lead a team on building ML model demonstration website boilerplate for the lab with cookiecutter",
   "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
   "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
-]
-pagebreak = true
-
-[[info]]
-name = "Leadership, Student Group"
-points = [
-  "As Event General Coordinator of Pop Music Club, leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience (2016)",
-  "As both Chief Director of event planning and full-stack engineer, conducting the annual College of Informatics Orientation Camp with over 300+ attendances (2018)",
-  "As CFO of Student Association of CSE Departments, pushing affair of financial transparency, publishing monthly financial statements during the term of office (2018)",
-  "Equipment section, and executive consultant of Drama Club (2020)",
-]
-
-[[info]]
-name = "Languages, Certificates, Awards, Bug Reports"
-points = [
-  "Chinese (Native)",
-  "English (TOEFL: 88, 2020)",
-  "Google - Fundamentals of Digital Marketing (2018)",
-  "Coursera - [Introduction to Cloud Identity](https://www.coursera.org/account/accomplishments/verify/ETJQL73Z3JDC) (2020)",
-  "Coursera - [Google Cloud Platform Big Data and Machine Learning Fundamentals](https://www.coursera.org/account/accomplishments/verify/VUKN7URGXR8E) (2021)",
-  "Coursera - [Modernizing Data Lakes and Data Warehouses with GCP](https://www.coursera.org/account/accomplishments/verify/BJFMY8KY9SUE) (2021)",
   "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-  "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants: *Question Generation Quality Enhancement based on BART* (2021)",
-  "[HITCON ZeroDay](https://zeroday.hitcon.org/user/tomy0000000/vulnerability)",
 ]
-
-[[info]]
-name = "Programming languages, skills, and stacks"
-half = true
-
-[[info.points]]
-name = "Main focus: Python (Expert)"
-details = [
-  "Web Scraping: Requests, BeautifulSoup, Scrapy",
-  "Backend Programming: Flask, Django, FastAPI",
-  "Machine Learning: PyTorch, PyTorch Lightning",
-  "Natural Language Processing: HuggingFace Transformers",
-]
-
-[[info.points]]
-name = "Proficient level"
-details = [
-  "Data structure, Algorithm: C, C++, Java",
-  "Frontend Programming: TypeScript, React",
-  "Automation, Scripting: Shell/Bash",
-  "Unix system operation: Ubuntu, Debian",
-]
-
-[[info.points]]
-name = "Novice level"
-details = [
-  "Frontend Programming: Vue",
-  "Backend Programming: PHP (Laravel), Go",
-  "iOS App: Swift",
-]
-
-[[info]]
-name = "Toolchains"
-half = true
-points = [
-  "Development: Git, Git Flow, CI, Agile Development",
-  "Cloud Computing Platform: Google Cloud, AWS",
-  "PaaS: Heroku, Vercel, Netlify",
-  "Web Server: Apache, Nginx",
-  "Database & Memcache: MySQL, Postgres, MongoDB, Redis, RabbitMQ",
-  "Distributed Computing: Hadoop, Spark",
-  "DevOps: Docker, Ansible",
-]
-pagebreak = true
 
 [[info]]
 name = "Projects"
@@ -158,7 +92,7 @@ points = [
 ]
 
 [[info]]
-name = "Community Participation"
+name = "Community / Volunteering"
 points = [
   "Selected trainee of NTU Sprout program on Python Programming (2017)",
   "Attendee of 2018 XR Hack Fest",
@@ -170,5 +104,42 @@ points = [
   "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
   "Attendee of Hacks In Taiwan Conference (2020)",
   "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
+  "Substitute military service at the Information office of the National Fire Agency (2022)",
 ]
 pagebreak = true
+
+[[info]]
+name = "Extracurricular Activities"
+
+[[info.points]]
+name = "AHSNCCU Pop Music Club, Event General Coordinator (2015 - 2016)"
+details = [
+  "Leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience",
+]
+
+[[info.points]]
+name = "YZU College of Informatics Orientation Camp, Chief Director of Event Planning / Full Stack Engineer (2018)"
+details = [
+  "Conducting the annual event with over 300+ attendances",
+]
+
+[[info.points]]
+name = "YZU Student Association of CSE Departments, CFO (2018 - 2019)"
+details = [
+  "Pushing affair of financial transparency, publishing monthly financial statements during the term of office",
+]
+
+[[info.points]]
+name = "NCHU Cycling Club (2019 - 2020)"
+details = [
+  "Provide repairing service during the annual repairing week",
+]
+
+[[info.points]]
+name = "NCHU Public Address and Lightning Training Camp, Selected trainee (2020)"
+
+[[info.points]]
+name = "NCHU Drama Club, Equipment Manager / Executive Consultant (2019 - 2022)"
+details = [
+  "Provide technical support for the annual drama performance for three years",
+]
