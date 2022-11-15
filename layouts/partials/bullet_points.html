@@ -1,0 +1,17 @@
+<ul>
+  {{ range . }}
+  {{ if eq (printf "%T" .) "string" }}
+    <li>{{ . | markdownify }}</li>
+  {{ else }}
+    <li>{{ .name }}
+    {{ with .details }}
+      <ul>
+        {{ range . }}
+          <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+    {{ end }}
+    </li>
+  {{ end }}
+  {{ end }}
+</ul>

@@ -1,33 +1,25 @@
 {{ define "main" }}
 <main>
-  {{ partial "education.html" . }}
-  {{ partial "experiences.html" . }}
   {{ $data := index site.Data site.Language.Lang }}
-  {{ with $data.content }}
-    {{ range .info }}
-    <section {{ if .half }}class="half"{{ end }}>
-      <div {{ if and (isset . "pagebreak") (.pagebreak) }}class="page-break"{{ end }}>
-        <h2>{{ .name }}</h2>
-        <ul>
-          {{ range .points }}
-            {{ if eq (printf "%T" .) "string" }}
-              <li>{{ . | markdownify }}</li>
-            {{ else }}
-              <li>{{ .name }}
-                {{ with .details }}
-                  <ul>
-                    {{ range . }}
-                      <li>{{ . }}</li>
-                    {{ end }}
-                  </ul>
-                {{ end }}
-              </li>
-            {{ end }}
-          {{ end }}
-        </ul>
-      </div>
-    </section>
+  {{ range $data.content.info }}
+  <section{{ if .half }} class="half"{{ end }}>
+    <h2>{{ .name | markdownify }}</h2>
+    {{ range .sections}}
+      <section{{ if and .pagebreak }} class="page-break"{{ end }}>
+        {{ if and .title .date }}
+          <div class="heading">
+            {{ partial "heading.html" . }}
+            {{ partial "duration_location.html" . }}
+          </div>
+        {{ else }}
+          {{ partial "heading.html" . }}
+        {{ end }}
+        {{ with .points }}
+          {{ partial "bullet_points.html" .}}
+        {{ end }}
+      </section>
     {{ end }}
+  </section>
   {{ end }}
 </main>
 {{ end }}

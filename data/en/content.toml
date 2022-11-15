@@ -5,141 +5,167 @@ website = "https://cv.tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-[[educations]]
-name = "National Chung Hsing University"
-location = "Taichung, TW"
-startdate = "Sep. 2019"
-enddate = "Jun. 2022"
-degrees = ["Bachelor of Computer Science; Transfer Student"]
-points = [
-  "Major GPA: 3.23/4.3",
-  "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
-  "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
-  "Ranked overall 3rd place out of 90 in the coding assignments of algorithm course",
-  "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants: *Question Generation Quality Enhancement based on BART* (2021)",
-  "School representative for exchange to ECE Paris in Spring 2022 Semester",
-]
+[[info]]
+name = "Education"
 
-[[educations]]
-name = "Yuan-Ze University"
-location = "Taoyuan, TW"
-startdate = "Sep. 2017"
-enddate = "Aug. 2019"
-degrees = ["Completed Freshman & Sophomore Year Coursework"]
-points = [
-  "Major GPA: 3.49/4.3",
-  "Rank national top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
-  "Achieved overall 1st place out of 40 on coding exam of Data Structure",
-  "School representative of ICPC Asia Taipei Regional Contestant in 2018",
-  "School representative of Soochow University delegation member in 2018",
-]
+  [[info.sections]]
+  title = "National Chung Hsing University"
+  subheadings = ["Bachelor of Computer Science; Transfer Student"]
+  date = "Sep. 2019"
+  enddate = "Jun. 2022"
+  location = "Taichung, TW"
+  points = [
+    "Major GPA: 3.23/4.3",
+    "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
+    "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
+    "Ranked overall 3rd place out of 90 in the coding assignments of algorithm course",
+    "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants: *Question Generation Quality Enhancement based on BART* (2021)",
+    "School representative for exchange to ECE Paris in Spring 2022 Semester",
+  ]
 
-[[experiences]]
-position = "Software Engineer Internship"
-company = "Intel Corporation, Client Computing Group, Chrome Team"
-location = "Taipei, TW"
-startdate = "Jul. 2021"
-enddate = "Dec. 2021"
+  [[info.sections]]
+  title = "Yuan-Ze University"
+  subheadings = ["Completed Freshman & Sophomore Year Coursework"]
+  date = "Sep. 2017"
+  enddate = "Aug. 2019"
+  location = "Taoyuan, TW"
+  points = [
+    "Major GPA: 3.49/4.3",
+    "Rank national top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
+    "Achieved overall 1st place out of 40 on coding exam of Data Structure",
+    "School representative of ICPC Asia Taipei Regional Contestant in 2018",
+    "School representative of Soochow University delegation member in 2018",
+  ]
 
-[[experiences.points]]
-name = "Debug Agile System"
-details = [
-  "Developing and maintaining the Django Full-stack website for test report visualization",
-  # "Database normalization and migration from SQLite to MySQL",
-  # "Integrate with JIRA issue tracker for automating alarm and report",
-  # "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
-  # "Componentlize the core module for system extensibility to a different department",
-]
+[[info]]
+name = "Research Experience"
 
-[[experiences.points]]
-name = "Machine Learning Engineering for Canary Project"
-details = [
-  "Independently research and develop time series machine learning models for different user scenarios.",
-  # "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
-  # "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
-]
+  [[info.sections]]
+  title = "Research Assistant"
+  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)"]
+  date = "Jul. 2020"
+  enddate = "Dec. 2021"
+  location = "Taichung, TW"
 
-[[experiences]]
-position = "Research Assistant"
-company = "[Natural Language Processing Lab, NCHU](https://nlpnchu.org)"
-location = "Taichung, TW"
-startdate = "Jul. 2020"
-enddate = "Dec. 2021"
-points = [
-  "Independent research: Question Generation Quality Enhancement based on BART",
-  "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
-  "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
-  # "Lead a team on building ML model demonstration website boilerplate for the lab with cookiecutter",
-  "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
-  "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
-  "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-]
+    [[info.sections.points]]
+    name = "Independent Research: Question Generation Quality Enhancement based on BART"
+    details = [
+      "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
+      "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
+    ]
+
+    [[info.sections.points]]
+    name = "System Development"
+    details = [
+      "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
+      "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
+      "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
+    ]
+
+[[info]]
+name = "Work Experience"
+
+  [[info.sections]]
+  title = "Software Engineer Internship"
+  subheadings = ["Intel Corporation, Client Computing Group, Chrome Team"]
+  date = "Jul. 2021"
+  enddate = "Dec. 2021"
+  location = "Taipei, TW"
+
+    [[info.sections.points]]
+    name = "Debug Agile System"
+    details = [
+      "Developing and maintaining the Django Full-stack website for test report visualization",
+      # "Database normalization and migration from SQLite to MySQL",
+      # "Integrate with JIRA issue tracker for automating alarm and report",
+      # "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
+      # "Componentlize the core module for system extensibility to a different department",
+    ]
+
+    [[info.sections.points]]
+    name = "Machine Learning Engineering for Canary Project"
+    details = [
+      "Independently research and develop time series machine learning models for different user scenarios.",
+      # "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
+      # "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
+    ]
 
 [[info]]
 name = "Projects"
-points = [
-  "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
-  "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for accessing Yuan-Ze University Student Portal System (2017)",
-  "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
-  "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
-  "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
-  "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool built with Flask, PostgreSQL, Celery (2018~)",
-  "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and cryptocurrency conversion workflow for Alfred (2019)",
-  "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple-choice QA bot with Wikipedia corpus and TF-IDF (2020)",
-  "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
-  "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): Simple implementation of FTP Server-Client (2020)",
-  "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on Bluetooth signal (2021)",
-]
+
+  [[info.sections]]
+  points = [
+    "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
+    "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for accessing Yuan-Ze University Student Portal System (2017)",
+    "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
+    "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
+    "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
+    "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool built with Flask, PostgreSQL, Celery (2018~)",
+    "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and cryptocurrency conversion workflow for Alfred (2019)",
+    "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple-choice QA bot with Wikipedia corpus and TF-IDF (2020)",
+    "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
+    "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): Simple implementation of FTP Server-Client (2020)",
+    "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on Bluetooth signal (2021)",
+  ]
 
 [[info]]
 name = "Community / Volunteering"
-points = [
-  "Selected trainee of NTU Sprout program on Python Programming (2017)",
-  "Attendee of 2018 XR Hack Fest",
-  "Attendee of PyCon Taiwan (2018, 2020)",
-  "Diversity-sponsored attendee and volunteer of event staff/session chair of PyCon DE (2022)",
-  "Diversity-sponsored attendee of EuroPython (2022)",
-  "Attendee of Mobile Open Platform Conference (2018, 2020)",
-  "Attendee of Students' Information Technology Conference (2020, 2021)",
-  "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
-  "Attendee of Hacks In Taiwan Conference (2020)",
-  "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
-  "Substitute military service at the Information office of the National Fire Agency (2022)",
-]
 pagebreak = true
+
+  [[info.sections]]
+  points = [
+    "Selected trainee of NTU Sprout program on Python Programming (2017)",
+    "Attendee of 2018 XR Hack Fest",
+    "Attendee of PyCon Taiwan (2018, 2020)",
+    "Diversity-sponsored attendee and volunteer of event staff/session chair of PyCon DE (2022)",
+    "Diversity-sponsored attendee of EuroPython (2022)",
+    "Attendee of Mobile Open Platform Conference (2018, 2020)",
+    "Attendee of Students' Information Technology Conference (2020, 2021)",
+    "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
+    "Attendee of Hacks In Taiwan Conference (2020)",
+    "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
+    "Substitute military service at the Information office of the National Fire Agency (2022)",
+  ]
 
 [[info]]
 name = "Extracurricular Activities"
 
-[[info.points]]
-name = "AHSNCCU Pop Music Club, Event General Coordinator (2015 - 2016)"
-details = [
-  "Leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience",
-]
+  [[info.sections]]
+  title = "AHSNCCU Pop Music Club"
+  subheadings = ["Event General Coordinator"]
+  date = "Sep. 2015"
+  enddate = "Jun. 2016"
+  location = "Taipei, TW"
+  points = ["Leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience"]
 
-[[info.points]]
-name = "YZU College of Informatics Orientation Camp, Chief Director of Event Planning / Full Stack Engineer (2018)"
-details = [
-  "Conducting the annual event with over 300+ attendances",
-]
+  [[info.sections]]
+  title = "YZU College of Informatics Orientation Camp"
+  subheadings = ["Chief Director of Event Planning", "Full Stack Engineer"]
+  date = "Summer 2018"
+  location = "Taipei, TW"
+  points = ["Conducting the annual event with over 300+ attendances"]
 
-[[info.points]]
-name = "YZU Student Association of CSE Departments, CFO (2018 - 2019)"
-details = [
-  "Pushing affair of financial transparency, publishing monthly financial statements during the term of office",
-]
+  [[info.sections]]
+  title = "YZU Student Association of CSE Departments"
+  subheadings = ["CFO"]
+  date = "Sep. 2018"
+  enddate = "Jan. 2019"
+  points = ["Pushing affair of financial transparency, publishing monthly financial statements during the term of office"]
 
-[[info.points]]
-name = "NCHU Cycling Club (2019 - 2020)"
-details = [
-  "Provide repairing service during the annual repairing week",
-]
+  [[info.sections]]
+  title = "NCHU Cycling Club"
+  date = "Sep. 2019"
+  enddate = "Jun. 2020"
+  points = ["Provide repairing service during the annual repairing week"]
 
-[[info.points]]
-name = "NCHU Public Address and Lightning Training Camp, Selected trainee (2020)"
+  [[info.sections]]
+  title = "NCHU Public Address and Lightning Training Camp"
+  subheadings = ["Selected trainee"]
+  date = "Summer 2020"
 
-[[info.points]]
-name = "NCHU Drama Club, Equipment Manager / Executive Consultant (2019 - 2022)"
-details = [
-  "Provide technical support for the annual drama performance for three years",
-]
+  [[info.sections]]
+  title = "NCHU Drama Club"
+  subheadings = ["Equipment Manager", "Executive Consultant"]
+  date = "Sep. 2019"
+  enddate = "Jun. 2022"
+  points = ["Provide technical support for the annual drama performance for three years"]

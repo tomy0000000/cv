@@ -84,6 +84,10 @@ header {
   margin-bottom: 15px;
   padding-bottom: 15px;
 
+  address {
+    font-style: normal;
+  }
+
   a {
     display: inline-block;
     font-size: 1.25em;
@@ -105,18 +109,18 @@ main {
   display: grid;
   grid-template-columns: [left] 1fr [middle] 1fr [right];
   grid-auto-flow: row;
-}
 
-section {
-  grid-column: 1 / span 2;
-  margin-bottom: 1rem;
-  display: inline-block;
-  break-inside: avoid;
-  page-break-inside: avoid;
-}
+  > section {
+    grid-column: 1 / span 2;
+    margin-bottom: 1rem;
+    display: inline-block;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
 
-section.half {
-  grid-column: unset;
+  > section.half {
+    grid-column: unset;
+  }
 }
 
 footer {
@@ -171,31 +175,22 @@ footer {
   }
 
   div {
-    float: none !important;
-    position: static !important;
-    display: inline;
-    box-sizing: content-box !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
-  section {
-    div {
-      break-inside: avoid;
-      page-break-inside: avoid;
-    }
+  div.page-break {
+    break-after: all;
+    page-break-after: always;
+  }
 
-    div.page-break {
-      break-after: all;
-      page-break-after: always;
-    }
+  div.page-break + hr {
+    display: none;
+  }
 
-    div.page-break + hr {
-      display: none;
-    }
-
-    ul {
-      break-inside: avoid;
-      page-break-inside: avoid;
-    }
+  ul {
+    break-inside: avoid;
+    page-break-inside: avoid;
   }
 
   footer {
@@ -204,7 +199,7 @@ footer {
 }
 
 @include media(">phone") {
-  section .heading {
+  div.heading {
     // prefixes added to work with html-pdf
     display: -webkit-box;
     display: -ms-flexbox;
