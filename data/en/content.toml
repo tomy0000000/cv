@@ -10,39 +10,49 @@ name = "Education"
 
   [[info.sections]]
   title = "National Chung Hsing University"
-  subheadings = ["Bachelor of Computer Science; Transfer Student"]
+  subheadings = ["Bachelor of Science", "Major in Computer Science"]
   date = "Sep. 2019"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
-  points = [
-    "Major GPA: 3.23/4.3",
-    "Winning 2nd place among 10+ teams on the final contest of Information Retrieval on implementing an Open-domain Question Answering bot",
-    "Graded 1st place among 10+ teams on the final project of predicting hotel booking demand using various regression and classifying analysis",
-    "Ranked overall 3rd place out of 90 in the coding assignments of algorithm course",
-    "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants: *Question Generation Quality Enhancement based on BART* (2021)",
-    "School representative for exchange to ECE Paris in Spring 2022 Semester",
-  ]
+
+    [[info.sections.points]]
+    name = "Grades"
+    details = [
+      "Overall GPA: 3.24/4.3 (3.24/4.0)",
+      "Last 60 credits GPA: 3.43/4.3 (3.39/4.0)",
+      "Major GPA: 3.20/4.3 (3.17/4.0)",
+    ]
+
+    [[info.sections.points]]
+    name = "Related Courses: Algorithms, Introduction to Information retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things"
+
+    [[info.sections.points]]
+    name = "School representative for exchange to ECE Paris in Spring 2022 Semester"
 
   [[info.sections]]
   title = "Yuan-Ze University"
-  subheadings = ["Completed Freshman & Sophomore Year Coursework"]
+  subheadings = ["Completed Freshman & Sophomore Year Coursework", "Major in Computer Science"]
   date = "Sep. 2017"
   enddate = "Aug. 2019"
   location = "Taoyuan, TW"
-  points = [
-    "Major GPA: 3.49/4.3",
-    "Rank national top 2% among other 2000+ competitors at winter round of Collegiate Programming Examination (CPE) in 2018",
-    "Achieved overall 1st place out of 40 on coding exam of Data Structure",
-    "School representative of ICPC Asia Taipei Regional Contestant in 2018",
-    "School representative of Soochow University delegation member in 2018",
-  ]
+
+    [[info.sections.points]]
+    name = "Grades"
+    details = [
+      "Overall GPA: 3.49/4.3 (3.44/4.0)",
+      "Major GPA: 3.47/4.3 (3.43/4.0)",
+    ]
+
+    [[info.sections.points]]
+    name = "School representative of Soochow University delegation member in 2018"
+
 
 [[info]]
 name = "Research Experience"
 
   [[info.sections]]
   title = "Research Assistant"
-  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)"]
+  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)", "Advisor: Yao-Chung Fan"]
   date = "Jul. 2020"
   enddate = "Dec. 2021"
   location = "Taichung, TW"
@@ -50,17 +60,18 @@ name = "Research Experience"
     [[info.sections.points]]
     name = "Independent Research: Question Generation Quality Enhancement based on BART"
     details = [
-      "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
-      "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
+      "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
     ]
 
     [[info.sections.points]]
     name = "System Development"
     details = [
+      "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
+      "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
       "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
       "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
-      "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
     ]
+
 
 [[info]]
 name = "Work Experience"
@@ -76,26 +87,35 @@ name = "Work Experience"
     name = "Debug Agile System"
     details = [
       "Developing and maintaining the Django Full-stack website for test report visualization",
-      # "Database normalization and migration from SQLite to MySQL",
-      # "Integrate with JIRA issue tracker for automating alarm and report",
-      # "Major UI redesign and rewrite, which receive over 85% of user satisfaction rate",
-      # "Componentlize the core module for system extensibility to a different department",
+      "Integrate with JIRA issue tracker for automating alarm and report",
     ]
 
     [[info.sections.points]]
     name = "Machine Learning Engineering for Canary Project"
     details = [
-      "Independently research and develop time series machine learning models for different user scenarios.",
-      # "Regularize and optimize data pipeline from data collecting to model training to improve model accuracy.",
-      # "Deploy machine learning models on a unified platform as RESTful API with FastAPI",
+      "Study and train time series ML models for different test cases with sktime",
+      "Regularize and optimize data pipeline to improve model accuracy",
+      "Deploy ML models on a unified platform as RESTful API with FastAPI",
     ]
+
+
+[[info]]
+name = "Awards / Honors"
+
+  [[info.sections]]
+  points = [
+    "Rank national top 2% among other 2000+ competitors at 2018 Collegiate Programming Examination (CPE)",
+    "YZU representative of 2018 ICPC Asia Taipei Regional Contestant",
+    "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
+    "Diversity sponsored attendee, PyConDE & PyData Berlin 2022",
+  ]
+
 
 [[info]]
 name = "Projects"
 
   [[info.sections]]
   points = [
-    "[Cafe Crawler](https://github.com/tomy0000000/Cafe-Crawler): Use Python to crawl coffee chains address and export .kml for Google My Maps (2016)",
     "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for accessing Yuan-Ze University Student Portal System (2017)",
     "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
     "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
@@ -104,7 +124,6 @@ name = "Projects"
     "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and cryptocurrency conversion workflow for Alfred (2019)",
     "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple-choice QA bot with Wikipedia corpus and TF-IDF (2020)",
     "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
-    "[Simple FTP](https://github.com/tomy0000000/NCHU-File-Processing-and-IO-Systems/tree/master/Homework%205): Simple implementation of FTP Server-Client (2020)",
     "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on Bluetooth signal (2021)",
   ]
 
@@ -114,18 +133,15 @@ pagebreak = true
 
   [[info.sections]]
   points = [
-    "Selected trainee of NTU Sprout program on Python Programming (2017)",
-    "Attendee of 2018 XR Hack Fest",
     "Attendee of PyCon Taiwan (2018, 2020)",
-    "Diversity-sponsored attendee and volunteer of event staff/session chair of PyCon DE (2022)",
     "Diversity-sponsored attendee of EuroPython (2022)",
     "Attendee of Mobile Open Platform Conference (2018, 2020)",
     "Attendee of Students' Information Technology Conference (2020, 2021)",
     "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
     "Attendee of Hacks In Taiwan Conference (2020)",
     "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
-    "Substitute military service at the Information office of the National Fire Agency (2022)",
   ]
+
 
 [[info]]
 name = "Extracurricular Activities"
@@ -139,10 +155,16 @@ name = "Extracurricular Activities"
   points = ["Leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience"]
 
   [[info.sections]]
+  title = "NTU Sprout program"
+  subheadings = ["Selected Python Programming Trainee"]
+  date = "Mar. 2017"
+  enddate = "Jul. 2017"
+
+  [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
   subheadings = ["Chief Director of Event Planning", "Full Stack Engineer"]
   date = "Summer 2018"
-  location = "Taipei, TW"
+  location = "Taoyuan, TW"
   points = ["Conducting the annual event with over 300+ attendances"]
 
   [[info.sections]]
@@ -150,22 +172,46 @@ name = "Extracurricular Activities"
   subheadings = ["CFO"]
   date = "Sep. 2018"
   enddate = "Jan. 2019"
+  location = "Taoyuan, TW"
   points = ["Pushing affair of financial transparency, publishing monthly financial statements during the term of office"]
 
   [[info.sections]]
   title = "NCHU Cycling Club"
+  subheadings = ["Member & Technician"]
   date = "Sep. 2019"
   enddate = "Jun. 2020"
+  location = "Taichung, TW"
   points = ["Provide repairing service during the annual repairing week"]
-
-  [[info.sections]]
-  title = "NCHU Public Address and Lightning Training Camp"
-  subheadings = ["Selected trainee"]
-  date = "Summer 2020"
 
   [[info.sections]]
   title = "NCHU Drama Club"
   subheadings = ["Equipment Manager", "Executive Consultant"]
   date = "Sep. 2019"
   enddate = "Jun. 2022"
+  location = "Taichung, TW"
   points = ["Provide technical support for the annual drama performance for three years"]
+
+  [[info.sections]]
+  title = "NCHU Public Address and Lightning Training Camp"
+  subheadings = ["Selected trainee"]
+  date = "Feb. 2020"
+  location = "Taichung, TW"
+
+  [[info.sections]]
+  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org/)"
+  subheadings = ["Selected trainee"]
+  date = "Aug. 2020"
+  location = "Taipei, TW"
+
+  [[info.sections]]
+  title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
+  subheadings = ["Volunteer of Event Staff / Session Chair"]
+  date = "Apr. 2022"
+  location = "Berlin, DE"
+
+  [[info.sections]]
+  title = "National Fire Agency"
+  subheadings = ["Substitute military service at the Information office"]
+  date = "Sep. 2022"
+  enddate = "Dec. 2022"
+  location = "Taipei, TW"

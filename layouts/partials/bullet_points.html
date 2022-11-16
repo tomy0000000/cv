@@ -7,7 +7,7 @@
     {{ with .details }}
       <ul>
         {{ range . }}
-          <li>{{ . }}</li>
+          <li>{{ . | markdownify }}</li>
         {{ end }}
       </ul>
     {{ end }}
