@@ -84,6 +84,16 @@ header {
   margin-bottom: 15px;
   padding-bottom: 15px;
 
+  .page-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .headline {
+    font-weight: unset;
+    font-style: italic;
+  }
+
   address {
     font-style: normal;
   }
@@ -97,11 +107,6 @@ header {
   a + a {
     display: block;
     margin-top: 0.5rem;
-  }
-
-  .page-title {
-    display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -167,7 +172,16 @@ footer {
 @include media("print") {
   @page {
     size: A4 portrait;
-    margin: 0.75in;
+    margin: 0.5in;
+  }
+
+  header {
+    a + a {
+      display: inline-block;
+      border-left: 2px solid $black;
+      margin-left: 0.5rem;
+      padding-left: 0.5rem;
+    }
   }
 
   .container {

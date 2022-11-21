@@ -5,6 +5,8 @@ website = "https://cv.tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
+headline = "Computer Science Graduate with NLP experience and enthusiasm for user-centric design"
+
 [[info]]
 name = "Education"
 
@@ -42,6 +44,9 @@ name = "Education"
       "Overall GPA: 3.49/4.3 (3.44/4.0)",
       "Major GPA: 3.47/4.3 (3.43/4.0)",
     ]
+
+    [[info.sections.points]]
+    name = "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra"
 
     [[info.sections.points]]
     name = "School representative of Soochow University delegation member in 2018"
@@ -87,7 +92,6 @@ name = "Work Experience"
     name = "Debug Agile System"
     details = [
       "Developing and maintaining the Django Full-stack website for test report visualization",
-      "Integrate with JIRA issue tracker for automating alarm and report",
     ]
 
     [[info.sections.points]]
@@ -101,45 +105,86 @@ name = "Work Experience"
 
 [[info]]
 name = "Awards / Honors"
+half = true
 
   [[info.sections]]
   points = [
-    "Rank national top 2% among other 2000+ competitors at 2018 Collegiate Programming Examination (CPE)",
-    "YZU representative of 2018 ICPC Asia Taipei Regional Contestant",
     "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
+    "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
+    "Rank national top 2% among other 2000+ competitors at 2018 Collegiate Programming Examination (CPE)",
     "Diversity sponsored attendee, PyConDE & PyData Berlin 2022",
   ]
+
+
+[[info]]
+name = "Skills"
+half = true
+
+  [[info.sections]]
+
+    [[info.sections.points]]
+    name = "Programming Languages"
+    details = [
+      "C/C++, Java",
+      "JavaScript, TypeScript, React",
+      "Shell/Bash",
+    ]
+
+    [[info.sections.points]]
+    name = "Python"
+    details = [
+      "Flask, Django, FastAPI",
+      "PyTorch, PyTorch Lightning, Transformers",
+      "Requests, BeautifulSoup, Scrapy",
+    ]
+
+    # [[info.sections.points]]
+    # name = "Toolchains"
+    # details = [
+    #   "Docker, Kubernetes",
+    #   "Git, Git Flow",
+    # ]
 
 
 [[info]]
 name = "Projects"
 
   [[info.sections]]
+  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
   points = [
-    "[YZU Portal SDK](https://github.com/tomy0000000/YZU-Portal-SDK): Python module for accessing Yuan-Ze University Student Portal System (2017)",
-    "[Monopoly](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Homework%203): Monopoly game written in pure JavaScript (2017)",
-    "[Hello Tainan](https://github.com/tomy0000000/YZU-Web-Programming/tree/master/Project%20-%20Hello%20Tainan): Database-less web application to query bus route with in-time arrival information (2018)",
-    "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay): Camp website and point system built with Laravel and hosted on Google Cloud Platform (2018)",
-    "[Tubee](https://github.com/tomy0000000/Tubee): A YouTube channel subscribing tool built with Flask, PostgreSQL, Celery (2018~)",
-    "[Coinc](https://github.com/tomy0000000/Coinc): Fiat and cryptocurrency conversion workflow for Alfred (2019)",
-    "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval): Entry-level multiple-choice QA bot with Wikipedia corpus and TF-IDF (2020)",
-    "[Querator AI](http://app.queratorai.com): Web client for context-answer-based Question Generation with BERT (2020~)",
-    "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow): Crowd visualization and trend prediction based on Bluetooth signal (2021)",
+    "Automated personal YouTube management platform",
+    "Filtered favorite videos from 600+ new videos across 250 channels per day",
+    "Built with Flask, PostgreSQL, Celery, Docker",
   ]
 
-[[info]]
-name = "Community / Volunteering"
-pagebreak = true
+  [[info.sections]]
+  title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
+  points = [
+    "Landing page and registration system of the event",
+    "Point system used by 300+ attendees",
+    "Built with Laravel, MySQL",
+  ]
 
   [[info.sections]]
+  title = "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval)"
   points = [
-    "Attendee of PyCon Taiwan (2018, 2020)",
-    "Diversity-sponsored attendee of EuroPython (2022)",
-    "Attendee of Mobile Open Platform Conference (2018, 2020)",
-    "Attendee of Students' Information Technology Conference (2020, 2021)",
-    "Attendee of Conference for Open Source Coders, Users and Promoters (2020)",
-    "Attendee of Hacks In Taiwan Conference (2020)",
-    "Selected trainee of Advanced Information Security Summer School (AIS3) (2020)",
+    "Multiple-choice open-domain question answering bot",
+    "Built with Python, PySpark, Wikipedia corpus, TF-IDF",
+  ]
+
+  [[info.sections]]
+  title = "[Querator AI](http://app.queratorai.com)"
+  points = [
+    "Web client for context-answer-based Question Generation with BERT",
+    "Built with FastAPI, React, Docker",
+  ]
+
+  [[info.sections]]
+  title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
+  points = [
+    "Crowd statistics visualization and trend prediction based on Bluetooth signal",
+    "Collect people flow data with IoT devices scattered in the library",
+    "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
 
@@ -165,23 +210,7 @@ name = "Extracurricular Activities"
   subheadings = ["Chief Director of Event Planning", "Full Stack Engineer"]
   date = "Summer 2018"
   location = "Taoyuan, TW"
-  points = ["Conducting the annual event with over 300+ attendances"]
-
-  [[info.sections]]
-  title = "YZU Student Association of CSE Departments"
-  subheadings = ["CFO"]
-  date = "Sep. 2018"
-  enddate = "Jan. 2019"
-  location = "Taoyuan, TW"
-  points = ["Pushing affair of financial transparency, publishing monthly financial statements during the term of office"]
-
-  [[info.sections]]
-  title = "NCHU Cycling Club"
-  subheadings = ["Member & Technician"]
-  date = "Sep. 2019"
-  enddate = "Jun. 2020"
-  location = "Taichung, TW"
-  points = ["Provide repairing service during the annual repairing week"]
+  points = ["Conducting the annual event with over 300+ attendees"]
 
   [[info.sections]]
   title = "NCHU Drama Club"
@@ -198,20 +227,7 @@ name = "Extracurricular Activities"
   location = "Taichung, TW"
 
   [[info.sections]]
-  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org/)"
-  subheadings = ["Selected trainee"]
-  date = "Aug. 2020"
-  location = "Taipei, TW"
-
-  [[info.sections]]
   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
   subheadings = ["Volunteer of Event Staff / Session Chair"]
   date = "Apr. 2022"
   location = "Berlin, DE"
-
-  [[info.sections]]
-  title = "National Fire Agency"
-  subheadings = ["Substitute military service at the Information office"]
-  date = "Sep. 2022"
-  enddate = "Dec. 2022"
-  location = "Taipei, TW"

@@ -3,7 +3,7 @@
   {{ if eq (printf "%T" .) "string" }}
     <li>{{ . | markdownify }}</li>
   {{ else }}
-    <li>{{ .name }}
+    <li>{{ .name | markdownify }}
     {{ with .details }}
       <ul>
         {{ range . }}
