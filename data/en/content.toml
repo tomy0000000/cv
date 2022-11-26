@@ -63,8 +63,19 @@ name = "Research Experience"
   location = "Taichung, TW"
 
     [[info.sections.points]]
-    name = "Independent Research: Question Generation Quality Enhancement based on BART"
+    name = "Lab Paper Seminar Presentation"
     details = [
+      "Pre-trained seq2seq model: *BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension*",
+      "Prompt engineering: *Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference*",
+      "Training methodology: *Parameter-Efficient Transfer Learning for NLP*"
+    ]
+
+    [[info.sections.points]]
+    name = "Independent Research"
+    details = [
+      "Focused on specific use case and characteristics of summarization task",
+      "Experimented with different training methodologies and practices",
+      "Capstone Project: Question Generation Quality Enhancement based on BART",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
     ]
 
@@ -72,7 +83,6 @@ name = "Research Experience"
     name = "System Development"
     details = [
       "Designed and maintained a secure, scalable machine learning experiment runtime environment across 20+ on-premise servers",
-      "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
       "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
       "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
     ]
