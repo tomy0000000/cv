@@ -11,8 +11,8 @@ headline = "Computer Science Graduate with NLP experience and enthusiasm for use
 name = "Education"
 
   [[info.sections]]
-  title = "National Chung Hsing University"
-  subheadings = ["Bachelor of Science", "Major in Computer Science"]
+  title = "National Chung Hsing University (NCHU)"
+  subheadings = ["Bachelor of Science in Computer Science"]
   date = "Sep. 2019"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
@@ -32,8 +32,8 @@ name = "Education"
     name = "School representative for exchange to ECE Paris in Spring 2022 Semester"
 
   [[info.sections]]
-  title = "Yuan-Ze University"
-  subheadings = ["Completed Freshman & Sophomore Year Coursework", "Major in Computer Science"]
+  title = "Yuan-Ze University (YZU)"
+  subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
   date = "Sep. 2017"
   enddate = "Aug. 2019"
   location = "Taoyuan, TW"
@@ -71,10 +71,10 @@ name = "Research Experience"
     [[info.sections.points]]
     name = "System Development"
     details = [
-      "Designing and maintaining a secure, scalable ML experiment runtime environment across 20+ on-premise servers",
+      "Designed and maintained a secure, scalable machine learning experiment runtime environment across 20+ on-premise servers",
       "Minimize lab website size and boost loading performance over 90% by optimizing webpack config and improving deployment",
-      "Developing and maintaining the NLP Lab API, the unified platform for NLP research and demonstration for the lab",
-      "Developing and maintaining a Question Generation Platform, Querator AI, backed by the NLP Lab API",
+      "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
+      "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
     ]
 
 
@@ -91,15 +91,15 @@ name = "Work Experience"
     [[info.sections.points]]
     name = "Debug Agile System"
     details = [
-      "Developing and maintaining the Django Full-stack website for test report visualization",
+      "Developed and maintained the Django Full-stack website for test report visualization",
     ]
 
     [[info.sections.points]]
     name = "Machine Learning Engineering for Canary Project"
     details = [
-      "Study and train time series ML models for different test cases with sktime",
-      "Regularize and optimize data pipeline to improve model accuracy",
-      "Deploy ML models on a unified platform as RESTful API with FastAPI",
+      "Studied and trained time series ML models for different test cases with sktime",
+      "Regularized and optimized the data pipeline to improve model accuracy",
+      "Deployed ML models on a unified platform as RESTful API with FastAPI",
     ]
 
 
@@ -111,7 +111,7 @@ half = true
   points = [
     "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
     "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
-    "Rank national top 2% among other 2000+ competitors at 2018 Collegiate Programming Examination (CPE)",
+    "Rank national top 2% among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
     "Diversity sponsored attendee, PyConDE & PyData Berlin 2022",
   ]
 
@@ -152,7 +152,7 @@ name = "Projects"
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
   points = [
-    "Automated personal YouTube management platform",
+    "Developed an automated personal YouTube management platform",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
     "Built with Flask, PostgreSQL, Celery, Docker",
   ]
@@ -160,7 +160,7 @@ name = "Projects"
   [[info.sections]]
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
   points = [
-    "Landing page and registration system of the event",
+    "Designed the landing page and registration system for the event",
     "Point system used by 300+ attendees",
     "Built with Laravel, MySQL",
   ]
@@ -168,7 +168,7 @@ name = "Projects"
   [[info.sections]]
   title = "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval)"
   points = [
-    "Multiple-choice open-domain question answering bot",
+    "Developed a multiple-choice open-domain question-answering bot",
     "Built with Python, PySpark, Wikipedia corpus, TF-IDF",
   ]
 
@@ -182,8 +182,8 @@ name = "Projects"
   [[info.sections]]
   title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
   points = [
-    "Crowd statistics visualization and trend prediction based on Bluetooth signal",
-    "Collect people flow data with IoT devices scattered in the library",
+    "Implemented crowd statistics visualization and trend prediction based on Bluetooth signal",
+    "Collected people flow data with IoT devices scattered in the library",
     "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
@@ -197,7 +197,7 @@ name = "Extracurricular Activities"
   date = "Sep. 2015"
   enddate = "Jun. 2016"
   location = "Taipei, TW"
-  points = ["Leading a team of 5 conducting a joint public presentation with three other clubs, attracting 1000+ audience"]
+  points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting 1000+ audiences"]
 
   [[info.sections]]
   title = "NTU Sprout program"
@@ -210,7 +210,7 @@ name = "Extracurricular Activities"
   subheadings = ["Chief Director of Event Planning", "Full Stack Engineer"]
   date = "Summer 2018"
   location = "Taoyuan, TW"
-  points = ["Conducting the annual event with over 300+ attendees"]
+  points = ["Conducted an annual event with over 300+ attendees"]
 
   [[info.sections]]
   title = "NCHU Drama Club"
@@ -218,11 +218,11 @@ name = "Extracurricular Activities"
   date = "Sep. 2019"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
-  points = ["Provide technical support for the annual drama performance for three years"]
+  points = ["Provided technical support for the annual drama performance for three years"]
 
   [[info.sections]]
   title = "NCHU Public Address and Lightning Training Camp"
-  subheadings = ["Selected trainee"]
+  subheadings = ["Selected Trainee"]
   date = "Feb. 2020"
   location = "Taichung, TW"
 
