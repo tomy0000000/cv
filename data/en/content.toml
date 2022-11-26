@@ -63,19 +63,11 @@ name = "Research Experience"
   location = "Taichung, TW"
 
     [[info.sections.points]]
-    name = "Lab Paper Seminar Presentation"
-    details = [
-      "Pre-trained seq2seq model: *BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension*",
-      "Prompt engineering: *Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference*",
-      "Training methodology: *Parameter-Efficient Transfer Learning for NLP*"
-    ]
-
-    [[info.sections.points]]
     name = "Independent Research"
     details = [
-      "Focused on specific use case and characteristics of summarization task",
+      "Focused on specific use cases and characteristics of the summarization task",
       "Experimented with different training methodologies and practices",
-      "Capstone Project: Question Generation Quality Enhancement based on BART",
+      "Capstone Project: **Question Generation Quality Enhancement based on BART**",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
     ]
 
@@ -99,13 +91,13 @@ name = "Work Experience"
   location = "Taipei, TW"
 
     [[info.sections.points]]
-    name = "Debug Agile System"
+    name = "The *Debug Agile System*"
     details = [
       "Developed and maintained the Django Full-stack website for test report visualization",
     ]
 
     [[info.sections.points]]
-    name = "Machine Learning Engineering for Canary Project"
+    name = "Machine Learning Engineering for *Canary Project*"
     details = [
       "Studied and trained time series ML models for different test cases with sktime",
       "Regularized and optimized the data pipeline to improve model accuracy",
@@ -148,13 +140,6 @@ half = true
       "Requests, BeautifulSoup, Scrapy",
     ]
 
-    # [[info.sections.points]]
-    # name = "Toolchains"
-    # details = [
-    #   "Docker, Kubernetes",
-    #   "Git, Git Flow",
-    # ]
-
 
 [[info]]
 name = "Projects"
@@ -171,7 +156,7 @@ name = "Projects"
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
   points = [
     "Designed the landing page and registration system for the event",
-    "Point system used by 300+ attendees",
+    "Developed a point system utilized by 300+ attendees",
     "Built with Laravel, MySQL",
   ]
 
@@ -185,7 +170,7 @@ name = "Projects"
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
-    "Web client for context-answer-based Question Generation with BERT",
+    "Created a web system for context-answer-based Question Generation with BERT",
     "Built with FastAPI, React, Docker",
   ]
 
