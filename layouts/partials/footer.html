@@ -17,9 +17,9 @@
     <a target="_blank" href="{{ .website }}">
       <i class="fas fa-globe"></i>
     </a>
-    {{ $pdf := print "static/" site.Language.Lang ".pdf" }}
+    {{ $pdf := print "static/" .name "_" site.Language.Lang ".pdf" }}
     {{ if (fileExists $pdf) -}}
-      <a target="_blank" href="{{ print site.Language.Lang ".pdf" | relURL }}">
+      <a target="_blank" href="{{ print .name "_" site.Language.Lang ".pdf" | relURL }}">
         <i class="fas fa-print"></i>
       </a>
     {{- end }}
