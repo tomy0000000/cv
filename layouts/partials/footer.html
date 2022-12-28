@@ -19,9 +19,17 @@
     </a>
     {{ $pdf := print "static/" .name "_" site.Language.Lang ".pdf" }}
     {{ if (fileExists $pdf) -}}
-      <a target="_blank" href="{{ print .name "_" site.Language.Lang ".pdf" | relURL }}">
+      <a target="_blank" href="{{ print .name "_" site.Language.Lang ".pdf" | relURL }}" id="print">
         <i class="fas fa-print"></i>
       </a>
+      <!-- Catch print handler -->
+      <script>
+        window.addEventListener("beforeprint", (event) => {
+          event.preventDefault();
+          document.querySelector("a#print").click();
+          location.reload();
+        });
+      </script>
     {{- end }}
   </div>
   <div class="langs">
