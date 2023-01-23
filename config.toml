@@ -6,8 +6,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 favicon = "favicon.png"
-googleAnalytics = "G-Z9FPV34PPF"
-facebookPixel = "1165349783920085"
 
 [languages]
   [languages.en]
