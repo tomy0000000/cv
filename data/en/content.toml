@@ -17,20 +17,10 @@ name = "Education"
   date = "Sep. 2019"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
-
-    [[info.sections.points]]
-    name = "Grades"
-    details = [
-      "Overall GPA: 3.24/4.3 (3.24/4.0)",
-      "Last 60 credits GPA: 3.43/4.3 (3.39/4.0)",
-      "Major GPA: 3.20/4.3 (3.17/4.0)",
-    ]
-
-    [[info.sections.points]]
-    name = "Related Courses: Algorithms, Introduction to Information retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things"
-
-    [[info.sections.points]]
-    name = "School representative for exchange to ECE Paris in Spring 2022 Semester"
+  points = [
+    "Related Courses: Algorithms, Introduction to Information retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
+    "School representative for exchange to ECE Paris in Spring 2022 Semester"
+  ]
 
   [[info.sections]]
   title = "Yuan-Ze University (YZU)"
@@ -38,19 +28,35 @@ name = "Education"
   date = "Sep. 2017"
   enddate = "Aug. 2019"
   location = "Taoyuan, TW"
+  points = [
+    "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
+    "School representative of Soochow University delegation member in 2018"
+  ]
+
+
+[[info]]
+name = "Work Experience"
+
+  [[info.sections]]
+  title = "Software Engineer Internship"
+  subheadings = ["Intel Corporation, Client Computing Group, Chrome Team"]
+  date = "Jul. 2021"
+  enddate = "Dec. 2021"
+  location = "Taipei, TW"
 
     [[info.sections.points]]
-    name = "Grades"
+    name = "The *Debug Agile System*"
     details = [
-      "Overall GPA: 3.49/4.3 (3.44/4.0)",
-      "Major GPA: 3.47/4.3 (3.43/4.0)",
+      "Developed and maintained the Django Full-stack website for test report visualization",
     ]
 
     [[info.sections.points]]
-    name = "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra"
-
-    [[info.sections.points]]
-    name = "School representative of Soochow University delegation member in 2018"
+    name = "Machine Learning Engineering for *Canary Project*"
+    details = [
+      "Studied and trained time series ML models for different test cases with sktime",
+      "Regularized and optimized the data pipeline to improve model accuracy",
+      "Deployed ML models on a unified platform as RESTful API with FastAPI",
+    ]
 
 
 [[info]]
@@ -82,31 +88,6 @@ name = "Research Experience"
 
 
 [[info]]
-name = "Work Experience"
-
-  [[info.sections]]
-  title = "Software Engineer Internship"
-  subheadings = ["Intel Corporation, Client Computing Group, Chrome Team"]
-  date = "Jul. 2021"
-  enddate = "Dec. 2021"
-  location = "Taipei, TW"
-
-    [[info.sections.points]]
-    name = "The *Debug Agile System*"
-    details = [
-      "Developed and maintained the Django Full-stack website for test report visualization",
-    ]
-
-    [[info.sections.points]]
-    name = "Machine Learning Engineering for *Canary Project*"
-    details = [
-      "Studied and trained time series ML models for different test cases with sktime",
-      "Regularized and optimized the data pipeline to improve model accuracy",
-      "Deployed ML models on a unified platform as RESTful API with FastAPI",
-    ]
-
-
-[[info]]
 name = "Awards / Honors"
 half = true
 
@@ -124,26 +105,38 @@ name = "Skills"
 half = true
 
   [[info.sections]]
+  subheadings = ["Explore my full skillset in the dedicated [Project](https://projects.tomy.me) page"]
+  keywords = ["Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow", "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React", "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"]
 
     [[info.sections.points]]
     name = "Programming Languages"
     details = [
       "C/C++, Java",
       "JavaScript, TypeScript, React",
-      "Shell/Bash",
+      "Python, Flask, PyTorch, PyTorch Lightning, Transformers",
     ]
 
     [[info.sections.points]]
-    name = "Python"
+    name = "DevOps"
     details = [
-      "Flask, Django, FastAPI",
-      "PyTorch, PyTorch Lightning, Transformers",
-      "Requests, BeautifulSoup, Scrapy",
+      "Docker, Ansible, Terraform",
+      "AWS, Google Cloud",
+    ]
+
+    [[info.sections.points]]
+    name = "Misc"
+    details = [
+      "Shell/Bash, Git, Makefile",
+      "GitHub Actions, GitHub Flow, Agile Development",
     ]
 
 
 [[info]]
 name = "Projects"
+keywords = ["Python", "JavaScript"]
+
+  [[info.sections]]
+  subheadings = ["Explore my projects in the dedicated [Project](https://projects.tomy.me) page"]
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
@@ -159,13 +152,6 @@ name = "Projects"
     "Designed the landing page and registration system for the event",
     "Developed a point system utilized by 300+ attendees",
     "Built with Laravel, MySQL",
-  ]
-
-  [[info.sections]]
-  title = "[StupidQA](https://github.com/tomy0000000/NCHU-Introduction-to-Information-Retrieval)"
-  points = [
-    "Developed a multiple-choice open-domain question-answering bot",
-    "Built with Python, PySpark, Wikipedia corpus, TF-IDF",
   ]
 
   [[info.sections]]
