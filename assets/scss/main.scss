@@ -73,6 +73,12 @@ li ul {
   padding-bottom: 0rem;
 }
 
+.keywords {
+  color: white;
+  font-size: .1px;
+  position: absolute; // this prevent the empty line height
+}
+
 .container {
   margin: 0 auto;
   max-width: 690px;

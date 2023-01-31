@@ -2,10 +2,16 @@
 <main>
   {{ $data := index site.Data site.Language.Lang }}
   {{ range $data.content.info }}
-  <section{{ if .half }} class="half"{{ end }}>
+  <section {{- if .half }} class="half"{{- end -}}>
     <h2>{{ .name | markdownify }}</h2>
+    {{ with .keywords }}
+      <small class="keywords">{{ range . }}{{ . }} {{ end }}</small>
+    {{ end }}
     {{ range .sections}}
-      <section{{ if and .pagebreak }} class="page-break"{{ end }}>
+      {{ with .keywords }}
+        <small class="keywords">{{ range . }}{{ . }} {{ end }}</small>
+      {{ end }}
+      <section {{- if and .pagebreak }} class="page-break"{{- end -}}>
         {{ if and .title .date }}
           <div class="heading">
             {{ partial "heading.html" . }}
