@@ -12,6 +12,16 @@ headline = "Computer Science Graduate with NLP experience and enthusiasm for use
 name = "Education"
 
   [[info.sections]]
+  title = "Carnegie Mellon University (CMU)"
+  subheadings = ["Master of Software Engineering"]
+  date = "Sep. 2023"
+  enddate = "Dec. 2024"
+  location = "Pittsburgh, PA"
+  points = [
+    "Admitted student to commence degree of program later this year (Dates are listed for reference)"
+  ]
+
+  [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "Sep. 2019"
