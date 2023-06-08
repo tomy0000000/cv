@@ -72,8 +72,8 @@ li ul {
 
 .container {
   margin: 0 auto;
-  width: 790px;
-  padding: 20mm;
+  max-width: 790px;
+  padding: 5vh 10vw;
 }
 
 header {
@@ -99,11 +99,12 @@ header {
     display: inline-block;
     font-size: 1.25em;
     text-decoration: none;
+    line-height: 1.5rem;
+    margin-top: 1rem;
   }
 
   a + a {
     display: block;
-    margin-top: 0.5rem;
   }
 }
 
@@ -119,10 +120,6 @@ main {
     break-inside: avoid;
     page-break-inside: avoid;
   }
-
-  > section.half {
-    grid-column: unset;
-  }
 }
 
 footer {
@@ -131,19 +128,20 @@ footer {
   color: $gray;
   text-align: center;
 
-  div {
+  section {
     margin-bottom: 0.5rem;
   }
 
   .icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem 3rem;
+    flex-wrap: wrap;
+
+
     a {
-      display: inline-block;
       font-size: 2em;
       text-decoration: none;
-    }
-
-    a + a {
-      margin-left: 0.5rem;
     }
   }
 
@@ -224,9 +222,29 @@ footer {
       flex: 0 0 35%;
     }
   }
+
+  footer {
+    .icons {
+      gap: 1rem;
+    }
+  }
 }
 
 @include media(">tablet") {
+  .container {
+    padding: 20mm;
+  }
+
+  main > section.half {
+    grid-column: unset;
+  }
+}
+
+@include media(">desktop") {
+  body {
+    padding: 3rem;
+  }
+
   header {
     a + a {
       display: inline-block;
@@ -234,12 +252,6 @@ footer {
       margin-left: 0.5rem;
       padding-left: 0.5rem;
     }
-  }
-}
-
-@include media(">desktop") {
-  body {
-    padding: 3rem;
   }
 
   .page {

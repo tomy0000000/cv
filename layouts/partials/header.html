@@ -1,32 +1,30 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.content }}
 <header>
-  <div class="page-title">
-    <h1>{{ .name }}</h1>
-    <sub>{{ .subscript }}</sub>
-  </div>
-  <div>
+  <hgroup>
+    <div class="page-title">
+      <h1>{{ .name }}</h1>
+      <sub>{{ .subscript }}</sub>
+    </div>
     <h3 class="headline">{{ $data.content.headline }}</h3>
-  </div>
-  <div>
-    <address>
-      <a target="_blank" href="mailto:{{ .email }}">
-        <i class="fas fa-envelope"></i>
-        {{ .email }}
-      </a>
-      <a target="_blank" href="tel:{{ .phone }}">
-        <i class="fas fa-phone"></i>
-        {{ .phone }}
-      </a>
-      <a target="_blank" href="{{ .website }}">
-        <i class="fas fa-globe"></i>
-        {{ .website }}
-      </a>
-      <a target="_blank" href="https://github.com/{{ .github }}">
-        <i class="fab fa-github"></i>
-        {{ .github }}
-      </a>
-    </address>
-  </div>
+  </hgroup>
+  <address>
+    <a target="_blank" href="mailto:{{ .email }}">
+      <i class="fas fa-envelope"></i>
+      {{ .email }}
+    </a>
+    <a target="_blank" href="tel:{{ .phone }}">
+      <i class="fas fa-phone"></i>
+      {{ .phone }}
+    </a>
+    <a target="_blank" href="{{ .website }}">
+      <i class="fas fa-globe"></i>
+      {{ .website }}
+    </a>
+    <a target="_blank" href="https://github.com/{{ .github }}">
+      <i class="fab fa-github"></i>
+      {{ .github }}
+    </a>
+  </address>
 </header>
 {{ end }}
