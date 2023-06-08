@@ -1,7 +1,6 @@
 baseURL = "https://cv.tomy.me/"
 defaultContentLanguage = "en"
 publishDir = "public"
-title = "Tomy Hsieh"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
@@ -13,6 +12,7 @@ favicon = "favicon.png"
     weight = 1
     [languages.en.params]
       author = "Tomy Hsieh"
+
   [languages.zh-tw]
     languageName = "繁體中文 (台灣)"
     weight = 2
