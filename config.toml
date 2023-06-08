@@ -11,9 +11,13 @@ favicon = "favicon.png"
   [languages.en]
     languageName = "English"
     weight = 1
+    [languages.en.params]
+      author = "Tomy Hsieh"
   [languages.zh-tw]
     languageName = "繁體中文 (台灣)"
     weight = 2
+    [languages.zh-tw.params]
+      author = "謝繼緯"
 
 [blackfriday]
     extensions = ["hardLineBreak"]

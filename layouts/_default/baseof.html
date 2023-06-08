@@ -1,7 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html
+  lang="{{ with .Site.Params.isoCode | default (.Site.LanguageCode | default "en") }}
+    {{- . -}}
+  {{ end }}"
+>
   <head>
-    <title>{{ site.Title }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    {{ with site.Params.htmlCode | default .Site.LanguageCode }}
+      <meta http-equiv="content-language" content="{{ . }}" />
+    {{ end }}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>{{ site.Params.author }}</title>
+
+    <meta name="description" content="{{ site.Params.author }}{{ i18n "ones_cv" }}">
+    <meta name="author" content="{{ site.Params.author }}" />
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
 
     <!-- Favicon -->
     {{ if isset site.Params "favicon" }}
