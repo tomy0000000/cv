@@ -28,7 +28,8 @@ name = "Education"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
   points = [
-    "Related Courses: Algorithms, Introduction to Information retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
+    "Related Courses: Algorithms, Introduction to Information Retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
+    "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
     "School representative for the ECE Paris exchange program in Spring 2022 Semester"
   ]
 
@@ -40,6 +41,7 @@ name = "Education"
   location = "Taoyuan, TW"
   points = [
     "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
+    "Achieved overall 1st place out of 40 on the coding exam of Data Structure",
     "School representative of Soochow University delegation member in 2018"
   ]
 
@@ -58,6 +60,9 @@ name = "Work Experience"
     name = "The *Debug Agile System*"
     details = [
       "Developed and maintained the Django Full-stack website for test report visualization",
+      "Database normalization and migration from SQLite to MySQL",
+      "Integrate with JIRA issue tracker for automating alarm and report",
+      "Major UI redesign and rewrite, which receive over 85% of the user satisfaction rate"
     ]
 
     [[info.sections.points]]
@@ -91,7 +96,7 @@ name = "Research Experience"
     [[info.sections.points]]
     name = "System Development"
     details = [
-      "Designed and maintained a secure, scalable machine learning experiment runtime environment across 20+ on-premise servers",
+      "Designed and maintained a secure, scalable machine learning experiment environment across 20+ on-premise servers",
       "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
       "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
     ]
@@ -115,28 +120,36 @@ name = "Skills"
 half = true
 
   [[info.sections]]
-  subheadings = ["Explore my full skillset in the dedicated [Project](https://projects.tomy.me) page"]
+  subheadings = ["Explore my complete skillset on the dedicated [Project](https://projects.tomy.me) page"]
   keywords = ["Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow", "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React", "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"]
 
     [[info.sections.points]]
-    name = "Programming Languages"
+    name = "Main focus: Python (Expert)"
     details = [
-      "C/C++, Java",
-      "JavaScript, TypeScript, React",
-      "Python, Flask, PyTorch, PyTorch Lightning, Transformers",
+      "Web Scraping: Requests, BeautifulSoup, Scrapy",
+      "Backend: Flask, Django, FastAPI",
+      "ML: PyTorch, PyTorch Lightning",
+      "NLP: HuggingFace Transformers",
     ]
 
     [[info.sections.points]]
-    name = "DevOps"
+    name = "Proficient"
+    details = [
+      "Data structure, Algorithm: C/C++, Java",
+      "Frontend: JavaScript, TypeScript, React, Next.js",
+    ]
+
+    [[info.sections.points]]
+    name = "DevOps & Cloud"
     details = [
       "Docker, Ansible, Terraform",
-      "AWS, Google Cloud",
+      "AWS, Google Cloud, Heroku, Vercel",
     ]
 
     [[info.sections.points]]
     name = "Misc"
     details = [
-      "Shell/Bash, Git, Makefile",
+      "Shell/Bash, Git, GNU Make",
       "GitHub Actions, GitHub Flow, Agile Development",
     ]
 
@@ -146,7 +159,7 @@ name = "Projects"
 keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
-  subheadings = ["Explore my projects in the dedicated [Project](https://projects.tomy.me) page"]
+  subheadings = ["Explore my projects on the dedicated [Project](https://projects.tomy.me) page"]
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
@@ -200,20 +213,20 @@ name = "Extracurricular Activities"
 
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
-  subheadings = ["Chief Director of Event Planning", "Full Stack Engineer"]
+  subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
   date = "Summer 2018"
   location = "Taoyuan, TW"
   points = ["Conducted an annual event with over 300+ attendees"]
 
   [[info.sections]]
   title = "YZU Computer Science Student Association"
-  subheadings = ["Finnancial Chair", ]
+  subheadings = ["Financial Chair"]
   date = "Sep. 2018"
   enddate = "Jan. 2019"
   location = "Taoyuan, TW"
   points = [
     "Secured funding for year-round student activities",
-    "First time of association to publish monthly financial reports, pushing transparency of the association",
+    "First time for the association to publish monthly financial reports, pushing transparency of the association",
   ]
 
   [[info.sections]]
