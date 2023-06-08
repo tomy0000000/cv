@@ -2,16 +2,24 @@
 
 👨🏻‍💻💼 My curriculum vitae, built with Hugo
 
+## Install
+
+This step is optional, but it does a check on every commit to prevent typos.
+
+```sh
+pre-commit install
+```
+
 ## Run Development Server
 
 ```sh
-hugo server -D
+hugo server
 ```
 
 ## Build Static Files
 
 ```sh
-hugo -D
+hugo
 ```
 
 ## Acknowledgment
