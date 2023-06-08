@@ -12,7 +12,7 @@ $breakpoints: (
 
 body {
   font-family: "Roboto", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 h1,
@@ -81,7 +81,7 @@ li ul {
 
 .container {
   margin: 0 auto;
-  max-width: 690px;
+  width: 790px;
   padding: 20mm;
 }
 
@@ -256,7 +256,7 @@ footer {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     margin: auto;
     position: relative;
-    width: 790px;
+    width: 890px;
 
     &::before,
     &::after {
