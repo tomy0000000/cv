@@ -6,7 +6,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-headline = "Computer Science Graduate with NLP experience and enthusiasm for user-centric design"
+headline = "Incoming CMU MSE Student with NLP experience and enthusiasm for user-centric design"
 
 [[info]]
 name = "Education"
@@ -14,11 +14,11 @@ name = "Education"
   [[info.sections]]
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
-  date = "Sep. 2023"
+  date = "Aug. 2023"
   enddate = "Dec. 2024"
   location = "Pittsburgh, PA"
   points = [
-    "Admitted student to commence degree of program later this year (Dates are listed for reference)"
+    "Admitted student to commence degree of the program later this year"
   ]
 
   [[info.sections]]
@@ -29,7 +29,7 @@ name = "Education"
   location = "Taichung, TW"
   points = [
     "Related Courses: Algorithms, Introduction to Information retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
-    "School representative for exchange to ECE Paris in Spring 2022 Semester"
+    "School representative for the ECE Paris exchange program in Spring 2022 Semester"
   ]
 
   [[info.sections]]
@@ -83,7 +83,7 @@ name = "Research Experience"
     name = "Independent Research"
     details = [
       "Focused on specific use cases and characteristics of the summarization task",
-      "Experimented with different training methodologies and practices",
+      "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
       "Capstone Project: **Question Generation Quality Enhancement based on BART**",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
     ]
@@ -167,7 +167,7 @@ keywords = ["Python", "JavaScript"]
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
-    "Created a web system for context-answer-based Question Generation with BERT",
+    "Created a web system for context-answer-based Question Generation with Transformer models",
     "Built with FastAPI, React, Docker",
   ]
 
@@ -196,6 +196,7 @@ name = "Extracurricular Activities"
   subheadings = ["Selected Python Programming Trainee"]
   date = "Mar. 2017"
   enddate = "Jul. 2017"
+  location = "Taipei, TW"
 
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
@@ -205,7 +206,18 @@ name = "Extracurricular Activities"
   points = ["Conducted an annual event with over 300+ attendees"]
 
   [[info.sections]]
-  title = "NCHU Drama Club"
+  title = "YZU Computer Science Student Association"
+  subheadings = ["Finnancial Chair", ]
+  date = "Sep. 2018"
+  enddate = "Jan. 2019"
+  location = "Taoyuan, TW"
+  points = [
+    "Secured funding for year-round student activities",
+    "First time of association to publish monthly financial reports, pushing transparency of the association",
+  ]
+
+  [[info.sections]]
+  title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
   subheadings = ["Equipment Manager", "Executive Consultant"]
   date = "Sep. 2019"
   enddate = "Jun. 2022"
@@ -213,10 +225,16 @@ name = "Extracurricular Activities"
   points = ["Provided technical support for the annual drama performance for three years"]
 
   [[info.sections]]
-  title = "NCHU Public Address and Lightning Training Camp"
+  title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
   subheadings = ["Selected Trainee"]
-  date = "Feb. 2020"
+  date = "Winter 2020"
   location = "Taichung, TW"
+
+  [[info.sections]]
+  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
+  subheadings = ["Selected Trainee"]
+  date = "Summer 2020"
+  location = "Taipei, TW"
 
   [[info.sections]]
   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
