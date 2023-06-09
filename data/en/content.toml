@@ -165,14 +165,16 @@ keywords = ["Python", "JavaScript"]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
     "Created a web system for context-answer-based Question Generation with Transformer models",
+    "Reduced instructors' workload by more than 80% in the question-generation process",
     # "Built with FastAPI, React, Docker",
   ]
 
   [[info.sections]]
   title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
   points = [
-    "Implemented crowd statistics visualization and trend prediction based on Bluetooth signal",
     "Collected people flow data with IoT devices scattered in the library",
+    "Implemented crowd statistics visualization and trend prediction based on Bluetooth signal",
+    "Gives readers a better understanding of the library's usage and helps the library to optimize its space",
     # "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
