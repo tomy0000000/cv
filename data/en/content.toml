@@ -14,7 +14,7 @@ name = "Education"
   [[info.sections]]
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
-  date = "Aug. 2023"
+  date = "May. 2023"
   enddate = "Dec. 2024"
   location = "Pittsburgh, PA"
 
@@ -81,10 +81,10 @@ name = "Research Experience"
   enddate = "Dec. 2021"
   location = "Taichung, TW"
   points = [
-      "Focused on specific use cases and characteristics of the summarization task",
-      "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
       "Capstone Project: **Question Generation Quality Enhancement based on BART**",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
+      "Focused on specific use cases and characteristics of the summarization task",
+      "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
   ]
 
     # [[info.sections.points]]
@@ -220,7 +220,8 @@ name = "Extracurricular Activities"
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
   subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
-  date = "Summer 2018"
+  date = "Jun. 2018"
+  enddate = "Aug. 2018"
   location = "Taoyuan, TW"
   points = ["Conducted an annual event with over 300+ attendees"]
 
@@ -246,13 +247,14 @@ name = "Extracurricular Activities"
   # [[info.sections]]
   # title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
   # subheadings = ["Selected Trainee"]
-  # date = "Winter 2020"
+  # date = "Feb. 2020"
   # location = "Taichung, TW"
 
   [[info.sections]]
   title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
   subheadings = ["Cybersecurity Summer Event hosted by Ministry of Education of Taiwan, Selected National top 200 Trainee"]
-  date = "Summer 2020"
+  date = "Jul. 2020"
+  enddate = "Aug. 2020"
   location = "Taipei, TW"
 
   [[info.sections]]
