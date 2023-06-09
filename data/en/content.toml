@@ -29,7 +29,7 @@ name = "Education"
   location = "Taichung, TW"
   points = [
     "Related Courses: Algorithms, Introduction to Information Retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
-    "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
+    # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
     "School representative for the ECE Paris exchange program in Spring 2022 Semester"
   ]
 
@@ -60,9 +60,9 @@ name = "Work Experience"
     name = "The *Debug Agile System*"
     details = [
       "Developed and maintained the Django Full-stack website for test report visualization",
-      "Database normalization and migration from SQLite to MySQL",
+      # "Database normalization and migration from SQLite to MySQL",
       "Integrate with JIRA issue tracker for automating alarm and report",
-      "Major UI redesign and rewrite, which receive over 85% of the user satisfaction rate"
+      "Rewrote and redesigned major UI and received over 85% of the user satisfaction rate"
     ]
 
     [[info.sections.points]]
@@ -83,28 +83,33 @@ name = "Research Experience"
   date = "Jul. 2020"
   enddate = "Dec. 2021"
   location = "Taichung, TW"
-
-    [[info.sections.points]]
-    name = "Independent Research"
-    details = [
+  points = [
       "Focused on specific use cases and characteristics of the summarization task",
       "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
       "Capstone Project: **Question Generation Quality Enhancement based on BART**",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
-    ]
+  ]
 
-    [[info.sections.points]]
-    name = "System Development"
-    details = [
-      "Designed and maintained a secure, scalable machine learning experiment environment across 20+ on-premise servers",
-      "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
-      "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
-    ]
+    # [[info.sections.points]]
+    # name = "Independent Research"
+    # details = [
+    #   "Focused on specific use cases and characteristics of the summarization task",
+    #   "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
+    #   "Capstone Project: **Question Generation Quality Enhancement based on BART**",
+    #   "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
+    # ]
+
+    # [[info.sections.points]]
+    # name = "System Development"
+    # details = [
+    #   "Designed and maintained a secure, scalable machine learning experiment environment across 20+ on-premise servers",
+    #   "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
+    #   "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
+    # ]
 
 
 [[info]]
 name = "Awards / Honors"
-half = true
 
   [[info.sections]]
   points = [
@@ -150,12 +155,16 @@ half = true
     name = "Misc"
     details = [
       "Shell/Bash, Git, GNU Make",
-      "GitHub Actions, GitHub Flow, Agile Development",
+      "Continuous Integration, GitHub Actions, GitHub Flow",
+      "Agile Development",
+      "Test-Driven Development",
+      "Object-Oriented Programming",
     ]
 
 
 [[info]]
 name = "Projects"
+half = true
 keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
@@ -166,7 +175,7 @@ keywords = ["Python", "JavaScript"]
   points = [
     "Developed an automated personal YouTube management platform",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
-    "Built with Flask, PostgreSQL, Celery, Docker",
+    # "Built with Flask, PostgreSQL, Celery, Docker",
   ]
 
   [[info.sections]]
@@ -174,14 +183,14 @@ keywords = ["Python", "JavaScript"]
   points = [
     "Designed the landing page and registration system for the event",
     "Developed a point system utilized by 300+ attendees",
-    "Built with Laravel, MySQL",
+    # "Built with Laravel, MySQL",
   ]
 
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
     "Created a web system for context-answer-based Question Generation with Transformer models",
-    "Built with FastAPI, React, Docker",
+    # "Built with FastAPI, React, Docker",
   ]
 
   [[info.sections]]
@@ -189,7 +198,7 @@ keywords = ["Python", "JavaScript"]
   points = [
     "Implemented crowd statistics visualization and trend prediction based on Bluetooth signal",
     "Collected people flow data with IoT devices scattered in the library",
-    "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
+    # "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
 
@@ -206,7 +215,7 @@ name = "Extracurricular Activities"
 
   [[info.sections]]
   title = "NTU Sprout program"
-  subheadings = ["Selected Python Programming Trainee"]
+  subheadings = ["High School Python Programming Selected Trainee"]
   date = "Mar. 2017"
   enddate = "Jul. 2017"
   location = "Taipei, TW"
@@ -218,39 +227,39 @@ name = "Extracurricular Activities"
   location = "Taoyuan, TW"
   points = ["Conducted an annual event with over 300+ attendees"]
 
-  [[info.sections]]
-  title = "YZU Computer Science Student Association"
-  subheadings = ["Financial Chair"]
-  date = "Sep. 2018"
-  enddate = "Jan. 2019"
-  location = "Taoyuan, TW"
-  points = [
-    "Secured funding for year-round student activities",
-    "First time for the association to publish monthly financial reports, pushing transparency of the association",
-  ]
+  # [[info.sections]]
+  # title = "YZU Computer Science Student Association"
+  # subheadings = ["Financial Chair"]
+  # date = "Sep. 2018"
+  # enddate = "Jan. 2019"
+  # location = "Taoyuan, TW"
+  # points = [
+  #   "Secured funding for year-round student activities",
+  #   "First time for the association to publish monthly financial reports, pushing transparency of the association",
+  # ]
 
   [[info.sections]]
   title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
-  subheadings = ["Equipment Manager", "Executive Consultant"]
+  subheadings = ["Equipment Manager / Executive Consultant"]
   date = "Sep. 2019"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
-  points = ["Provided technical support for the annual drama performance for three years"]
+  points = ["Provided technical support as well as strategic advice for club operations"]
 
-  [[info.sections]]
-  title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
-  subheadings = ["Selected Trainee"]
-  date = "Winter 2020"
-  location = "Taichung, TW"
+  # [[info.sections]]
+  # title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
+  # subheadings = ["Selected Trainee"]
+  # date = "Winter 2020"
+  # location = "Taichung, TW"
 
   [[info.sections]]
   title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
-  subheadings = ["Selected Trainee"]
+  subheadings = ["Cybersecurity Summer Event hosted by Ministry of Education of Taiwan, Selected National top 200 Trainee"]
   date = "Summer 2020"
   location = "Taipei, TW"
 
   [[info.sections]]
   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
-  subheadings = ["Volunteer of Event Staff / Session Chair"]
+  subheadings = ["Diversity sponsored volunteer / Session Chair"]
   date = "Apr. 2022"
   location = "Berlin, DE"
