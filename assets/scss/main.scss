@@ -183,6 +183,10 @@ footer {
     padding: 0;
   }
 
+  main > section.half {
+    grid-column: unset;
+  }
+
   div {
     break-inside: avoid;
     page-break-inside: avoid;
