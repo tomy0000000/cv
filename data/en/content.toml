@@ -25,22 +25,21 @@ name = "Education"
   enddate = "Jun. 2022"
   location = "Taichung, TW"
   points = [
-    "Related Courses: Algorithms, Introduction to Information Retrieval, Introduction to Data Mining and Machine Learning, Artificial Intelligent Internet of Things",
+    "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
     # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
-    "School representative for the ECE Paris exchange program in Spring 2022 Semester"
   ]
 
-  [[info.sections]]
-  title = "Yuan-Ze University (YZU)"
-  subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
-  date = "Sep. 2017"
-  enddate = "Aug. 2019"
-  location = "Taoyuan, TW"
-  points = [
-    "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
-    "Achieved overall 1st place out of 40 on the coding exam of Data Structure",
-    "School representative of Soochow University delegation member in 2018"
-  ]
+  # [[info.sections]]
+  # title = "Yuan-Ze University (YZU)"
+  # subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
+  # date = "Sep. 2017"
+  # enddate = "Aug. 2019"
+  # location = "Taoyuan, TW"
+  # points = [
+  #   "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
+  #   "Achieved overall 1st place out of 40 on the coding exam of Data Structure",
+  #   "School representative of Soochow University delegation member in 2018"
+  # ]
 
 
 [[info]]
@@ -84,7 +83,7 @@ name = "Research Experience"
       "Capstone Project: **Question Generation Quality Enhancement based on BART**",
       "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
       "Focused on specific use cases and characteristics of the summarization task",
-      "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
+      "Experimented with the difference between traditional fine-tuning and adapter-based fine-tuning",
   ]
 
     # [[info.sections.points]]
@@ -106,62 +105,41 @@ name = "Research Experience"
 
 
 [[info]]
-name = "Awards / Honors"
+name = "Skills"
+# half = true
 
   [[info.sections]]
+  subheadings = ["Explore my complete skillset on the dedicated [Project](https://projects.tomy.me) page"]
+  keywords = [
+    "Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow",
+    "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React",
+    "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"
+  ]
   points = [
-    "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-    "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
-    "Rank national top 2% among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
-    "Diversity sponsored attendee, PyConDE & PyData Berlin 2022",
+    "Programming Languages: Python, C/C++, Java, JavaScript/TypeScript, Bash",
+    "Python: Flask, Django, FastAPI, Requests, BeautifulSoup, Scrapy",
+    "Machine Learning: PyTorch, PyTorch Lightning, HuggingFace Transformers, sktime",
+    "Frontend: HTML, CSS, Bootstrap, React, Next.js",
+    "DevOps: Docker, Ansible, Terraform",
+    "Cloud: Google Cloud, AWS, Vercel, Heroku, Netlify",
+    "Web Server: Nginx, Apache, Caddy, Traefik",
+    "Tools: Git, GNU Make, GitHub Actions",
   ]
 
 
 [[info]]
-name = "Skills"
-half = true
+name = "Awards / Honors"
+# half = true
 
   [[info.sections]]
-  subheadings = ["Explore my complete skillset on the dedicated [Project](https://projects.tomy.me) page"]
-  keywords = ["Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow", "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React", "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"]
-
-    [[info.sections.points]]
-    name = "Main focus: Python (Expert)"
-    details = [
-      "Web Scraping: Requests, BeautifulSoup, Scrapy",
-      "Backend: Flask, Django, FastAPI",
-      "ML: PyTorch, PyTorch Lightning",
-      "NLP: HuggingFace Transformers",
-    ]
-
-    [[info.sections.points]]
-    name = "Proficient"
-    details = [
-      "Data structure, Algorithm: C/C++, Java",
-      "Frontend: JavaScript, TypeScript, React, Next.js",
-    ]
-
-    [[info.sections.points]]
-    name = "DevOps & Cloud"
-    details = [
-      "Docker, Ansible, Terraform",
-      "AWS, Google Cloud, Heroku, Vercel",
-    ]
-
-    [[info.sections.points]]
-    name = "Misc"
-    details = [
-      "Shell/Bash, Git, GNU Make",
-      "Continuous Integration, GitHub Actions, GitHub Flow",
-      "Agile Development",
-      "Test-Driven Development",
-      "Object-Oriented Programming",
-    ]
-
+  points = [
+    "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
+    "Rank national top 2% among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
+    "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
+  ]
 
 [[info]]
 name = "Projects"
-half = true
 keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
