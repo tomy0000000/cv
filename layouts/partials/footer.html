@@ -23,7 +23,6 @@
         <i class="fas fa-print"></i>
       </a>
       <!-- Catch print handler -->
-      <pre>{{ site.Params.redirectprint }}</pre>
       {{- if site.Params.redirectprint -}}
       <script>
         window.addEventListener("beforeprint", (event) => {
