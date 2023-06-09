@@ -17,9 +17,6 @@ name = "Education"
   date = "Aug. 2023"
   enddate = "Dec. 2024"
   location = "Pittsburgh, PA"
-  points = [
-    "Admitted student to commence degree of the program later this year"
-  ]
 
   [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
