@@ -23,13 +23,16 @@
         <i class="fas fa-print"></i>
       </a>
       <!-- Catch print handler -->
+      <pre>{{ site.Params.redirectprint }}</pre>
+      {{- if site.Params.redirectprint -}}
       <script>
-        {{/*  window.addEventListener("beforeprint", (event) => {
+        window.addEventListener("beforeprint", (event) => {
           event.preventDefault();
           document.querySelector("a#print").click();
           location.reload();
-        });  */}}
+        });
       </script>
+      {{- end -}}
     {{- end }}
   </section>
   <section class="langs">

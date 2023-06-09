@@ -5,6 +5,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 favicon = "favicon.png"
+redirectPrint = true
 
 [languages]
   [languages.en]

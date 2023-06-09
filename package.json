@@ -1,0 +1,9 @@
+{
+  "name": "tomy-cv",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "hugo server --gc --minify --environment dev --bind 0.0.0.0",
+    "build": "hugo --gc --minify"
+  }
+}
