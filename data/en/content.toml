@@ -203,22 +203,10 @@ keywords = ["Python", "JavaScript"]
 
 
 [[info]]
-name = "Extracurricular Activities"
+name = "Leadership & Extracurricular Activities"
 
   [[info.sections]]
-  title = "AHSNCCU Pop Music Club"
-  subheadings = ["Event General Coordinator"]
-  date = "Sep. 2015"
-  enddate = "Jun. 2016"
-  location = "Taipei, TW"
-  points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting 1000+ audiences"]
-
-  [[info.sections]]
-  title = "NTU Sprout program"
-  subheadings = ["High School Python Programming Selected Trainee"]
-  date = "Mar. 2017"
-  enddate = "Jul. 2017"
-  location = "Taipei, TW"
+  subheadings = ["Listed in relevancy chronological order"]
 
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
@@ -226,7 +214,43 @@ name = "Extracurricular Activities"
   date = "Jun. 2018"
   enddate = "Aug. 2018"
   location = "Taoyuan, TW"
-  points = ["Conducted an annual event with over 300+ attendees"]
+  points = ["Conducted an annual event with over **300+ attendees**"]
+
+  [[info.sections]]
+  title = "AHSNCCU Pop Music Club"
+  subheadings = ["Event General Coordinator"]
+  date = "Sep. 2015"
+  enddate = "Jun. 2016"
+  location = "Taipei, TW"
+  points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting **1000+ audiences**"]
+
+  [[info.sections]]
+  title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
+  subheadings = ["Equipment Manager / Executive Consultant"]
+  date = "Sep. 2019"
+  enddate = "Jun. 2022"
+  location = "Taichung, TW"
+  points = ["Provided technical support as well as strategic advice for club operations"]
+
+  [[info.sections]]
+  title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
+  subheadings = ["Diversity sponsored volunteer / Session Chair"]
+  date = "Apr. 2022"
+  location = "Berlin, DE"
+
+  [[info.sections]]
+  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
+  subheadings = ["Cybersecurity Summer Event hosted by Ministry of Education of Taiwan, Selected National top 200 Trainee"]
+  date = "Jul. 2020"
+  enddate = "Aug. 2020"
+  location = "Taipei, TW"
+
+  [[info.sections]]
+  title = "NTU Sprout program"
+  subheadings = ["High School Python Programming Selected Trainee"]
+  date = "Mar. 2017"
+  enddate = "Jul. 2017"
+  location = "Taipei, TW"
 
   # [[info.sections]]
   # title = "YZU Computer Science Student Association"
@@ -239,29 +263,8 @@ name = "Extracurricular Activities"
   #   "First time for the association to publish monthly financial reports, pushing transparency of the association",
   # ]
 
-  [[info.sections]]
-  title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
-  subheadings = ["Equipment Manager / Executive Consultant"]
-  date = "Sep. 2019"
-  enddate = "Jun. 2022"
-  location = "Taichung, TW"
-  points = ["Provided technical support as well as strategic advice for club operations"]
-
   # [[info.sections]]
   # title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
   # subheadings = ["Selected Trainee"]
   # date = "Feb. 2020"
   # location = "Taichung, TW"
-
-  [[info.sections]]
-  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
-  subheadings = ["Cybersecurity Summer Event hosted by Ministry of Education of Taiwan, Selected National top 200 Trainee"]
-  date = "Jul. 2020"
-  enddate = "Aug. 2020"
-  location = "Taipei, TW"
-
-  [[info.sections]]
-  title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
-  subheadings = ["Diversity sponsored volunteer / Session Chair"]
-  date = "Apr. 2022"
-  location = "Berlin, DE"
