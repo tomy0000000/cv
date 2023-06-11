@@ -184,9 +184,21 @@ footer {
     padding: 0;
   }
 
-  main > section.half {
-    grid-column: unset;
-  }
+  main {
+    div.heading {
+      display: flex;
+      justify-content: space-between;
+
+      div:nth-last-child(1) {
+        text-align: right;
+        flex: 0 0 35%;
+      }
+    }
+
+    section.half {
+      grid-column: unset;
+    }
+  } 
 
   div {
     break-inside: avoid;
