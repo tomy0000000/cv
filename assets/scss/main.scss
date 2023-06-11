@@ -55,13 +55,8 @@ a > i {
 
 ul {
   margin: 0;
-  padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   list-style-type: disc;
-}
-
-li ul {
-  padding-bottom: 0rem;
 }
 
 .keywords {
@@ -115,7 +110,7 @@ main {
 
   > section {
     grid-column: 1 / span 2;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     display: inline-block;
     break-inside: avoid;
     page-break-inside: avoid;
