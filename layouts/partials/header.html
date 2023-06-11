@@ -3,10 +3,18 @@
 <header>
   <hgroup>
     <div class="page-title">
-      <h1>{{ .name }}</h1>
+      <h1>
+        {{ range .name }}
+          <span>{{ . }}</span>
+        {{ end }}
+      </h1>
       <sub>{{ .subscript }}</sub>
     </div>
-    <h3 class="headline">{{ $data.content.headline }}</h3>
+    <h3 class="headline">
+    {{ range $data.content.headline }}
+      <span>{{ . }}</span>
+    {{ end }}
+    </h3>
   </hgroup>
   <address>
     <a target="_blank" href="mailto:{{ .email }}">

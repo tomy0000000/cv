@@ -40,7 +40,7 @@
     {{ end }}
   </section>
   <section class="copyright">
-    <span>Copyright © {{ now.Format "2006" }} {{ .name }}.</span>
+    <span>Copyright © {{ now.Format "2006" }} {{ delimit .name " " }}.</span>
     <span>{{ i18n "all_rights_reserved" }}</span>
   </section>
 </footer>

@@ -1,4 +1,4 @@
-name = "Tomy (Chi-Wei) Hsieh"
+name = ["Tomy", "(Chi-Wei)", "Hsieh"]
 # subscript = "CMU User ID: cmu@tomy.me"
 email = "cv@tomy.me"
 phone = "+886-988-780-175"
@@ -6,7 +6,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-headline = "Incoming CMU MSE Student with Python, NLP experience and enthusiasm for user-centric design"
+headline = ["Incoming CMU MSE Student with Python, NLP experience", " and enthusiasm for user-centric design"]
 
 [[info]]
 name = "Education"

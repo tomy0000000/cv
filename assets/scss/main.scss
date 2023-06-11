@@ -59,6 +59,10 @@ ul {
   list-style-type: disc;
 }
 
+span { // this help breaking long lines at correct places
+  display: inline-block;
+}
+
 .keywords {
   color: white;
   font-size: .1px;
@@ -159,11 +163,6 @@ footer {
       margin-left: 0.5rem;
       padding-left: 0.5rem;
     }
-  }
-
-  .copyright span {
-    color: $gray;
-    display: inline-block;
   }
 }
 
