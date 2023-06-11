@@ -6,7 +6,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-headline = "Incoming CMU MSE Student with NLP experience and enthusiasm for user-centric design"
+headline = "Incoming CMU MSE Student with Python, NLP experience and enthusiasm for user-centric design"
 
 [[info]]
 name = "Education"
@@ -47,7 +47,7 @@ name = "Work Experience"
 
   [[info.sections]]
   title = "Software Engineer Internship"
-  subheadings = ["Intel Corporation, Client Computing Group, Chrome Team"]
+  subheadings = ["Intel Corporation, Chrome Team"]
   date = "Jul. 2021"
   enddate = "Dec. 2021"
   location = "Taipei, TW"
@@ -55,18 +55,18 @@ name = "Work Experience"
     [[info.sections.points]]
     name = "The *Debug Agile System*"
     details = [
-      "Developed and maintained the Django Full-stack website for test report visualization",
+      "Developed and maintained the **Django** Full-stack website for test report visualization",
       # "Database normalization and migration from SQLite to MySQL",
-      "Integrate with JIRA issue tracker for automating alarm and report",
-      "Rewrote and redesigned major UI and received over 85% of the user satisfaction rate"
+      "Integrated with JIRA issue tracker for automating alarm and report",
+      "Rewrote and redesigned UI and received **over 85%** of the user satisfaction rate"
     ]
 
     [[info.sections.points]]
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
-      "Trained and deployed time series models for system failure detection with sktime",
-      "Improved model accuracy by applying data validation on the data pipeline with Pydantic",
-      "Deployed ML models on a unified platform as RESTful API with FastAPI",
+      "Trained and deployed time series models for system failure detection with **sktime**",
+      "Improved model accuracy by applying data validation on the data pipeline with **Pydantic**",
+      "Increased usability to by deploying and served the models on a unified RESTful API platform with **FastAPI**",
     ]
 
 
@@ -80,10 +80,10 @@ name = "Research Experience"
   enddate = "Dec. 2021"
   location = "Taichung, TW"
   points = [
-      "Capstone Project: **Question Generation Quality Enhancement based on BART**",
-      "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
-      "Focused on specific use cases and characteristics of the summarization task",
-      "Experimented with the difference between traditional fine-tuning and adapter-based fine-tuning",
+      "Capstone Project: *Question Generation Quality Enhancement based on **BART***",
+      "**Honorable Mention** of Departmental Capstone Project Contest among 40+ contestants",
+      "Researched specific use cases and characteristics of the **summarization** task",
+      "Experimented with the difference between traditional and adapter-based fine-tuning",
   ]
 
     # [[info.sections.points]]
@@ -112,14 +112,14 @@ name = "Skills"
   subheadings = ["Explore my complete skillset on the dedicated [Project](https://projects.tomy.me) page"]
   keywords = [
     "Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow",
-    "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React",
+    "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "Rails", "React",
     "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"
   ]
   grid = true
 
     [[info.sections.points]]
     name = "Programming Languages"
-    details = "Python, C/C++, Java, JavaScript/TypeScript, Bash"
+    details = "Python, C/C++, Java, JavaScript/TypeScript, Ruby, Bash"
 
     [[info.sections.points]]
     name = "Python"
@@ -157,21 +157,21 @@ name = "Awards / Honors"
   [[info.sections]]
   points = [
     "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-    "Rank national top 2% among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
+    "Ranked **national top 2%** among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
     "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
   ]
 
 [[info]]
-name = "Projects"
+name = "Selected Projects"
 keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
-  subheadings = ["Explore my projects on the dedicated [Project](https://projects.tomy.me) page"]
+  subheadings = ["Explore more projects on my dedicated [Project](https://projects.tomy.me) site"]
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
   points = [
-    "Developed an automated personal YouTube management platform",
+    "Developed an automated personal YouTube management platform with **Flask** and **PostgreSQL**",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
     # "Built with Flask, PostgreSQL, Celery, Docker",
   ]
@@ -180,16 +180,14 @@ keywords = ["Python", "JavaScript"]
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
   points = [
     "Designed the landing page and registration system for the event",
-    "Developed a point system utilized by 300+ attendees",
-    # "Built with Laravel, MySQL",
+    "Developed a point system utilized by 300+ attendees with **Laravel** and **MySQL**",
   ]
 
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
-    "Created a web system for context-answer-based Question Generation with Transformer models",
+    "Created a web system for context-answer-based Question Generation with **React** and **Transformers**",
     "Reduced instructors' workload by more than 80% in the question-generation process",
-    # "Built with FastAPI, React, Docker",
   ]
 
   [[info.sections]]
