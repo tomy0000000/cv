@@ -64,7 +64,7 @@ name = "Work Experience"
     [[info.sections.points]]
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
-      "Studied and trained time series ML models for different test cases with sktime",
+      "Trained and deployed time series models for system failure detection with sktime",
       "Regularized and optimized the data pipeline to improve model accuracy",
       "Deployed ML models on a unified platform as RESTful API with FastAPI",
     ]
