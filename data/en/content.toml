@@ -14,7 +14,7 @@ name = "Education"
   [[info.sections]]
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
-  date = "May. 2023"
+  date = "May 2023"
   enddate = "Dec. 2024"
   location = "Pittsburgh, PA"
 
