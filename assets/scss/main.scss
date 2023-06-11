@@ -71,7 +71,7 @@ span { // this help breaking long lines at correct places
 
 .container {
   margin: 0 auto;
-  max-width: 790px;
+  max-width: 680px;
   padding: 5vh 10vw;
 }
 
@@ -265,7 +265,7 @@ footer {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
     margin: auto;
     position: relative;
-    width: 890px;
+    width: 850px;
 
     &::before,
     &::after {
