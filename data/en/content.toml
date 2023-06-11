@@ -65,7 +65,7 @@ name = "Work Experience"
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
       "Trained and deployed time series models for system failure detection with sktime",
-      "Regularized and optimized the data pipeline to improve model accuracy",
+      "Improved model accuracy by applying data validation on the data pipeline with Pydantic",
       "Deployed ML models on a unified platform as RESTful API with FastAPI",
     ]
 
