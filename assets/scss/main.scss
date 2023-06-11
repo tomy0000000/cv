@@ -120,6 +120,14 @@ main {
     break-inside: avoid;
     page-break-inside: avoid;
   }
+
+  .grid {
+    display: grid;
+
+    .details {
+      grid-column: 2;
+    }
+  }
 }
 
 footer {

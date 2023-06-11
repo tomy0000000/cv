@@ -20,8 +20,14 @@
         {{ else }}
           {{ partial "heading.html" . }}
         {{ end }}
-        {{ with .points }}
-          {{ partial "bullet_points.html" .}}
+        {{ if .grid }}
+          {{ with .points }}
+            {{ partial "grid.html" . }}
+          {{ end }}
+        {{ else }}
+          {{ with .points }}
+            {{ partial "bullet_points.html" . }}
+          {{ end }}
         {{ end }}
       </section>
     {{ end }}

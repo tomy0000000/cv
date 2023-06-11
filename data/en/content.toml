@@ -115,16 +115,39 @@ name = "Skills"
     "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "React",
     "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"
   ]
-  points = [
-    "Programming Languages: Python, C/C++, Java, JavaScript/TypeScript, Bash",
-    "Python: Flask, Django, FastAPI, Requests, BeautifulSoup, Scrapy",
-    "Machine Learning: PyTorch, PyTorch Lightning, HuggingFace Transformers, sktime",
-    "Frontend: HTML, CSS, Bootstrap, React, Next.js",
-    "DevOps: Docker, Ansible, Terraform",
-    "Cloud: Google Cloud, AWS, Vercel, Heroku, Netlify",
-    "Web Server: Nginx, Apache, Caddy, Traefik",
-    "Tools: Git, GNU Make, GitHub Actions",
-  ]
+  grid = true
+
+    [[info.sections.points]]
+    name = "Programming Languages"
+    details = "Python, C/C++, Java, JavaScript/TypeScript, Bash"
+
+    [[info.sections.points]]
+    name = "Python"
+    details = "Flask, Django, FastAPI, Requests, BeautifulSoup, Scrapy"
+
+    [[info.sections.points]]
+    name = "Machine Learning"
+    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers, sktime"
+
+    [[info.sections.points]]
+    name = "Frontend"
+    details = "HTML, CSS, Bootstrap, React, Next.js"
+
+    [[info.sections.points]]
+    name = "DevOps"
+    details = "Docker, Ansible, Terraform"
+
+    [[info.sections.points]]
+    name = "Cloud"
+    details = "Google Cloud, AWS, Vercel, Heroku, Netlify"
+
+    [[info.sections.points]]
+    name = "Web Server"
+    details = "Nginx, Apache, Caddy, Traefik"
+
+    [[info.sections.points]]
+    name = "Tools"
+    details = "Git, GNU Make, GitHub Actions"
 
 
 [[info]]
