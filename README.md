@@ -2,7 +2,16 @@
 
 👨🏻‍💻💼 My curriculum vitae, built with Hugo
 
-## Install
+## Features
+
+- ⚡️ Blazingly fast to load (99% in Chrome's Lighthouse Performance)
+- 🕵🏻‍♂️ Auto typo check (with pre-commit)
+- ⏪ History edits checked in (with git)
+- 🖨 Printable and PDF Ready
+- 🔍 SEO Built-in (Favicons, Metatags,...)
+- 📇 Indexable, works well with Applicant Tracking Systems
+
+### Install
 
 This step is optional, but it does a check on every commit to prevent typos.
 
@@ -10,13 +19,13 @@ This step is optional, but it does a check on every commit to prevent typos.
 pre-commit install
 ```
 
-## Run Development Server
+### Run Development Server
 
 ```sh
 hugo server
 ```
 
-## Build Static Files
+### Build Static Files
 
 ```sh
 hugo
