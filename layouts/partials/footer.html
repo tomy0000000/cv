@@ -3,24 +3,24 @@
 <footer>
   <section class="icons">
     <a target="_blank" href="mailto:{{ .email }}">
-      <i class="fas fa-envelope"></i>
+      {{ readFile "assets/icon/envelope.svg" | safeHTML }}
     </a>
     <a target="_blank" href="tel:{{ .phone }}">
-      <i class="fas fa-phone"></i>
+      {{ readFile "assets/icon/phone.svg" | safeHTML }}
     </a>
     <a target="_blank" href="https://github.com/{{ .github }}">
-      <i class="fab fa-github"></i>
+      {{ readFile "assets/icon/github.svg" | safeHTML }}
     </a>
     <a target="_blank" href="https://www.linkedin.com/in/{{ .linkedin }}">
-      <i class="fab fa-linkedin"></i>
+      {{ readFile "assets/icon/linkedin.svg" | safeHTML }}
     </a>
     <a target="_blank" href="{{ .website }}">
-      <i class="fas fa-globe"></i>
+      {{ readFile "assets/icon/globe.svg" | safeHTML }}
     </a>
     {{ $pdf := print "static/" (delimit .name " ") "_" site.Language.Lang ".pdf" }}
     {{ if (fileExists $pdf) -}}
       <a target="_blank" href="{{ print (delimit .name " ") "_" site.Language.Lang ".pdf" | relURL }}" id="print">
-        <i class="fas fa-print"></i>
+        {{ readFile "assets/icon/print.svg" | safeHTML }}
       </a>
       <!-- Catch print handler -->
       {{- if site.Params.redirectprint -}}
