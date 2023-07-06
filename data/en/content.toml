@@ -66,7 +66,7 @@ name = "Work Experience"
     details = [
       "Trained and deployed time series models for system failure detection with **sktime**",
       "Improved model accuracy by applying data validation on the data pipeline with **Pydantic**",
-      "Increased usability to by deploying and served the models on a unified RESTful API platform with **FastAPI**",
+      "Increased usability by deploying and serving the models on a unified RESTful API platform with **FastAPI**",
     ]
 
 
