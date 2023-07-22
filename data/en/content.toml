@@ -15,14 +15,14 @@ name = "Education"
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
   date = "May 2023"
-  enddate = "Dec. 2024"
+  enddate = "December 2024"
   location = "Pittsburgh, PA"
 
   [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
   subheadings = ["Bachelor of Science in Computer Science"]
-  date = "Sep. 2019"
-  enddate = "Jun. 2022"
+  date = "September 2019"
+  enddate = "June 2022"
   location = "Taichung, TW"
   points = [
     "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
@@ -32,8 +32,8 @@ name = "Education"
   # [[info.sections]]
   # title = "Yuan-Ze University (YZU)"
   # subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
-  # date = "Sep. 2017"
-  # enddate = "Aug. 2019"
+  # date = "September 2017"
+  # enddate = "August 2019"
   # location = "Taoyuan, TW"
   # points = [
   #   "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
@@ -48,8 +48,8 @@ name = "Work Experience"
   [[info.sections]]
   title = "Software Engineer Internship"
   subheadings = ["Intel Corporation, Chrome Team"]
-  date = "Jul. 2021"
-  enddate = "Dec. 2021"
+  date = "July 2021"
+  enddate = "December 2021"
   location = "Taipei, TW"
 
     [[info.sections.points]]
@@ -76,8 +76,8 @@ name = "Research Experience"
   [[info.sections]]
   title = "Research Assistant"
   subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)", "Advisor: Yao-Chung Fan"]
-  date = "Jul. 2020"
-  enddate = "Dec. 2021"
+  date = "July 2020"
+  enddate = "December 2021"
   location = "Taichung, TW"
   points = [
       "Capstone Project: *Question Generation Quality Enhancement based on **BART***",
@@ -209,52 +209,52 @@ name = "Leadership & Extracurricular Activities"
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
   subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
-  date = "Jun. 2018"
-  enddate = "Aug. 2018"
+  date = "June 2018"
+  enddate = "August 2018"
   location = "Taoyuan, TW"
   points = ["Conducted an annual event with over **300+ attendees**"]
 
   [[info.sections]]
   title = "AHSNCCU Pop Music Club"
   subheadings = ["Event General Coordinator"]
-  date = "Sep. 2015"
-  enddate = "Jun. 2016"
+  date = "September 2015"
+  enddate = "June 2016"
   location = "Taipei, TW"
   points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting **1000+ audiences**"]
 
   [[info.sections]]
   title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
   subheadings = ["Equipment Manager / Executive Consultant"]
-  date = "Sep. 2019"
-  enddate = "Jun. 2022"
+  date = "September 2019"
+  enddate = "June 2022"
   location = "Taichung, TW"
   points = ["Provided technical support as well as strategic advice for club operations"]
 
   [[info.sections]]
   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
   subheadings = ["Diversity sponsored volunteer / Session Chair"]
-  date = "Apr. 2022"
+  date = "April 2022"
   location = "Berlin, DE"
 
   [[info.sections]]
   title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
   subheadings = ["Join the Ministry of Education of Taiwan's Cybersecurity Summer Event as one of the chosen top 200 trainees from across the nation"]
-  date = "Jul. 2020"
-  enddate = "Aug. 2020"
+  date = "July 2020"
+  enddate = "August 2020"
   location = "Taipei, TW"
 
   [[info.sections]]
   title = "NTU Sprout program"
   subheadings = ["High School Python Programming Selected Trainee"]
-  date = "Mar. 2017"
-  enddate = "Jul. 2017"
+  date = "March 2017"
+  enddate = "July 2017"
   location = "Taipei, TW"
 
   # [[info.sections]]
   # title = "YZU Computer Science Student Association"
   # subheadings = ["Financial Chair"]
-  # date = "Sep. 2018"
-  # enddate = "Jan. 2019"
+  # date = "September 2018"
+  # enddate = "January 2019"
   # location = "Taoyuan, TW"
   # points = [
   #   "Secured funding for year-round student activities",
@@ -264,5 +264,5 @@ name = "Leadership & Extracurricular Activities"
   # [[info.sections]]
   # title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
   # subheadings = ["Selected Trainee"]
-  # date = "Feb. 2020"
+  # date = "February 2020"
   # location = "Taichung, TW"
