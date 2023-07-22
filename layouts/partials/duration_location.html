@@ -1,10 +1,8 @@
 {{ if .date }}
-  <div>
-    <h3>
-      {{ .date }}{{ with .enddate }} - {{ . }}{{ end }}
-    </h3>
-    {{ with .location }}
-    <p><em>{{ . }}</em></p>
-    {{ end }}
-  </div>
+<div>
+  <p><time>{{ .date }}</time>{{ with .enddate }} - <time>{{ . }}</time>{{ end }}</p>
+  {{ with .location }}
+  <p><em>{{ . }}</em></p>
+  {{ end }}
+</div>
 {{ end }}
