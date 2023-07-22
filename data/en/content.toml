@@ -171,7 +171,7 @@ keywords = ["Python", "JavaScript"]
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
   points = [
-    "Developed an automated personal YouTube management platform with **Flask** and **PostgreSQL**",
+    "Constructed an automated personal YouTube management platform with **Flask** and **PostgreSQL**",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
     # "Built with Flask, PostgreSQL, Celery, Docker",
   ]
@@ -180,7 +180,7 @@ keywords = ["Python", "JavaScript"]
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
   points = [
     "Designed landing page and registration system for the event",
-    "Developed a point system utilized by 300+ attendees with **Laravel** and **MySQL**",
+    "Devised a point system utilized by 300+ attendees with **Laravel** and **MySQL**",
   ]
 
   [[info.sections]]
