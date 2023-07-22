@@ -66,7 +66,7 @@ name = "Work Experience"
     details = [
       "Trained and deployed time series models for system failure detection with **sktime**",
       "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
-      "Elevated usability by deploying and serving models on a unified RESTful API platform using **FastAPI**",
+      "Elevated usability by deploying and serving models on RESTful API platform using **FastAPI**",
     ]
 
 
@@ -127,7 +127,7 @@ name = "Skills"
 
     [[info.sections.points]]
     name = "Machine Learning"
-    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers, sktime"
+    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers"
 
     [[info.sections.points]]
     name = "Frontend"
@@ -196,8 +196,6 @@ keywords = ["Python", "JavaScript"]
     "Collected visitor movement data using **Raspberry Pi** scattered throughout the library",
     "Deployed system to **Heroku** for 24/7 monitoring",
     "Implemented crowd statistics visualization with **Chart.js** and trend prediction based on Bluetooth signal",
-    "Enhances readers' comprehension of library usage and aids in space optimization",
-    # "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
 
@@ -224,7 +222,7 @@ name = "Leadership & Extracurricular Activities"
   date = "September 2019"
   enddate = "June 2022"
   location = "Taichung, TW"
-  points = ["Provided technical support as well as strategic advice for club operations"]
+  points = ["Provided 2 years of technical support as well as strategic advice for club operations"]
 
   [[info.sections]]
   title = "YZU College of Informatics Orientation Camp"
