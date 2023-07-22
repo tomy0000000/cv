@@ -58,15 +58,15 @@ name = "Work Experience"
       "Developed and maintained the **Django** Full-stack website for test report visualization",
       # "Database normalization and migration from SQLite to MySQL",
       "Integrated with JIRA issue tracker for automating alarm and report",
-      "Rewrote and redesigned UI and received **over 85%** of the user satisfaction rate"
+      "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**"
     ]
 
     [[info.sections.points]]
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
       "Trained and deployed time series models for system failure detection with **sktime**",
-      "Improved model accuracy by applying data validation on the data pipeline with **Pydantic**",
-      "Increased usability by deploying and serving the models on a unified RESTful API platform with **FastAPI**",
+      "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
+      "Elevated usability by deploying and serving models on a unified RESTful API platform using **FastAPI**",
     ]
 
 
@@ -82,8 +82,8 @@ name = "Research Experience"
   points = [
       "Capstone Project: *Question Generation Quality Enhancement based on **BART***",
       "**Honorable Mention** of Departmental Capstone Project Contest among 40+ contestants",
-      "Researched specific use cases and characteristics of the **summarization** task",
-      "Experimented with the difference between traditional and adapter-based fine-tuning",
+      "Researched specific use cases and characteristics of **summarization** task",
+      "Experimented with differences between traditional and adapter-based fine-tuning",
   ]
 
     # [[info.sections.points]]
@@ -109,7 +109,7 @@ name = "Skills"
 # half = true
 
   [[info.sections]]
-  subheadings = ["Explore my complete skillset on the dedicated [Project](https://projects.tomy.me) page"]
+  subheadings = ["Explore [Project](https://projects.tomy.me) site for more skillset"]
   keywords = [
     "Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow",
     "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "Rails", "React",
@@ -166,7 +166,7 @@ name = "Selected Projects"
 keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
-  subheadings = ["Explore more projects on my dedicated [Project](https://projects.tomy.me) site"]
+  subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
@@ -179,7 +179,7 @@ keywords = ["Python", "JavaScript"]
   [[info.sections]]
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
   points = [
-    "Designed the landing page and registration system for the event",
+    "Designed landing page and registration system for the event",
     "Developed a point system utilized by 300+ attendees with **Laravel** and **MySQL**",
   ]
 
@@ -187,15 +187,15 @@ keywords = ["Python", "JavaScript"]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
     "Created a web system for context-answer-based Question Generation with **React** and **Transformers**",
-    "Reduced instructors' workload by more than 80% in the question-generation process",
+    "Achieved over 80% reduction in instructors' workload for question-generation",
   ]
 
   [[info.sections]]
   title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
   points = [
-    "Collected people flow data with IoT devices scattered in the library",
+    "Collected visitor movement data using **Raspberry Pi** scattered throughout the library",
     "Implemented crowd statistics visualization and trend prediction based on Bluetooth signal",
-    "Gives readers a better understanding of the library's usage and helps the library to optimize its space",
+    "Enhances readers' comprehension of library usage and aids in space optimization",
     # "Built with Raspberry Pi, FastAPI, PostgreSQL, Heroku",
   ]
 
