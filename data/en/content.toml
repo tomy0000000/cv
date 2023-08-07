@@ -6,7 +6,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-headline = ["Incoming CMU MSE Student with Python, NLP experience", " and enthusiasm for user-centric design"]
+# headline = ["Incoming CMU MSE Student with Python, NLP experience", " and enthusiasm for user-centric design"]
 
 [[info]]
 name = "Education"
@@ -16,25 +16,25 @@ name = "Education"
   subheadings = ["Master of Software Engineering"]
   date = "May 2023"
   enddate = "December 2024"
-  location = "Pittsburgh, PA"
+  location = "Pittsburgh, PA, United States"
 
   [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "September 2019"
   enddate = "June 2022"
-  location = "Taichung, TW"
-  points = [
-    "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
-    # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
-  ]
+  location = "Taichung, Taiwan"
+  # points = [
+  #   "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
+  #   "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
+  # ]
 
   # [[info.sections]]
   # title = "Yuan-Ze University (YZU)"
   # subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
   # date = "September 2017"
   # enddate = "August 2019"
-  # location = "Taoyuan, TW"
+  # location = "Taoyuan, Taiwan"
   # points = [
   #   "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
   #   "Achieved overall 1st place out of 40 on the coding exam of Data Structure",
@@ -50,14 +50,14 @@ name = "Work Experience"
   subheadings = ["Intel Corporation, Chrome Team"]
   date = "July 2021"
   enddate = "December 2021"
-  location = "Taipei, TW"
+  location = "Taipei, Taiwan"
 
     [[info.sections.points]]
     name = "The *Debug Agile System*"
     details = [
       "Developed and maintained the **Django** Full-stack website for test report visualization",
       # "Database normalization and migration from SQLite to MySQL",
-      "Integrated with JIRA issue tracker for automating alarm and report",
+      # "Integrated with JIRA issue tracker for automating alarm and report",
       "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**"
     ]
 
@@ -65,7 +65,7 @@ name = "Work Experience"
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
       "Trained and deployed time series models for system failure detection with **sktime**",
-      "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
+      # "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
       "Elevated usability by deploying and serving models on RESTful API platform using **FastAPI**",
     ]
 
@@ -78,12 +78,12 @@ name = "Research Experience"
   subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)", "Advisor: Yao-Chung Fan"]
   date = "July 2020"
   enddate = "December 2021"
-  location = "Taichung, TW"
+  location = "Taichung, Taiwan"
   points = [
       "Capstone Project: *Question Generation Quality Enhancement based on **BART***",
       "**Honorable Mention** of Departmental Capstone Project Contest among 40+ contestants",
       "Researched specific use cases and characteristics of **summarization** task",
-      "Experimented with differences between traditional and adapter-based fine-tuning",
+      # "Experimented with differences between traditional and adapter-based fine-tuning",
   ]
 
     # [[info.sections.points]]
@@ -105,88 +105,37 @@ name = "Research Experience"
 
 
 [[info]]
-name = "Skills"
-# half = true
-
-  [[info.sections]]
-  subheadings = ["Explore [Project](https://projects.tomy.me) site for more skillset"]
-  keywords = [
-    "Ansible", "Apache", "AWS", "BeautifulSoup", "C/C++", "Caddy", "Docker", "GCP", "Git", "GitHub Actions", "GitHub Flow",
-    "Heroku", "Java", "JavaScript", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "Rails", "React",
-    "Requests", "Scrapy", "Shell/Bash", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel"
-  ]
-  grid = true
-
-    [[info.sections.points]]
-    name = "Programming Languages"
-    details = "Python, C/C++, Java, JavaScript/TypeScript, Ruby, Bash"
-
-    [[info.sections.points]]
-    name = "Python"
-    details = "Flask, Django, FastAPI, Requests, BeautifulSoup, Scrapy"
-
-    [[info.sections.points]]
-    name = "Machine Learning"
-    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers"
-
-    [[info.sections.points]]
-    name = "Frontend"
-    details = "HTML, CSS, Bootstrap, React, Next.js"
-
-    [[info.sections.points]]
-    name = "DevOps"
-    details = "Docker, Ansible, Terraform"
-
-    [[info.sections.points]]
-    name = "Cloud"
-    details = "Google Cloud, AWS, Vercel, Heroku, Netlify"
-
-    [[info.sections.points]]
-    name = "Web Server"
-    details = "Nginx, Apache, Caddy, Traefik"
-
-    [[info.sections.points]]
-    name = "Tools"
-    details = "Git, GNU Make, GitHub Actions"
-
-
-[[info]]
-name = "Awards / Honors"
-# half = true
-
-  [[info.sections]]
-  points = [
-    "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-    "Ranked **national top 2%** among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
-    "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
-  ]
-
-[[info]]
 name = "Selected Projects"
-keywords = ["Python", "JavaScript"]
 
   [[info.sections]]
   subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
-  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  title = "YZU College of Informatics Orientation Camp"
+  subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
   points = [
-    "Constructed an automated personal YouTube management platform with **Flask** and **PostgreSQL**",
-    "Filtered favorite videos from 600+ new videos across 250 channels per day",
-    # "Built with Flask, PostgreSQL, Celery, Docker",
+    "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
+    "Designed [landing page](https://github.com/tomy0000000/YZU-CI-Camp) and registration system for the event",
+    "Devised a [point system](https://github.com/tomy0000000/Sen-Tree-Pay) utilized by 300+ attendees with **Laravel** and **MySQL**",
   ]
 
   [[info.sections]]
-  title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen-Tree-Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
+  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
   points = [
-    "Designed landing page and registration system for the event",
-    "Devised a point system utilized by 300+ attendees with **Laravel** and **MySQL**",
+    "Constructed an automated YouTube management platform with **Flask** and **PostgreSQL**",
+    "Filtered favorite videos from 600+ new videos across 250 channels per day",
+    # "Built with Flask, PostgreSQL, Celery, Docker",
+    # "a",
+    # "a",
+    # "a",
+    # "a",
+    # "a",
   ]
 
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
   points = [
-    "Created a web system for context-answer-based Question Generation with **React** and **Transformers**",
+    "Created a Question Generation web system with **React** and **Transformers**",
     "Achieved over 80% reduction in instructors' workload for question-generation",
   ]
 
@@ -200,69 +149,119 @@ keywords = ["Python", "JavaScript"]
 
 
 [[info]]
-name = "Leadership & Extracurricular Activities"
+name = "Skills"
+# half = true
 
   [[info.sections]]
-  title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
-  subheadings = ["Diversity sponsored volunteer / Session Chair"]
-  date = "April 2022"
-  location = "Berlin, DE"
-
-  [[info.sections]]
-  title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
-  subheadings = ["Cybersecurity Summer Camp Selected Trainee"]
-  date = "July 2020"
-  enddate = "August 2020"
-  location = "Taipei, TW"
-  points = ["Joined the Ministry of Education of Taiwan's event as one of the chosen top 200 trainees from across the nation"]
-
-  [[info.sections]]
-  title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
-  subheadings = ["Equipment Manager / Executive Consultant"]
-  date = "September 2019"
-  enddate = "June 2022"
-  location = "Taichung, TW"
-  points = ["Provided 2 years of technical support as well as strategic advice for club operations"]
-
-  [[info.sections]]
-  title = "YZU College of Informatics Orientation Camp"
-  subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
-  date = "June 2018"
-  enddate = "August 2018"
-  location = "Taoyuan, TW"
-  points = [
-    "Conducted an annual event with over **300+ attendees**",
-    "Led an event planning team of 26 to deliver a 5-day event with 13 activities",
+  subheadings = ["Explore [Project](https://projects.tomy.me) site for more skillset"]
+  keywords = [
+    "Ansible", "Apache", "AWS", "Bash", "BeautifulSoup", "C", "C++", "Caddy", "CSS", "Django", "Docker", "FastAPI", "Flask", "Google Cloud", "Git", "GitHub Actions", "GitHub Flow",
+    "HTML", "Heroku", "Java", "JavaScript", "LInux", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "Rails", "React",
+    "Requests", "Ruby", "Scrapy", "Shell", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel", "Unix"
   ]
+  grid = true
 
-  [[info.sections]]
-  title = "NTU Sprout program"
-  subheadings = ["High School Python Programming Selected Trainee"]
-  date = "March 2017"
-  enddate = "July 2017"
-  location = "Taipei, TW"
+    [[info.sections.points]]
+    name = "Programming Languages"
+    details = "Python, C/C++, Java, JavaScript/TypeScript, Ruby, Shell/Bash"
 
-  [[info.sections]]
-  title = "AHSNCCU Pop Music Club"
-  subheadings = ["Event General Coordinator"]
-  date = "September 2015"
-  enddate = "June 2016"
-  location = "Taipei, TW"
-  points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting **1000+ audiences**"]
+    [[info.sections.points]]
+    name = "Machine Learning"
+    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers"
 
-  # [[info.sections]]
-  # title = "YZU Computer Science Student Association"
-  # subheadings = ["Financial Chair"]
-  # date = "September 2018"
-  # enddate = "January 2019"
-  # location = "Taoyuan, TW"
-  # points = [
-  #   "Secured funding for year-round student activities",
-  #   "First time for the association to publish monthly financial reports, pushing transparency of the association",
-  # ]
+    [[info.sections.points]]
+    name = "Frontend"
+    details = "Bootstrap, React, Next.js"
 
-  # [[info.sections]]
-  # title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
-  # subheadings = ["Selected Trainee"]
-  # date = "February 2020"
-  # location = "Taichung, TW"
+    [[info.sections.points]]
+    name = "DevOps × Cloud"
+    details = "Docker, Ansible, Terraform, Google Cloud, AWS, Vercel, Heroku"
+
+    # [[info.sections.points]]
+    # name = "Web Server"
+    # details = "Nginx, Apache, Caddy, Traefik"
+
+    [[info.sections.points]]
+    name = "Miscellaneous"
+    details = "Linux/Unix, Git, GNU Make, GitHub Actions"
+
+
+# [[info]]
+# name = "Awards / Honors"
+# # half = true
+
+#   [[info.sections]]
+#   points = [
+#     "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
+#     "Ranked **national top 2%** among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
+#     "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
+#   ]
+
+
+# [[info]]
+# name = "Leadership & Extracurricular Activities"
+
+#   [[info.sections]]
+#   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
+#   subheadings = ["Diversity sponsored volunteer / Session Chair"]
+#   date = "April 2022"
+#   location = "Berlin, DE"
+
+#   [[info.sections]]
+#   title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
+#   subheadings = ["Cybersecurity Summer Camp Selected Trainee"]
+#   date = "July 2020"
+#   enddate = "August 2020"
+#   location = "Taipei, Taiwan"
+#   points = ["Joined the Ministry of Education of Taiwan's event as one of the chosen top 200 trainees from across the nation"]
+
+#   [[info.sections]]
+#   title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
+#   subheadings = ["Equipment Manager / Executive Consultant"]
+#   date = "September 2019"
+#   enddate = "June 2022"
+#   location = "Taichung, Taiwan"
+#   points = ["Provided 2 years of technical support as well as strategic advice for club operations"]
+
+#   [[info.sections]]
+#   title = "YZU College of Informatics Orientation Camp"
+#   subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
+#   date = "June 2018"
+#   enddate = "August 2018"
+#   location = "Taoyuan, Taiwan"
+#   points = [
+#     "Conducted an annual event with over **300+ attendees**",
+#     "Led an event planning team of 26 to deliver a 5-day event with 13 activities",
+#   ]
+
+#   [[info.sections]]
+#   title = "NTU Sprout program"
+#   subheadings = ["High School Python Programming Selected Trainee"]
+#   date = "March 2017"
+#   enddate = "July 2017"
+#   location = "Taipei, Taiwan"
+
+#   [[info.sections]]
+#   title = "AHSNCCU Pop Music Club"
+#   subheadings = ["Event General Coordinator"]
+#   date = "September 2015"
+#   enddate = "June 2016"
+#   location = "Taipei, Taiwan"
+#   points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting **1000+ audiences**"]
+
+#   [[info.sections]]
+#   title = "YZU Computer Science Student Association"
+#   subheadings = ["Financial Chair"]
+#   date = "September 2018"
+#   enddate = "January 2019"
+#   location = "Taoyuan, Taiwan"
+#   points = [
+#     "Secured funding for year-round student activities",
+#     "First time for the association to publish monthly financial reports, pushing transparency of the association",
+#   ]
+
+#   [[info.sections]]
+#   title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
+#   subheadings = ["Selected Trainee"]
+#   date = "February 2020"
+#   location = "Taichung, Taiwan"
