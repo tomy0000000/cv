@@ -14,15 +14,13 @@ name = "Education"
   [[info.sections]]
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
-  date = "May 2023"
-  enddate = "December 2024"
+  date = "Graduating December 2024"
   location = "Pittsburgh, PA, United States"
 
   [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
   subheadings = ["Bachelor of Science in Computer Science"]
-  date = "September 2019"
-  enddate = "June 2022"
+  date = "June 2022"
   location = "Taichung, Taiwan"
   # points = [
   #   "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
@@ -64,9 +62,9 @@ name = "Work Experience"
     [[info.sections.points]]
     name = "Machine Learning Engineering for *Canary Project*"
     details = [
-      "Trained and deployed time series models for system failure detection with **sktime**",
+      "Trained time series models for system failure detection with **sktime**",
       # "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
-      "Elevated usability by deploying and serving models on RESTful API platform using **FastAPI**",
+      "Elevated usability by serving models on RESTful API platform using **FastAPI**",
     ]
 
 
@@ -116,7 +114,7 @@ name = "Selected Projects"
   points = [
     "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
     "Designed [landing page](https://github.com/tomy0000000/YZU-CI-Camp) and registration system for the event",
-    "Devised a [point system](https://github.com/tomy0000000/Sen-Tree-Pay) utilized by 300+ attendees with **Laravel** and **MySQL**",
+    "Proposed and devised a [point system](https://github.com/tomy0000000/Sen-Tree-Pay) utilized by 300+ attendees with **Laravel** and **MySQL**",
   ]
 
   [[info.sections]]
