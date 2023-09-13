@@ -15,17 +15,18 @@ name = "Education"
   title = "Carnegie Mellon University (CMU)"
   subheadings = ["Master of Software Engineering"]
   date = "Graduating December 2024"
-  location = "Pittsburgh, PA, United States"
+  location = "Pittsburgh, PA"
 
   [[info.sections]]
   title = "National Chung Hsing University (NCHU)"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "June 2022"
   location = "Taichung, Taiwan"
-  # points = [
-  #   "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
-  #   "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
-  # ]
+  points = [
+    "Graduate Capstone Project: *Question Generation Quality Enhancement based on **BART***, awarded **Honorable Mention** among **40+** contestants",
+    # "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
+    # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
+  ]
 
   # [[info.sections]]
   # title = "Yuan-Ze University (YZU)"
@@ -49,23 +50,15 @@ name = "Work Experience"
   date = "July 2021"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
-
-    [[info.sections.points]]
-    name = "The *Debug Agile System*"
-    details = [
+  points = [
       "Developed and maintained the **Django** Full-stack website for test report visualization",
       # "Database normalization and migration from SQLite to MySQL",
       # "Integrated with JIRA issue tracker for automating alarm and report",
-      "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**"
-    ]
-
-    [[info.sections.points]]
-    name = "Machine Learning Engineering for *Canary Project*"
-    details = [
+      "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**",
       "Trained time series models for system failure detection with **sktime**",
       # "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
       "Elevated usability by serving models on RESTful API platform using **FastAPI**",
-    ]
+  ]
 
 
 [[info]]
@@ -73,13 +66,13 @@ name = "Research Experience"
 
   [[info.sections]]
   title = "Research Assistant"
-  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)", "Advisor: Yao-Chung Fan"]
+  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)"]
   date = "July 2020"
   enddate = "December 2021"
   location = "Taichung, Taiwan"
   points = [
-      "Capstone Project: *Question Generation Quality Enhancement based on **BART***",
-      "**Honorable Mention** of Departmental Capstone Project Contest among 40+ contestants",
+      "Designed and maintained a secure, scalable ML experiment environment across **20+** on-premise servers",
+      "Created [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
       "Researched specific use cases and characteristics of **summarization** task",
       # "Experimented with differences between traditional and adapter-based fine-tuning",
   ]
@@ -109,36 +102,39 @@ name = "Selected Projects"
   subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
-  title = "YZU College of Informatics Orientation Camp"
-  subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
+  title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen Tree Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
+  affiliation = "Yuan-Ze University"
+  date = "June 2018"
+  enddate = "August 2018"
   points = [
     "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
-    "Designed [landing page](https://github.com/tomy0000000/YZU-CI-Camp) and registration system for the event",
-    "Proposed and devised a [point system](https://github.com/tomy0000000/Sen-Tree-Pay) utilized by 300+ attendees with **Laravel** and **MySQL**",
+    "Designed the landing page and registration system with **Bootstrap** and **Google Apps Script**",
+    "Proposed and devised a point system utilized by **300+** attendees with **Laravel** and **MySQL**",
   ]
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  affiliation = "Personal Project"
+  date = "September 2018"
+  enddate = "Present"
   points = [
-    "Constructed an automated YouTube management platform with **Flask** and **PostgreSQL**",
+    "Constructed an automated YouTube subscription platform with **Flask**, **PostgreSQL**, and **Docker**",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
-    # "Built with Flask, PostgreSQL, Celery, Docker",
-    # "a",
-    # "a",
-    # "a",
-    # "a",
-    # "a",
   ]
 
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
+  affiliation = "NCHU NLP Lab"
+  date = "May 2020"
+  enddate = "December 2021"
   points = [
-    "Created a Question Generation web system with **React** and **Transformers**",
-    "Achieved over 80% reduction in instructors' workload for question-generation",
+    "Created a Question Generation web system with **React** and **BART** model and achieved over **80% reduction** in instructors' workload for question-generation",
   ]
 
   [[info.sections]]
   title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
+  affiliation = "National Chung Hsing University"
+  date = "June 2021"
   points = [
     "Collected visitor movement data using **Raspberry Pi** scattered throughout the library",
     "Deployed system to **Heroku** for 24/7 monitoring",
@@ -152,10 +148,10 @@ name = "Skills"
 
   [[info.sections]]
   subheadings = ["Explore [Project](https://projects.tomy.me) site for more skillset"]
+  # Ansible, Apache, AWS, Bash, BeautifulSoup, Bootstrap, C, C++, Caddy, CSS, Django, Docker, Docker, FastAPI, Flask, Git, GitHub Actions, GitHub Flow, GNU Make, Google Cloud, Heroku, Heroku, HTML, HuggingFace Transformers, Java, Java, JavaScript, Linux, Makefile, Netlify, Next.js, Nginx, Python, PyTorch, PyTorch Lightning, Rails, React, React, Requests, Ruby, Ruby, Scrapy, Shell, Shell/Bash, Terraform, Traefik, Transformers, TypeScript, Unix, Vercel
   keywords = [
-    "Ansible", "Apache", "AWS", "Bash", "BeautifulSoup", "C", "C++", "Caddy", "CSS", "Django", "Docker", "FastAPI", "Flask", "Google Cloud", "Git", "GitHub Actions", "GitHub Flow",
-    "HTML", "Heroku", "Java", "JavaScript", "LInux", "Makefile", "Netlify", "Nginx", "PyTorch", "PyTorch Lightning", "Rails", "React",
-    "Requests", "Ruby", "Scrapy", "Shell", "Terraform", "Traefik", "Transformers", "TypeScript", "Vercel", "Unix"
+    "Apache", "BeautifulSoup", "Caddy", "CSS", "GitHub Flow", "HTML", "Makefile",
+    "Netlify", "Nginx", "Requests", "Scrapy", "Terraform", "Traefik", "Transformers"
   ]
   grid = true
 
@@ -166,6 +162,10 @@ name = "Skills"
     [[info.sections.points]]
     name = "Machine Learning"
     details = "PyTorch, PyTorch Lightning, HuggingFace Transformers"
+
+    [[info.sections.points]]
+    name = "Backend"
+    details = "Flask, Django, FastAPI, Ruby on Rails"
 
     [[info.sections.points]]
     name = "Frontend"

@@ -1,6 +1,10 @@
-{{ if .date }}
+{{ if or .date .affiliation }}
 <div>
-  <p><time>{{ .date }}</time>{{ with .enddate }} - <time>{{ . }}</time>{{ end }}</p>
+  <p>
+    {{ with .affiliation }}({{ . }}) {{ end }}
+    {{ with .date }}<time>{{ . }}</time>{{ end }}
+    {{ with .enddate }} - <time>{{ . }}</time>{{ end }}
+  </p>
   {{ with .location }}
   <p><em>{{ . }}</em></p>
   {{ end }}
