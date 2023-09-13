@@ -72,7 +72,7 @@ name = "Research Experience"
   location = "Taichung, Taiwan"
   points = [
       "Designed and maintained a secure, scalable ML experiment environment across **20+** on-premise servers",
-      "Created [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
+      "Initiated [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
       "Researched specific use cases and characteristics of **summarization** task",
       # "Experimented with differences between traditional and adapter-based fine-tuning",
   ]
@@ -108,7 +108,7 @@ name = "Selected Projects"
   enddate = "August 2018"
   points = [
     "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
-    "Designed the landing page and registration system with **Bootstrap** and **Google Apps Script**",
+    "Designed a landing page and registration system with **Bootstrap** and **Google Apps Script**",
     "Proposed and devised a point system utilized by **300+** attendees with **Laravel** and **MySQL**",
   ]
 
@@ -128,7 +128,7 @@ name = "Selected Projects"
   date = "May 2020"
   enddate = "December 2021"
   points = [
-    "Created a Question Generation web system with **React** and **BART** model and achieved over **80% reduction** in instructors' workload for question-generation",
+    "Created a Question Generation web system with **React** and **BART** model and achieved over **80% reduction** in instructors' workload",
   ]
 
   [[info.sections]]
