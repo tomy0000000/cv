@@ -1,7 +1,7 @@
 baseURL = "https://cv.tomy.me/"
 defaultContentLanguage = "en"
 publishDir = "public"
-disableKinds = ["taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
 
 [params]
 favicon = "favicon.png"
