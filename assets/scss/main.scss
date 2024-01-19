@@ -76,9 +76,7 @@ span {
 }
 
 .container {
-  margin: 0 auto;
-  max-width: 680px;
-  padding: 5vh 10vw;
+  margin: 0.5in; // Print Margin
 }
 
 header {
@@ -150,6 +148,15 @@ main {
   }
 }
 
+.marker {
+  position: absolute;
+  box-sizing: border-box;
+  border-bottom: 1px solid $black;
+  top: calc(297mm - 0.5in);
+  width: calc(210mm - 0.5in * 2);
+  height: 1px;
+}
+
 footer {
   margin-top: 0.5rem;
   margin-left: auto;
@@ -187,6 +194,12 @@ footer {
   }
 }
 
+/**
+
+A4 PRINTED
+
+*/
+
 @media print {
   @page {
     size: A4 portrait;
@@ -200,7 +213,12 @@ footer {
   }
 
   .container {
-    padding: 0;
+    margin: 0;
+  }
+
+  .marker {
+    top: calc(-297mm - 1in);
+    color: transparent;
   }
 
   main {
@@ -243,6 +261,12 @@ footer {
   }
 }
 
+/**
+
+PHONE
+
+*/
+
 @media screen and (min-width: $phone) {
   div.heading {
     // prefixes added to work with html-pdf
@@ -266,15 +290,23 @@ footer {
   }
 }
 
-@media screen and (min-width: $tablet) {
-  .container {
-    padding: 20mm;
-  }
+/**
 
+TABLET
+
+*/
+
+@media screen and (min-width: $tablet) {
   main > section.half {
     grid-column: unset;
   }
 }
+
+/**
+
+DESKTOP
+
+*/
 
 @media screen and (min-width: $desktop) {
   body {
@@ -286,14 +318,15 @@ footer {
       width: unset;
     }
   }
-
+  
   .page {
+    width: 210mm; // Print width
+    margin: auto;
     background-color: $white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-    margin: auto;
+    border: .1px solid transparent;
     position: relative;
-    width: 850px;
-
+    
     &::before,
     &::after {
       background: transparent;
