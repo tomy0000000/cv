@@ -150,10 +150,9 @@ main {
 .marker {
   position: absolute;
   box-sizing: border-box;
-  border-bottom: 1px solid $black;
+  border: 1px solid red;
   top: calc(#{$paper_height} - #{$paper_margin});
   width: calc(#{$paper_width} - #{$paper_margin} * 2);
-  height: 1px;
 }
 
 footer {
