@@ -4,6 +4,7 @@
   {{ range $data.content.info }}
   <section {{- if .half }} class="half"{{- end -}}>
     <h2>{{ .name | markdownify }}</h2>
+    <hr>
     {{ with .keywords }}
       <small class="keywords">{{ range . }}{{ . }} {{ end }}</small>
     {{ end }}
