@@ -4,8 +4,10 @@ $white: #fff;
 $phone: 450px;
 $tablet: 768px;
 $desktop: 1024px;
-$paper_width: 210mm; // A4 width
-$paper_height: 297mm; // A4 height
+// $paper: A4;
+$paper: letter;
+$paper_width: if($paper==A4, 210mm, 8.5in);
+$paper_height: if($paper==A4, 297mm, 11in);
 $paper_margin: 0.5in; // Print Margin
 
 html {
@@ -200,7 +202,7 @@ A4 PRINTED
 
 @media print {
   @page {
-    size: A4 portrait;
+    size: $paper portrait;
     margin: $paper_margin;
   }
 
