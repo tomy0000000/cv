@@ -36,7 +36,9 @@
   <body>
     <div class="page">
       <div class="container">
-        <hr class="marker" />
+        {{ if eq hugo.Environment "dev" }}
+          <hr class="marker" />
+        {{ end }}
         {{- partial "header.html" . -}}
         {{ block "main" . }}
         {{ end }}
