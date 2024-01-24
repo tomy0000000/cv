@@ -98,38 +98,25 @@ name = "Skills"
 # half = true
 
   [[info.sections]]
-  subheadings = ["Explore [Project](https://projects.tomy.me) site for more skillset"]
-  # Ansible, Apache, AWS, Bash, BeautifulSoup, Bootstrap, C, C++, Caddy, CSS, Django, Docker, Docker, FastAPI, Flask, Git, GitHub Actions, GitHub Flow, GNU Make, Google Cloud, Heroku, Heroku, HTML, HuggingFace Transformers, Java, Java, JavaScript, Linux, Makefile, Netlify, Next.js, Nginx, Python, PyTorch, PyTorch Lightning, Rails, React, React, Requests, Ruby, Ruby, Scrapy, Shell, Shell/Bash, Terraform, Traefik, Transformers, TypeScript, Unix, Vercel
-  keywords = [
-    "Apache", "BeautifulSoup", "Caddy", "CSS", "GitHub Flow", "HTML", "Makefile",
-    "Netlify", "Nginx", "Requests", "Scrapy", "Terraform", "Traefik", "Transformers"
-  ]
   grid = true
+  keywords = [
+    "Apache", "BeautifulSoup", "Bootstrap", "Caddy", "CSS", "GitHub Actions", "HTML", "jQuery", "Makefile",
+    "MySQL", "Netlify", "Nginx", "PostgreSQL", "Redis",
+    "Requests", "Scrapy", "Tailwind CSS", "Terraform", "Traefik", "Transformers"
+  ]
 
     [[info.sections.points]]
     name = "Programming Languages"
-    details = "Python, C/C++, Java, JavaScript/TypeScript, Ruby, Shell/Bash"
+    details = "Python, C/C++, Java, JavaScript/TypeScript, Shell/Bash"
 
     [[info.sections.points]]
-    name = "Machine Learning"
-    details = "PyTorch, PyTorch Lightning, HuggingFace Transformers"
-
-    [[info.sections.points]]
-    name = "Backend"
-    details = "Flask, Django, FastAPI, Ruby on Rails"
-
-    [[info.sections.points]]
-    name = "Frontend"
-    details = "Bootstrap, React, Next.js"
-
-    [[info.sections.points]]
-    name = "DevOps × Cloud"
-    details = "Docker, Ansible, Terraform, Google Cloud, AWS, Vercel, Heroku"
-
-    # [[info.sections.points]]
-    # name = "Web Server"
-    # details = "Nginx, Apache, Caddy, Traefik"
+    name = "Frameworks"
+    details = "Flask, Django, FastAPI, PyTorch, HuggingFace, React, Next.js"
 
     [[info.sections.points]]
     name = "Miscellaneous"
-    details = "Linux/Unix, Git, GNU Make, GitHub Actions"
+    details = "Linux/Unix, Git, Docker, Ansible, Terraform, Google Cloud, AWS, Vercel"
+
+
+
+
