@@ -1,18 +1,29 @@
+/* CONSTANTS */
+
 $black: #000;
 $gray: #888;
 $white: #fff;
 $phone: 450px;
 $tablet: 768px;
 $desktop: 1024px;
+
+/* PAGE PARAMS */
+
 // $paper: A4;
 $paper: letter;
 $paper_width: if($paper==A4, 210mm, 8.5in);
 $paper_height: if($paper==A4, 297mm, 11in);
 $paper_margin: 0.5in; // Print Margin
 
+/* STYLES */
+
+$font_size: 11pt;
+$section_spacing: 1rem;
+$sub_section_spacing: 1rem;
+
 html {
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: $font_size;
 }
 
 h1,
@@ -121,22 +132,21 @@ main {
 
   > section {
     grid-column: 1 / span 2;
-    margin-top: 0.5rem;
     display: inline-block;
     break-inside: avoid;
     page-break-inside: avoid;
+
+    &:not(:first-of-type) {
+      margin-top: $section_spacing;
+    }
 
     hr {
       border: 1px solid $black;
       margin-block: 0.1rem;
     }
 
-    section {
-      margin-top: 0.25rem;
-    }
-
-    .heading {
-      margin-bottom: 0.25rem;
+    section:not(:first-of-type) {
+      margin-top: $sub_section_spacing;
     }
   }
 
@@ -330,7 +340,7 @@ DESKTOP
     &::before,
     &::after {
       background: transparent;
-      bottom: 14px;
+      bottom: 1rem;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
       content: " ";
       height: 10px;
