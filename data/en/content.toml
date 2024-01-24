@@ -12,13 +12,13 @@ linkedin = "tomy0000000"
 name = "Education"
 
   [[info.sections]]
-  title = "Carnegie Mellon University (CMU)"
-  subheadings = ["Master of Software Engineering"]
+  title = "Carnegie Mellon University"
+  subheadings = ["Master of Software Engineering - Scalable Systems"]
   date = "Graduating December 2024"
   location = "Pittsburgh, PA"
 
   [[info.sections]]
-  title = "National Chung Hsing University (NCHU)"
+  title = "National Chung Hsing University"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "June 2022"
   location = "Taichung, Taiwan"
