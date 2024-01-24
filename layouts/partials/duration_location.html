@@ -1,12 +1,12 @@
 {{ if or .date .affiliation }}
 <div>
+  {{ with .location }}
+  <p>{{ . }}</p>
+  {{ end }}
   <p>
     {{ with .affiliation }}({{ . }}) {{ end }}
     {{ with .date }}<time>{{ . }}</time>{{ end }}
     {{ with .enddate }} - <time>{{ . }}</time>{{ end }}
   </p>
-  {{ with .location }}
-  <p><em>{{ . }}</em></p>
-  {{ end }}
 </div>
 {{ end }}
