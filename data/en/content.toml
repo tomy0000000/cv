@@ -22,11 +22,6 @@ name = "Education"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "June 2022"
   location = "Taichung, Taiwan"
-  points = [
-    "Graduate Capstone Project: *Question Generation Quality Enhancement based on **BART***, awarded **Honorable Mention** among **40+** contestants",
-    # "Related Courses: Algorithms, Information Retrieval, Data Mining, Machine Learning, Artificial Intelligent, Internet of Things",
-    # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
-  ]
 
 
 [[info]]
@@ -56,6 +51,7 @@ name = "Work Experience"
   location = "Taichung, Taiwan"
   points = [
       "Designed and maintained a secure, scalable ML experiment environment across **20+** on-premise servers",
+      "Graduate Capstone Project: *Question Generation Quality Enhancement based on **BART***, awarded **Honorable Mention** among **40+** contestants",
       "Initiated [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
       "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
   ]
