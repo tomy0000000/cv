@@ -60,10 +60,6 @@ name = "Work Experience"
       "Elevated usability by serving models on RESTful API platform using **FastAPI**",
   ]
 
-
-[[info]]
-name = "Research Experience"
-
   [[info.sections]]
   title = "Natural Language Processing Lab, NCHU"
   subheadings = ["Research Assistant"]
@@ -73,26 +69,8 @@ name = "Research Experience"
   points = [
       "Designed and maintained a secure, scalable ML experiment environment across **20+** on-premise servers",
       "Initiated [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
-      "Researched specific use cases and characteristics of **summarization** task",
-      # "Experimented with differences between traditional and adapter-based fine-tuning",
+      "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
   ]
-
-    # [[info.sections.points]]
-    # name = "Independent Research"
-    # details = [
-    #   "Focused on specific use cases and characteristics of the summarization task",
-    #   "Experimenting with the difference between traditional fine-tuning and adapter-based fine-tuning",
-    #   "Capstone Project: **Question Generation Quality Enhancement based on BART**",
-    #   "Honorable Mention of Departmental Capstone Project Contest among 40+ contestants",
-    # ]
-
-    # [[info.sections.points]]
-    # name = "System Development"
-    # details = [
-    #   "Designed and maintained a secure, scalable machine learning experiment environment across 20+ on-premise servers",
-    #   "Created and maintained the NLP Lab API, a unified platform for NLP research and demonstration for the laboratory",
-    #   "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
-    # ]
 
 
 [[info]]
