@@ -45,8 +45,8 @@ name = "Education"
 name = "Work Experience"
 
   [[info.sections]]
-  title = "Software Engineer Internship"
-  subheadings = ["Intel Corporation, Chrome Team"]
+  title = "Intel"
+  subheadings = ["Software Engineer Internship"]
   date = "July 2021"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
@@ -65,8 +65,8 @@ name = "Work Experience"
 name = "Research Experience"
 
   [[info.sections]]
-  title = "Research Assistant"
-  subheadings = ["[Natural Language Processing Lab, NCHU](https://nlpnchu.org)"]
+  title = "Natural Language Processing Lab, NCHU"
+  subheadings = ["Research Assistant"]
   date = "July 2020"
   enddate = "December 2021"
   location = "Taichung, Taiwan"
