@@ -12,7 +12,15 @@ redirectPrint = true
     languageName = "English"
     weight = 1
     [languages.en.params]
-      author = "Tomy Hsieh"
+      author = "Chi-Wei (Tomy) Hsieh"
+      keywords = [
+        "Chi-Wei",
+        "Tomy",
+        "Hsieh",
+        "CV",
+        "Resume",
+        "Curriculum Vitae",
+      ]
 
   # [languages.zh-tw]
   #   languageName = "繁體中文 (台灣)"

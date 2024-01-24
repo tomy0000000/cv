@@ -96,14 +96,10 @@ name = "Selected Projects"
 [[info]]
 name = "Skills"
 # half = true
+keyword = "skills"
 
   [[info.sections]]
   grid = true
-  keywords = [
-    "Apache", "BeautifulSoup", "Bootstrap", "Caddy", "CSS", "GitHub Actions", "HTML", "jQuery", "Makefile",
-    "MySQL", "Netlify", "Nginx", "PostgreSQL", "Redis",
-    "Requests", "Scrapy", "Tailwind CSS", "Terraform", "Traefik", "Transformers"
-  ]
 
     [[info.sections.points]]
     name = "Programming Languages"
