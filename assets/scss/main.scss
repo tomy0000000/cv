@@ -133,8 +133,6 @@ main {
   > section {
     grid-column: 1 / span 2;
     display: inline-block;
-    break-inside: avoid;
-    page-break-inside: avoid;
 
     &:not(:first-of-type) {
       margin-top: $section_spacing;
@@ -245,25 +243,6 @@ A4 PRINTED
     section.half {
       grid-column: unset;
     }
-  }
-
-  div {
-    break-inside: avoid;
-    page-break-inside: avoid;
-  }
-
-  div.page-break {
-    break-after: all;
-    page-break-after: always;
-  }
-
-  div.page-break + hr {
-    display: none;
-  }
-
-  ul {
-    break-inside: avoid;
-    page-break-inside: avoid;
   }
 
   footer {

@@ -12,7 +12,7 @@
       {{ with .keywords }}
         <small class="keywords">{{ range . }}{{ . }} {{ end }}</small>
       {{ end }}
-      <section {{- if and .pagebreak }} class="page-break"{{- end -}}>
+      <section>
         {{ if and .title .date }}
           <div class="heading">
             {{ partial "heading.html" . }}
