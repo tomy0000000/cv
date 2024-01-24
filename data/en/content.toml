@@ -81,9 +81,6 @@ name = "Selected Projects"
 
   [[info.sections]]
   title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen Tree Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
-  affiliation = "Yuan-Ze University"
-  date = "June 2018"
-  enddate = "August 2018"
   points = [
     "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
     "Designed a landing page and registration system with **Bootstrap** and **Google Apps Script**",
@@ -92,9 +89,6 @@ name = "Selected Projects"
 
   [[info.sections]]
   title = "[Tubee](https://github.com/tomy0000000/Tubee)"
-  affiliation = "Personal Project"
-  date = "September 2018"
-  enddate = "Present"
   points = [
     "Constructed an automated YouTube subscription platform with **Flask**, **PostgreSQL**, and **Docker**",
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
@@ -102,17 +96,12 @@ name = "Selected Projects"
 
   [[info.sections]]
   title = "[Querator AI](http://app.queratorai.com)"
-  affiliation = "NCHU NLP Lab"
-  date = "May 2020"
-  enddate = "December 2021"
   points = [
     "Created a Question Generation web system with **React** and **BART** model and achieved over **80% reduction** in instructors' workload",
   ]
 
   [[info.sections]]
   title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
-  affiliation = "National Chung Hsing University"
-  date = "June 2021"
   points = [
     "Collected visitor movement data using **Raspberry Pi** scattered throughout the library",
     "Deployed system to **Heroku** for 24/7 monitoring",
