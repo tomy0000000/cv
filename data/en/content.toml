@@ -34,26 +34,25 @@ name = "Work Experience"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
   points = [
-      "Developed and maintained the **Django** Full-stack website for test report visualization",
+      "Developed and maintained the Django Full-stack website for test report visualization",
+      "Established an automating debug workflow by integrating report system with JIRA",
       # "Database normalization and migration from SQLite to MySQL",
-      # "Integrated with JIRA issue tracker for automating alarm and report",
-      "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**",
-      "Trained time series models for system failure detection with **sktime**",
+      # "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**",
+
+      "Expedited bug spotting and fixing process 70% by launching automated validation routine",
+      "Increased system utilization 80% by launching time series model to REST API platform built with FastAPI",
       # "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
-      "Elevated usability by serving models on RESTful API platform using **FastAPI**",
   ]
 
   [[info.sections]]
   title = "Natural Language Processing Lab, NCHU"
   subheadings = ["Research Assistant"]
   date = "July 2020"
-  enddate = "December 2021"
+  enddate = "November 2021"
   location = "Taichung, Taiwan"
   points = [
-      "Designed and maintained a secure, scalable ML experiment environment across **20+** on-premise servers",
-      "Graduate Capstone Project: *Question Generation Quality Enhancement based on **BART***, awarded **Honorable Mention** among **40+** contestants",
-      "Initiated [NLP Lab API](https://github.com/NCHU-NLP-Lab/api), a unified platform for research demonstration with **FastAPI**",
-      "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API",
+      "Designed and maintained secure, scalable ML experiment environments across 20+ on-premise servers",
+      "Researched Question Generation Quality Enhancement based on BART, awarded Honorable Mention among 40+ contestants",
   ]
 
 
