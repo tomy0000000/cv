@@ -28,18 +28,6 @@ name = "Education"
     # "Ranked overall 3rd place out of 90 in the coding assignments of the algorithm course",
   ]
 
-  # [[info.sections]]
-  # title = "Yuan-Ze University (YZU)"
-  # subheadings = ["Completed Freshman & Sophomore Year Coursework", "Majored in Computer Science"]
-  # date = "September 2017"
-  # enddate = "August 2019"
-  # location = "Taoyuan, Taiwan"
-  # points = [
-  #   "Related Courses: Computer Programming, Web Programming, Discrete Mathematics, Data Structures, Linear Algebra",
-  #   "Achieved overall 1st place out of 40 on the coding exam of Data Structure",
-  #   "School representative of Soochow University delegation member in 2018"
-  # ]
-
 
 [[info]]
 name = "Work Experience"
@@ -149,84 +137,3 @@ name = "Skills"
     [[info.sections.points]]
     name = "Miscellaneous"
     details = "Linux/Unix, Git, GNU Make, GitHub Actions"
-
-
-# [[info]]
-# name = "Awards / Honors"
-# # half = true
-
-#   [[info.sections]]
-#   points = [
-#     "Special Award, 2020 LegalTech Hackathon: *Search Algorithm for Knowledge Graphed Verdict*",
-#     "Ranked **national top 2%** among other 2000+ competitors at the 2018 Collegiate Programming Examination (CPE)",
-#     "YZU school representative, 2018 ICPC Asia Taipei Regional Contestant",
-#   ]
-
-
-# [[info]]
-# name = "Leadership & Extracurricular Activities"
-
-#   [[info.sections]]
-#   title = "[PyCon DE & PyData Berlin 2022](https://2022.pycon.de/)"
-#   subheadings = ["Diversity sponsored volunteer / Session Chair"]
-#   date = "April 2022"
-#   location = "Berlin, DE"
-
-#   [[info.sections]]
-#   title = "[Advanced Information Security Summer School (AIS3)](https://ais3.org)"
-#   subheadings = ["Cybersecurity Summer Camp Selected Trainee"]
-#   date = "July 2020"
-#   enddate = "August 2020"
-#   location = "Taipei, Taiwan"
-#   points = ["Joined the Ministry of Education of Taiwan's event as one of the chosen top 200 trainees from across the nation"]
-
-#   [[info.sections]]
-#   title = "[NCHU Drama Club](https://www.facebook.com/nchudrama)"
-#   subheadings = ["Equipment Manager / Executive Consultant"]
-#   date = "September 2019"
-#   enddate = "June 2022"
-#   location = "Taichung, Taiwan"
-#   points = ["Provided 2 years of technical support as well as strategic advice for club operations"]
-
-#   [[info.sections]]
-#   title = "YZU College of Informatics Orientation Camp"
-#   subheadings = ["Chief Director of Event Planning / Full Stack Engineer"]
-#   date = "June 2018"
-#   enddate = "August 2018"
-#   location = "Taoyuan, Taiwan"
-#   points = [
-#     "Conducted an annual event with over **300+ attendees**",
-#     "Led an event planning team of 26 to deliver a 5-day event with 13 activities",
-#   ]
-
-#   [[info.sections]]
-#   title = "NTU Sprout program"
-#   subheadings = ["High School Python Programming Selected Trainee"]
-#   date = "March 2017"
-#   enddate = "July 2017"
-#   location = "Taipei, Taiwan"
-
-#   [[info.sections]]
-#   title = "AHSNCCU Pop Music Club"
-#   subheadings = ["Event General Coordinator"]
-#   date = "September 2015"
-#   enddate = "June 2016"
-#   location = "Taipei, Taiwan"
-#   points = ["Led a team of 5 to deliver a joint public presentation with three other clubs, attracting **1000+ audiences**"]
-
-#   [[info.sections]]
-#   title = "YZU Computer Science Student Association"
-#   subheadings = ["Financial Chair"]
-#   date = "September 2018"
-#   enddate = "January 2019"
-#   location = "Taoyuan, Taiwan"
-#   points = [
-#     "Secured funding for year-round student activities",
-#     "First time for the association to publish monthly financial reports, pushing transparency of the association",
-#   ]
-
-#   [[info.sections]]
-#   title = "[NCHU Public Address and Lightning Training Camp](https://www.facebook.com/NCHUPAL)"
-#   subheadings = ["Selected Trainee"]
-#   date = "February 2020"
-#   location = "Taichung, Taiwan"
