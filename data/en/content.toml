@@ -16,12 +16,18 @@ name = "Education"
   subheadings = ["Master of Software Engineering - Scalable Systems"]
   date = "Graduating December 2024"
   location = "Pittsburgh, PA"
+  points = [
+    "Relevant Coursework: Introduction to Computer Systems, Formal Methods, Quality Assurance, API Design, Design Patterns, Cloud Computing",
+  ]
 
   [[info.sections]]
   title = "National Chung Hsing University"
   subheadings = ["Bachelor of Science in Computer Science"]
   date = "June 2022"
   location = "Taichung, Taiwan"
+  points = [
+    "Relevant Coursework: Algorithms, Introduction to Information Retrieval, Introduction to Reinforcement Learning",
+  ]
 
 
 [[info]]
@@ -35,13 +41,13 @@ name = "Work Experience"
   location = "Taipei, Taiwan"
   points = [
       "Developed and maintained the Django Full-stack website for test report visualization",
-      "Established an automating debug workflow by integrating report system with JIRA",
+      "Established a new debug workflow by integrating report system with JIRA",
+      "Revitalized and redesigned UI, achieving an impressive user satisfaction rate of over 85%",
       # "Database normalization and migration from SQLite to MySQL",
-      # "Rewrote and redesigned UI, achieving an impressive user satisfaction rate of over **85%**",
 
       "Expedited bug spotting and fixing process 70% by launching automated validation routine",
       "Increased system utilization 80% by launching time series model to REST API platform built with FastAPI",
-      # "Boosted model accuracy by implementing data validation on data pipeline using **Pydantic**",
+      "Boosted model accuracy 12% by implementing data validation on data pipeline with Pydantic",
   ]
 
   [[info.sections]]
@@ -94,7 +100,7 @@ name = "Projects"
   title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
   points = [
     "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI",
-    "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors’ workload",
+    "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload",
   ]
 
   [[info.sections]]
@@ -116,9 +122,17 @@ name = "Community Experience"
   ]
 
   [[info.sections]]
-  title = "Head of Event Planning, **YZU CI Camp** - Taoyuan, Taiwan"
+  title = "Head of Event Planning, **YZU CI Orientation Camp** - Taoyuan, Taiwan"
   date = "June 2018"
   enddate = "August 2018"
   points = [
     "Led an event planning team of 26 to deliver a 5-day event with 13 activities and over 300+ attendees",
+  ]
+
+  [[info.sections]]
+  title = "Head of Event Planning, **AHSNCCU Pop Music Club** - Taipei, Taiwan"
+  date = "September 2015"
+  enddate = "July 2016"
+  points = [
+    "Led a team of 5 to deliver a joint public presentation with three other clubs, attracting 1000+ audiences",
   ]
