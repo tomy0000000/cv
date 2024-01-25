@@ -18,8 +18,8 @@ $paper_margin: 0.5in; // Print Margin
 /* STYLES */
 
 $font_size: 11pt;
-$section_spacing: 1rem;
-$sub_section_spacing: 1rem;
+$section_spacing: .5rem;
+$sub_section_spacing: .5rem;
 
 html {
   font-family: "Roboto", sans-serif;
@@ -233,7 +233,7 @@ A4 PRINTED
 
       div:nth-last-child(1) {
         text-align: right;
-        flex: 0 0 50%;
+        flex: 0 0 40%;
       }
     }
 
@@ -265,7 +265,7 @@ PHONE
 
     div:nth-last-child(1) {
       text-align: right;
-      flex: 0 0 50%;
+      flex: 0 0 40%;
     }
   }
 
