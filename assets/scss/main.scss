@@ -18,8 +18,8 @@ $paper_margin: 0.5in; // Print Margin
 /* STYLES */
 
 $font_size: 10pt;
-$section_spacing: .5rem;
-$sub_section_spacing: .5rem;
+$section_spacing: 0.5rem;
+$sub_section_spacing: 0.5rem;
 
 html {
   font-family: "Roboto", sans-serif;
@@ -129,7 +129,7 @@ main {
   display: grid;
   grid-template-columns: [left] 1fr [middle] 1fr [right];
   grid-auto-flow: row;
-  
+
   > section {
     margin-top: $section_spacing;
     grid-column: 1 / span 2;
@@ -310,7 +310,7 @@ DESKTOP
     margin: auto;
     background-color: $white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
-    border: .1px solid transparent;
+    border: 0.1px solid transparent;
     position: relative;
 
     &::before,
