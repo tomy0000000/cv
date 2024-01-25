@@ -57,42 +57,6 @@ name = "Work Experience"
 
 
 [[info]]
-name = "Selected Projects"
-
-  [[info.sections]]
-  subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
-
-  [[info.sections]]
-  title = "[YZU CI Camp Website](https://github.com/tomy0000000/YZU-CI-Camp) + [Sen Tree Pay](https://github.com/tomy0000000/Sen-Tree-Pay)"
-  points = [
-    "Led an event planning **team of 26** to deliver a 5-day event with **13 activities** and over **300+ attendees**",
-    "Designed a landing page and registration system with **Bootstrap** and **Google Apps Script**",
-    "Proposed and devised a point system utilized by **300+** attendees with **Laravel** and **MySQL**",
-  ]
-
-  [[info.sections]]
-  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
-  points = [
-    "Constructed an automated YouTube subscription platform with **Flask**, **PostgreSQL**, and **Docker**",
-    "Filtered favorite videos from 600+ new videos across 250 channels per day",
-  ]
-
-  [[info.sections]]
-  title = "[Querator AI](http://app.queratorai.com)"
-  points = [
-    "Created a Question Generation web system with **React** and **BART** model and achieved over **80% reduction** in instructors' workload",
-  ]
-
-  [[info.sections]]
-  title = "[Library Flow](https://github.com/tomy0000000/NCHU-Artificial-Intelligent-Internet-of-Things-Application-and-Implementation/tree/main/Project%20-%20Library%20Flow)"
-  points = [
-    "Collected visitor movement data using **Raspberry Pi** scattered throughout the library",
-    "Deployed system to **Heroku** for 24/7 monitoring",
-    "Implemented crowd statistics visualization with **Chart.js** and trend prediction based on Bluetooth signal",
-  ]
-
-
-[[info]]
 name = "Skills"
 # half = true
 keyword = "skills"
@@ -113,5 +77,29 @@ keyword = "skills"
     details = "Linux/Unix, Git, Docker, Ansible, Terraform, Google Cloud, AWS, Vercel"
 
 
+[[info]]
+name = "Projects"
 
+  # [[info.sections]]
+  # subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
+  [[info.sections]]
+  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  points = [
+    "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker",
+    "Filtered favorite videos from 600+ new videos across 250 channels per day",
+  ]
+
+  [[info.sections]]
+  title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
+  points = [
+    "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI",
+    "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors’ workload",
+  ]
+
+  [[info.sections]]
+  title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
+  points = [
+    "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features",
+    "Architected a spending tracking system to gather 300+ e-invoice data with the SDK",
+  ]
