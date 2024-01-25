@@ -1,13 +1,13 @@
 # CV
 
-👨🏻‍💻💼 My curriculum vitae, built with Hugo
+👨🏻‍💻💼 My resume / curriculum vitae, built with Hugo
 
 ## Features
 
-- ⚡️ Blazingly fast to load (99% in Chrome's Lighthouse Performance)
+- ⚡️ Blazingly fast load time (99% in Chrome Lighthouse)
 - 🕵🏻‍♂️ Auto typo check (with pre-commit)
 - ⏪ History edits checked in (with git)
-- 🖨 Printable and PDF Ready
+- 🖨 Printable and PDF Ready, support both A4 and US Letter
 - 🔍 SEO Built-in (Favicons, Metatags,...)
 - 📇 Indexable, works well with Applicant Tracking Systems
 
