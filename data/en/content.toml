@@ -103,3 +103,22 @@ name = "Projects"
     "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features",
     "Architected a spending tracking system to gather 300+ e-invoice data with the SDK",
   ]
+
+
+[[info]]
+name = "Community Experience"
+
+  [[info.sections]]
+  title = "Event Staff, **PyConDE & PyData Berlin** - Berlin, Germany"
+  date = "April 2022"
+  points = [
+    "Chaired and regulated rooms through 5 days annual Python community event"
+  ]
+
+  [[info.sections]]
+  title = "Head of Event Planning, **YZU CI Camp** - Taoyuan, Taiwan"
+  date = "June 2018"
+  enddate = "August 2018"
+  points = [
+    "Led an event planning team of 26 to deliver a 5-day event with 13 activities and over 300+ attendees",
+  ]
