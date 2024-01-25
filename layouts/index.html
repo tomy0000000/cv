@@ -5,9 +5,11 @@
   <section {{- if .half }} class="half"{{- end -}}>
     <hr>
     <h2>{{ .name | markdownify }}</h2>
-    {{ with .keyword }}
-      {{ $keywords := index $data.keywords . }}
-      <small class="keywords">{{ range $keywords }}{{ . }} {{ end }}</small>
+    {{ if site.Params.renderKeywords }}
+      {{ with .keyword }}
+        {{ $keywords := index $data.keywords . }}
+        <small class="keywords">{{ range $keywords }}{{ . }} {{ end }}</small>
+      {{ end }}
     {{ end }}
     {{ range .sections}}
       <section>
