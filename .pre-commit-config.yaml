@@ -7,6 +7,6 @@ repos:
       - id: trailing-whitespace
       - id: check-toml
   - repo: https://github.com/crate-ci/typos
-    rev: v1.20.4
+    rev: v1.22.9
     hooks:
       - id: typos
