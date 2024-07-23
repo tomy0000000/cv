@@ -34,20 +34,31 @@ name = "Education"
 name = "Work Experience"
 
   [[info.sections]]
+  title = "WeRide.ai"
+  subheadings = ["Software Engineer Internship"]
+  date = "May 2024"
+  enddate = "August 2024"
+  location = "San Jose, CA"
+  points = [
+    "Established security plan for the company-wide CI/CD pipeline platform used by 1,500+ engineers",
+    "Implemented features to protect the company's infrastructure from potential threats in Golang and Gin",
+    "Maintained and improved the CI/CD pipeline platform, reducing the deployment time by 80%",
+  ]
+
+  [[info.sections]]
   title = "Intel"
   subheadings = ["Software Engineer Internship"]
   date = "July 2021"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
   points = [
-      "Developed and maintained the Django Full-stack website for test report visualization",
-      "Established a new debug workflow by integrating report system with JIRA",
-      "Revitalized and redesigned UI, achieving an impressive user satisfaction rate of over 85%",
-      # "Database normalization and migration from SQLite to MySQL",
+    "Developed and maintained the Django Full-stack website for test report visualization",
+    # "Established a new debug workflow by integrating report system with JIRA",
+    "Revitalized and redesigned UI, achieving an impressive user satisfaction rate of over 85%",
 
-      "Expedited bug spotting and fixing process 70% by launching automated validation routine",
-      "Increased system utilization 80% by launching time series model to REST API platform built with FastAPI",
-      "Boosted model accuracy 12% by implementing data validation on data pipeline with Pydantic",
+    "Expedited bug spotting and fixing process 70% by launching automated validation routine",
+    "Increased system utilization 80% by launching time series model to REST API platform built with FastAPI",
+    "Boosted model accuracy 12% by implementing data validation on data pipeline with Pydantic",
   ]
 
   [[info.sections]]
@@ -57,8 +68,8 @@ name = "Work Experience"
   enddate = "November 2021"
   location = "Taichung, Taiwan"
   points = [
-      "Designed and maintained secure, scalable ML experiment environments across 20+ on-premise servers",
-      "Researched Question Generation Quality Enhancement based on BART, awarded Honorable Mention among 40+ contestants",
+    "Designed and maintained secure, scalable ML experiment environments across 20+ on-premise servers",
+    "Researched Question Generation Quality Enhancement based on BART, awarded Honorable Mention among 40+ contestants",
   ]
 
 
@@ -72,15 +83,15 @@ keyword = "skills"
 
     [[info.sections.points]]
     name = "Programming Languages"
-    details = "Python, C/C++, Java, JavaScript/TypeScript, Shell/Bash"
+    details = "Python, Go, C/C++, Java, Shell/Bash"
 
     [[info.sections.points]]
     name = "Frameworks"
-    details = "Flask, Django, FastAPI, PyTorch, HuggingFace, React, Next.js"
+    details = "Flask, Django, FastAPI, PyTorch, Gin"
 
     [[info.sections.points]]
-    name = "Miscellaneous"
-    details = "Linux/Unix, Git, Docker, Ansible, Terraform, Google Cloud, AWS, Vercel"
+    name = "DevOps"
+    details = "Linux/Unix, Docker, Kubernetes, Skaffold, Ansible, Terraform, Google Cloud, AWS, Azure"
 
 
 [[info]]
@@ -96,12 +107,12 @@ name = "Projects"
     "Filtered favorite videos from 600+ new videos across 250 channels per day",
   ]
 
-  [[info.sections]]
-  title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
-  points = [
-    "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI",
-    "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload",
-  ]
+  # [[info.sections]]
+  # title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
+  # points = [
+  #   "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI",
+  #   "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload",
+  # ]
 
   [[info.sections]]
   title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
