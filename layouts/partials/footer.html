@@ -1,26 +1,11 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.content }}
 <footer>
-  <section class="icons">
-    <a target="_blank" href="mailto:{{ .email }}">
-      {{ readFile "assets/icon/envelope.svg" | safeHTML }}
-    </a>
-    <a target="_blank" href="tel:{{ .phone }}">
-      {{ readFile "assets/icon/phone.svg" | safeHTML }}
-    </a>
-    <a target="_blank" href="https://github.com/{{ .github }}">
-      {{ readFile "assets/icon/github.svg" | safeHTML }}
-    </a>
-    <a target="_blank" href="https://www.linkedin.com/in/{{ .linkedin }}">
-      {{ readFile "assets/icon/linkedin.svg" | safeHTML }}
-    </a>
-    <a target="_blank" href="{{ .website }}">
-      {{ readFile "assets/icon/globe.svg" | safeHTML }}
-    </a>
+  <section>
     {{ $pdf := print "static/" (delimit .name " ") "_" site.Language.Lang ".pdf" }}
     {{ if (fileExists $pdf) -}}
       <a target="_blank" href="{{ print (delimit .name " ") "_" site.Language.Lang ".pdf" | relURL }}" id="print">
-        {{ readFile "assets/icon/print.svg" | safeHTML }}
+        PDF
       </a>
       <!-- Catch print handler -->
       {{- if site.Params.redirectprint -}}
@@ -34,11 +19,13 @@
       {{- end -}}
     {{- end }}
   </section>
-  <section class="langs">
-    {{ range $.Site.Home.AllTranslations }}
-    <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-    {{ end }}
-  </section>
+  {{- if gt (len $.Site.Home.AllTranslations) 1 -}}
+    <section class="langs">
+      {{ range $.Site.Home.AllTranslations }}
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+      {{ end }}
+    </section>
+  {{- end -}}
   <section class="copyright">
     <span>Copyright © {{ now.Format "2006" }} {{ delimit .name " " }}.</span>
     <span>{{ i18n "all_rights_reserved" }}</span>
