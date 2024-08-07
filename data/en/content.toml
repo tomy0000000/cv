@@ -17,7 +17,7 @@ name = "Education"
   date = "Graduating December 2024"
   location = "Pittsburgh, PA"
   points = [
-    "Relevant Coursework: Introduction to Computer Systems, Formal Methods, Quality Assurance, API Design, Design Patterns, Cloud Computing",
+    "Relevant Coursework: Introduction to Computer Systems, Cloud Computing, API Design, Design Patterns",
   ]
 
   [[info.sections]]
@@ -34,15 +34,15 @@ name = "Education"
 name = "Work Experience"
 
   [[info.sections]]
-  title = "WeRide.ai"
+  title = "WeRide"
   subheadings = ["Software Engineer Internship"]
   date = "May 2024"
   enddate = "August 2024"
   location = "San Jose, CA"
   points = [
     "Established security plan for the company-wide CI/CD pipeline platform used by 1,500+ engineers",
-    "Implemented features to protect the company's infrastructure from potential threats in Golang and Gin",
-    "Maintained and improved the CI/CD pipeline platform, reducing the deployment time by 80%",
+    "Implemented security features to protect the company’s infrastructure from potential threats in Golang and Gin",
+    "Maintained and improved the process management system to reduce deployment time by 80%",
   ]
 
   [[info.sections]]
@@ -53,12 +53,9 @@ name = "Work Experience"
   location = "Taipei, Taiwan"
   points = [
     "Developed and maintained the Django Full-stack website for test report visualization",
-    # "Established a new debug workflow by integrating report system with JIRA",
-    "Revitalized and redesigned UI, achieving an impressive user satisfaction rate of over 85%",
-
-    "Expedited bug spotting and fixing process 70% by launching automated validation routine",
-    "Increased system utilization 80% by launching time series model to REST API platform built with FastAPI",
-    "Boosted model accuracy 12% by implementing data validation on data pipeline with Pydantic",
+    "Expedited bug spotting and fixing process 70% by launching an automated validation routine",
+    "Increased system utilization 80% by launching time series models to REST API Backend platform built with FastAPI",
+    "Boosted model accuracy 12% by implementing data validation on the data pipeline with Pydantic",
   ]
 
   [[info.sections]]
@@ -69,7 +66,9 @@ name = "Work Experience"
   location = "Taichung, Taiwan"
   points = [
     "Designed and maintained secure, scalable ML experiment environments across 20+ on-premise servers",
-    "Researched Question Generation Quality Enhancement based on BART, awarded Honorable Mention among 40+ contestants",
+    "Researched question generation quality enhancement based on BART, awarded honorable mention among 40+ contestants",
+    "Initiated NLP Lab API, a unified platform for research demonstration with FastAPI",
+    "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API"
   ]
 
 
