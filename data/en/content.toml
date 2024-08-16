@@ -40,9 +40,10 @@ name = "Work Experience"
   enddate = "August 2024"
   location = "San Jose, CA"
   points = [
-    "Established security plan for the company-wide CI/CD pipeline platform used by 1,500+ engineers",
-    "Implemented security features to protect the company’s infrastructure from potential threats in Golang and Gin",
-    "Maintained and improved the process management system to reduce deployment time by 80%",
+    "Tripled the CI/CD pipeline's task capacity by revamping system architecture for optimal performance.",
+    "Slashed deployment time by 80% by innovating new features and orchestrating chaining deployment workflows in Go.",
+    "Fortified the company’s cloud infrastructure by deploying sidecar service containers segregated in Kubernetes.",
+    "Expanded the user base by 30% by designing and implementing highly intuitive and user-friendly features.",
   ]
 
   [[info.sections]]
@@ -52,10 +53,10 @@ name = "Work Experience"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
   points = [
-    "Developed and maintained the Django Full-stack website for test report visualization",
-    "Expedited bug spotting and fixing process 70% by launching an automated validation routine",
-    "Increased system utilization 80% by launching time series models to REST API Backend platform built with FastAPI",
-    "Boosted model accuracy 12% by implementing data validation on the data pipeline with Pydantic",
+    "Engineered and sustained a Django full-stack website for dynamic test report visualization.",
+    "Accelerated the bug detection and resolution process by 70% by deploying an automated validation routine.",
+    "Maximized system utilization by 80% by integrating time series models into a REST API backend platform built with FastAPI.",
+    "Enhanced model accuracy by 12% by enforcing rigorous data validation in the data pipeline using Pydantic.",
   ]
 
   [[info.sections]]
@@ -65,10 +66,8 @@ name = "Work Experience"
   enddate = "November 2021"
   location = "Taichung, Taiwan"
   points = [
-    "Designed and maintained secure, scalable ML experiment environments across 20+ on-premise servers",
-    "Researched question generation quality enhancement based on BART, awarded honorable mention among 40+ contestants",
-    "Initiated NLP Lab API, a unified platform for research demonstration with FastAPI",
-    "Developed and maintained a Question Generation Platform, Querator AI, backed by the NLP Lab API"
+    "Spearheaded the development of the NLP Lab API, a unified platform for research demonstration powered by FastAPI.",
+    "Built and managed the Question Generation Platform, Querator AI, leveraging the NLP Lab API for seamless performance.",
   ]
 
 
