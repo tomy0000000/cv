@@ -55,7 +55,7 @@ name = "Work Experience"
   points = [
     "Engineered and sustained a Django full-stack website for dynamic test report visualization.",
     "Accelerated the bug detection and resolution process by 70% by deploying an automated validation routine.",
-    "Maximized system utilization by 80% by integrating time series models into a REST API backend platform built with FastAPI.",
+    "Maximized system utilization 80% by integrating time series models into a FastAPI backend platform.",
     "Enhanced model accuracy by 12% by enforcing rigorous data validation in the data pipeline using Pydantic.",
   ]
 
@@ -99,25 +99,39 @@ name = "Projects"
   # subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
-  title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  title = "Twitter PageRank Recommendation System"
   points = [
-    "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker",
-    "Filtered favorite videos from 600+ new videos across 250 channels per day",
+    "Architected a large-scale PageRank Spark applications for Twitter graph analysis, deployed on Azure HDInsight and Databricks.",
+    "Designed distributed systems for graph processing, utilizing Spark, Zeppelin, and Azure cloud resources."
   ]
+
+  [[info.sections]]
+  title = "Real-Time Ride Matching and Ad Targeting System"
+  points = [
+    "Engineered real-time data processing pipelines using Kafka and Samza to optimize driver matching and deliver personalized advertisements.",
+    "Deployed scalable distributed systems on AWS YARN clusters, ensuring low-latency and fault-tolerant processing of high-volume data streams for real-time ad targeting."
+  ]
+
+  # [[info.sections]]
+  # title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  # points = [
+  #   "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker.",
+  #   "Filtered favorite videos from 600+ new videos across 250 channels per day.",
+  # ]
 
   # [[info.sections]]
   # title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
   # points = [
-  #   "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI",
-  #   "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload",
+  #   "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI.",
+  #   "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload.",
   # ]
 
-  [[info.sections]]
-  title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
-  points = [
-    "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features",
-    "Architected a spending tracking system to gather 300+ e-invoice data with the SDK",
-  ]
+  # [[info.sections]]
+  # title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
+  # points = [
+  #   "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features.",
+  #   "Architected a spending tracking system to gather 300+ e-invoice data with the SDK.",
+  # ]
 
 
 [[info]]
