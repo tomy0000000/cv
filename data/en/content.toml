@@ -17,7 +17,7 @@ name = "Education"
   date = "Graduating December 2024"
   location = "Pittsburgh, PA"
   points = [
-    "Relevant Coursework: Introduction to Computer Systems, Cloud Computing, API Design, Design Patterns",
+    "Intro to Database Systems, Distributed Systems, Cloud Computing, Introduction to Computer Systems",
   ]
 
   [[info.sections]]
@@ -26,7 +26,7 @@ name = "Education"
   date = "June 2022"
   location = "Taichung, Taiwan"
   points = [
-    "Relevant Coursework: Algorithms, Introduction to Information Retrieval, Introduction to Reinforcement Learning",
+    "Algorithms, Introduction to Information Retrieval, Introduction to Reinforcement Learning",
   ]
 
 
@@ -60,36 +60,40 @@ name = "Work Experience"
   ]
 
   [[info.sections]]
-  title = "Natural Language Processing Lab, NCHU"
+  title = "NCHU NLP Lab"
   subheadings = ["Research Assistant"]
   date = "July 2020"
   enddate = "November 2021"
   location = "Taichung, Taiwan"
   points = [
     "Spearheaded the development of the NLP Lab API, a unified platform for research demonstration powered by FastAPI.",
-    "Built and managed the Question Generation Platform, Querator AI, leveraging the NLP Lab API for seamless performance.",
+    "Built the Question Generation Platform, Querator AI with React, leveraging Lab API for seamless performance.",
   ]
 
 
 [[info]]
 name = "Skills"
 # half = true
-keyword = "skills"
+# keyword = "skills"
 
   [[info.sections]]
   grid = true
 
     [[info.sections.points]]
     name = "Programming Languages"
-    details = "Python, Go, C/C++, Java, Shell/Bash"
+    details = "Python, Go, C/C++, Java, Ruby, Shell/Bash, HTML, CSS, JavaScript, SQL"
 
     [[info.sections.points]]
-    name = "Frameworks"
-    details = "Flask, Django, FastAPI, PyTorch, Gin"
+    name = "Data"
+    details = "MySQL, Postgres, MongoDB, Hadoop, Spark, Samza"
 
     [[info.sections.points]]
-    name = "DevOps"
-    details = "Linux/Unix, Docker, Kubernetes, Skaffold, Ansible, Terraform, Google Cloud, AWS, Azure"
+    name = "Web & Frameworks"
+    details = "Flask, Django, FastAPI, PyTorch, Rails, Gin, jQuery, Bootstrap, React"
+
+    [[info.sections.points]]
+    name = "Cloud, DevOps"
+    details = "AWS, Google Cloud, Azure, Linux/Unix, Docker, Kubernetes, Ansible, Terraform"
 
 
 [[info]]
@@ -99,63 +103,63 @@ name = "Projects"
   # subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
-  title = "Twitter PageRank Recommendation System"
+  title = "Cloud Computing - Twitter PageRank Recommendation System"
   points = [
-    "Architected a large-scale PageRank Spark applications for Twitter graph analysis, deployed on Azure HDInsight and Databricks.",
-    "Designed distributed systems for graph processing, utilizing Spark, Zeppelin, and Azure cloud resources."
+    "Architected a large-scale PageRank Spark application to analyze Twitter graph data on Azure HDInsight and Databricks.",
+    "Designed a PySpark ETL pipeline that processed over 1TB and loaded data to the MySQL database on AWS."
   ]
 
   [[info.sections]]
-  title = "Real-Time Ride Matching and Ad Targeting System"
+  title = "Cloud Computing - Real-Time Ride Matching and Ad Targeting System"
   points = [
-    "Engineered real-time data processing pipelines using Kafka and Samza to optimize driver matching and deliver personalized advertisements.",
-    "Deployed scalable distributed systems on AWS YARN clusters, ensuring low-latency and fault-tolerant processing of high-volume data streams for real-time ad targeting."
+    "Implemented high-throughput real-time data pipelines on AWS EMR, ensuring seamless stream processing at scale.",
+    "Enhanced driver-matching and ad-personalizing by optimizing Kafka and Samza streaming performance."
+  ]
+
+  [[info.sections]]
+  title = "[Tubee](https://projects.tomy.me/projects/tubee/)"
+  points = [
+    "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker.",
+    "Filtered favorite videos from 600+ new videos across 250 channels per day.",
   ]
 
   # [[info.sections]]
-  # title = "[Tubee](https://github.com/tomy0000000/Tubee)"
+  # title = "NCHU NLP Lab - [Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
   # points = [
-  #   "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker.",
-  #   "Filtered favorite videos from 600+ new videos across 250 channels per day.",
-  # ]
-
-  # [[info.sections]]
-  # title = "[NCHU NLP Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
-  # points = [
-  #   "Initiated NCHU NLP Lab API, a unified platform for research demonstration at NCHU NLP Lab with FastAPI.",
+  #   "Initiated Lab API platform for research demonstration at NCHU NLP Lab with FastAPI.",
   #   "Upgraded a Question Generation web system with React and BART model and achieved over 80% reduction in instructors' workload.",
   # ]
 
-  # [[info.sections]]
-  # title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
-  # points = [
-  #   "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features.",
-  #   "Architected a spending tracking system to gather 300+ e-invoice data with the SDK.",
-  # ]
-
-
-[[info]]
-name = "Community Experience"
-
   [[info.sections]]
-  title = "Event Staff, **PyConDE & PyData Berlin** - Berlin, Germany"
-  date = "April 2022"
+  title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
   points = [
-    "Chaired and regulated rooms through 5 days annual Python community event"
+    "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features.",
+    "Architected a spending tracking system with FastAPI, PostgreSQL, and Docker, enabling users to manage and analyze their spending habits.",
   ]
 
-  [[info.sections]]
-  title = "Head of Event Planning, **YZU CI Orientation Camp** - Taoyuan, Taiwan"
-  date = "June 2018"
-  enddate = "August 2018"
-  points = [
-    "Led an event planning team of 26 to deliver a 5-day event with 13 activities and over 300+ attendees",
-  ]
 
-  [[info.sections]]
-  title = "Head of Event Planning, **AHSNCCU Pop Music Club** - Taipei, Taiwan"
-  date = "September 2015"
-  enddate = "July 2016"
-  points = [
-    "Led a team of 5 to deliver a joint public presentation with three other clubs, attracting 1000+ audiences",
-  ]
+# [[info]]
+# name = "Community Experience"
+
+#   [[info.sections]]
+#   title = "Event Staff, **PyConDE & PyData Berlin** - Berlin, Germany"
+#   date = "April 2022"
+#   points = [
+#     "Chaired and regulated rooms through 5 days annual Python community event"
+#   ]
+
+#   [[info.sections]]
+#   title = "Head of Event Planning, **YZU CI Orientation Camp** - Taoyuan, Taiwan"
+#   date = "June 2018"
+#   enddate = "August 2018"
+#   points = [
+#     "Led an event planning team of 26 to deliver a 5-day event with 13 activities and over 300+ attendees",
+#   ]
+
+#   [[info.sections]]
+#   title = "Head of Event Planning, **AHSNCCU Pop Music Club** - Taipei, Taiwan"
+#   date = "September 2015"
+#   enddate = "July 2016"
+#   points = [
+#     "Led a team of 5 to deliver a joint public presentation with three other clubs, attracting 1000+ audiences",
+#   ]
