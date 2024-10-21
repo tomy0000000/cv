@@ -10,11 +10,13 @@
       </h1>
     </div>
     {{ with $data.content.headline }}
-      <h3 class="headline">
-      {{ range . }}
-        <span>{{ . }}</span>
-      {{ end }}
-      </h3>
+      <div class="headline">
+        <h3>
+        {{ range . }}
+          <span>{{ . }}</span>
+        {{ end }}
+        </h3>
+      </div>
     {{ end }}
   </hgroup>
   <address>

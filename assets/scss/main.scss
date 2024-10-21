@@ -92,19 +92,25 @@ span {
 }
 
 header {
-  .page-title {
-    display: flex;
+  * {
     justify-content: center;
   }
 
+  .page-title {
+    display: flex;
+  }
+
   .headline {
-    font-weight: unset;
-    font-style: italic;
+    display: flex;
+
+    h3 {
+      font-weight: unset;
+      font-style: italic;
+    }
   }
 
   address {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     column-gap: 1rem;
     font-style: normal;
