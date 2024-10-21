@@ -13,7 +13,8 @@ $desktop: 1024px;
 $paper: letter;
 $paper_width: if($paper==A4, 210mm, 8.5in);
 $paper_height: if($paper==A4, 297mm, 11in);
-$paper_margin: 0.5in; // Print Margin
+$paper_margin: 0.5in; // Web Margin
+$print_margin: 0.25in; // Print Margin
 
 /* STYLES */
 
@@ -208,7 +209,7 @@ A4 PRINTED
 @media print {
   @page {
     size: $paper portrait;
-    margin: $paper_margin;
+    margin: $print_margin;
   }
 
   header {
