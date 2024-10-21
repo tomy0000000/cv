@@ -5,7 +5,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-# headline = ["Incoming CMU MSE Student with Python, NLP experience", " and enthusiasm for user-centric design"]
+# headline = ["CMU Master's of Software Engineering experienced with Python, Backend,", " and finely-crafted products."]
 
 [[info]]
 name = "Education"
@@ -16,7 +16,7 @@ name = "Education"
   date = "Graduating December 2024"
   location = "Pittsburgh, PA"
   points = [
-    "Intro to Database Systems, Distributed Systems, Cloud Computing, Introduction to Computer Systems",
+    "Cloud Computing, Intro to Database Systems, Distributed Systems, Introduction to Computer Systems",
   ]
 
   [[info.sections]]
@@ -25,7 +25,7 @@ name = "Education"
   date = "June 2022"
   location = "Taichung, Taiwan"
   points = [
-    "Algorithms, Introduction to Information Retrieval, Introduction to Reinforcement Learning",
+    "Honorable Mention for Graduate Capstone Project"
   ]
 
 
@@ -58,16 +58,16 @@ name = "Work Experience"
     "Enhanced model accuracy by 12% by enforcing rigorous data validation in the data pipeline using Pydantic.",
   ]
 
-  [[info.sections]]
-  title = "NCHU NLP Lab"
-  subheadings = ["Research Assistant"]
-  date = "July 2020"
-  enddate = "November 2021"
-  location = "Taichung, Taiwan"
-  points = [
-    "Spearheaded the development of the NLP Lab API, a unified platform for research demonstration powered by FastAPI.",
-    "Built the Question Generation Platform, Querator AI with React, leveraging Lab API for seamless performance.",
-  ]
+  # [[info.sections]]
+  # title = "NCHU NLP Lab"
+  # subheadings = ["Research Assistant"]
+  # date = "July 2020"
+  # enddate = "November 2021"
+  # location = "Taichung, Taiwan"
+  # points = [
+  #   "Spearheaded the development of the NLP Lab API, a unified platform for research demonstration powered by FastAPI.",
+  #   "Built the Question Generation Platform, Querator AI with React, leveraging Lab API for seamless performance.",
+  # ]
 
 
 [[info]]
@@ -84,7 +84,7 @@ name = "Skills"
 
     [[info.sections.points]]
     name = "Data"
-    details = "MySQL, Postgres, MongoDB, Hadoop, Spark, Samza"
+    details = "MySQL, Postgres, MongoDB, Kafka, Hadoop, Spark, Samza"
 
     [[info.sections.points]]
     name = "Web & Frameworks"
@@ -92,7 +92,7 @@ name = "Skills"
 
     [[info.sections.points]]
     name = "Cloud, DevOps"
-    details = "AWS, Google Cloud, Azure, Linux/Unix, Docker, Kubernetes, Ansible, Terraform"
+    details = "AWS, Google Cloud, Azure, Linux/Unix, Docker, Kubernetes, Helm, Ansible, Terraform"
 
 
 [[info]]
@@ -102,24 +102,32 @@ name = "Projects"
   # subheadings = ["Explore [Project](https://projects.tomy.me) site for more projects"]
 
   [[info.sections]]
-  title = "Cloud Computing - Twitter PageRank Recommendation System"
+  title = "BusTub - RDBMS Implementation with C++17"
+  points = [
+    "Implemented the Presto's dense layout HyperLogLog algorithm for fast cardinality estimation in large datasets.",
+    "Devised a thread-safe buffer pool manager and LRU-K replacement policy and a disk scheduler to optimize memory management and disk I/O efficiency.",
+    "Developed a concurrent B+Tree, supporting efficient search, insertion, deletion, and in-order iteration with proper concurrency control mechanisms."
+  ]
+
+  [[info.sections]]
+  title = "Twitter PageRank Recommendation System"
   points = [
     "Architected a large-scale PageRank Spark application to analyze Twitter graph data on Azure HDInsight and Databricks.",
     "Designed a PySpark ETL pipeline that processed over 1TB and loaded data to the MySQL database on AWS."
   ]
 
   [[info.sections]]
-  title = "Cloud Computing - Real-Time Ride Matching and Ad Targeting System"
+  title = "Real-Time Ride Matching and Ad Targeting System"
   points = [
     "Implemented high-throughput real-time data pipelines on AWS EMR, ensuring seamless stream processing at scale.",
     "Enhanced driver-matching and ad-personalizing by optimizing Kafka and Samza streaming performance."
   ]
 
   [[info.sections]]
-  title = "[Tubee](https://projects.tomy.me/projects/tubee/)"
+  title = "[Tubee](https://projects.tomy.me/projects/tubee/) - Automated YouTube Subscription Platform"
   points = [
-    "Constructed an automated YouTube subscription platform with Flask, PostgreSQL, and Docker.",
-    "Filtered favorite videos from 600+ new videos across 250 channels per day.",
+    "Constructed the project from scratch with Flask, PostgreSQL, and Docker.",
+    "Processed over 1,000 new videos daily and delivered personalized recommendations to users faster than official app."
   ]
 
   # [[info.sections]]
