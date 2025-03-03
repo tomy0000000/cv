@@ -5,7 +5,7 @@ website = "https://tomy.me"
 github = "tomy0000000"
 linkedin = "tomy0000000"
 
-# headline = ["CMU Master's of Software Engineering experienced with Python, Backend,", " and finely-crafted products."]
+headline = ["Software Engineer specialized in scalable backend, DevOps, and distributed systems for production-grade applications."]
 
 [[info]]
 name = "Education"
@@ -13,10 +13,10 @@ name = "Education"
   [[info.sections]]
   title = "Carnegie Mellon University"
   subheadings = ["Master of Software Engineering - Scalable Systems"]
-  date = "Graduating December 2024"
+  date = "December 2024"
   location = "Pittsburgh, PA"
   points = [
-    "Cloud Computing, Intro to Database Systems, Distributed Systems, Introduction to Computer Systems",
+    "Coursework: Cloud Computing, Intro to Database Systems, Introduction to Computer Systems",
   ]
 
   [[info.sections]]
@@ -25,7 +25,7 @@ name = "Education"
   date = "June 2022"
   location = "Taichung, Taiwan"
   points = [
-    "Honorable Mention for Graduate Capstone Project"
+    "Honorable Mention for Graduate Capstone Project: *Question Generation Quality Enhancement based on BART*"
   ]
 
 
@@ -34,15 +34,26 @@ name = "Work Experience"
 
   [[info.sections]]
   title = "WeRide"
+  subheadings = ["Software Engineer"]
+  date = "February 2025"
+  location = "San Jose, CA"
+  points = [
+    "Designed and deployed a Kubernetes-based Cloud IDE for 500+ engineers across multiple regions, enabling on-demand CPU/memory/GPU provisioning and strict data localization.",
+    "Optimized GPU usage by ~40% via just-in-time mounting/unmounting, reducing idle costs and boosting utilization.",
+    "Secured the monorepo by restricting access to authenticated IDE instances, mitigating exfiltration risks while streamlining developer workflows.",
+  ]
+
+  [[info.sections]]
+  title = "WeRide"
   subheadings = ["Software Engineer Internship"]
   date = "May 2024"
   enddate = "August 2024"
   location = "San Jose, CA"
   points = [
-    "Tripled the CI/CD pipeline's task capacity by revamping system architecture for optimal performance.",
-    "Slashed deployment time by 80% by innovating new features and orchestrating chaining deployment workflows in Go.",
-    "Fortified the company’s cloud infrastructure by deploying sidecar service containers segregated in Kubernetes.",
-    "Expanded the user base by 30% by designing and implementing highly intuitive and user-friendly features.",
+    "Revamped a large-scale CI/CD pipeline architecture, tripling task capacity and slashing deployment time by 80%.",
+    "Developed automated deployment workflows in Go, improving reliability of feature rollouts across multi-cloud environments.",
+    "Bolstered cloud security via sidecar containerization, enhancing data isolation and compliance with internal standards.",
+    # "Increased user adoption by 30% by introducing user-friendly features and streamlined platform integrations.",
   ]
 
   [[info.sections]]
@@ -52,10 +63,9 @@ name = "Work Experience"
   enddate = "December 2021"
   location = "Taipei, Taiwan"
   points = [
-    "Engineered and sustained a Django full-stack website for dynamic test report visualization.",
-    "Accelerated the bug detection and resolution process by 70% by deploying an automated validation routine.",
-    "Maximized system utilization 80% by integrating time series models into a FastAPI backend platform.",
-    "Enhanced model accuracy by 12% by enforcing rigorous data validation in the data pipeline using Pydantic.",
+    "Engineered and sustained a Django-based full-stack solution to visualize test reports, cutting manual analysis time by 50%.",
+    "Accelerated bug detection and resolution by 70% using automated Python validation routines, driving faster release cycles.",
+    "Boosted hardware test capacity by 80% through time series models in a FastAPI backend for real-time analytics."
   ]
 
   # [[info.sections]]
@@ -80,7 +90,7 @@ name = "Skills"
 
     [[info.sections.points]]
     name = "Programming Languages"
-    details = "Python, Go, C/C++, Java, Ruby, Shell/Bash, HTML, CSS, JavaScript, SQL"
+    details = "Python, Go, C/C++, Java, Shell/Bash, JavaScript, SQL"
 
     [[info.sections.points]]
     name = "Data"
@@ -88,7 +98,7 @@ name = "Skills"
 
     [[info.sections.points]]
     name = "Web & Frameworks"
-    details = "Flask, Django, FastAPI, PyTorch, Rails, Gin, jQuery, Bootstrap, React"
+    details = "Flask, Django, FastAPI, Gin, React, Next.js"
 
     [[info.sections.points]]
     name = "Cloud, DevOps"
@@ -104,31 +114,31 @@ name = "Projects"
   [[info.sections]]
   title = "BusTub - RDBMS Implementation with C++17"
   points = [
-    "Implemented the Presto's dense layout HyperLogLog algorithm for fast cardinality estimation in large datasets.",
-    "Devised a thread-safe buffer pool manager and LRU-K replacement policy and a disk scheduler to optimize memory management and disk I/O efficiency.",
-    "Developed a concurrent B+Tree, supporting efficient search, insertion, deletion, and in-order iteration with proper concurrency control mechanisms."
+    "Implemented Presto's dense layout HyperLogLog for fast cardinality estimation over large datasets.",
+    "Developed a thread-safe buffer pool manager with LRU-K replacement and a disk scheduler to optimize memory management and disk I/O efficiency.",
+    "Built a concurrent B+Tree supporting efficient search, insertion, deletion, and in-order iteration with proper concurrency control mechanisms.",
   ]
 
-  [[info.sections]]
-  title = "Twitter PageRank Recommendation System"
-  points = [
-    "Architected a large-scale PageRank Spark application to analyze Twitter graph data on Azure HDInsight and Databricks.",
-    "Designed a PySpark ETL pipeline that processed over 1TB and loaded data to the MySQL database on AWS."
-  ]
+  # [[info.sections]]
+  # title = "Twitter PageRank Recommendation System"
+  # points = [
+  #   "Architected a large-scale PageRank Spark application to analyze Twitter graph data on Azure HDInsight and Databricks.",
+  #   "Designed a PySpark ETL pipeline that processed over 1TB and loaded data to the MySQL database on AWS."
+  # ]
 
   [[info.sections]]
   title = "Real-Time Ride Matching and Ad Targeting System"
   points = [
-    "Implemented high-throughput real-time data pipelines on AWS EMR, ensuring seamless stream processing at scale.",
-    "Enhanced driver-matching and ad-personalizing by optimizing Kafka and Samza streaming performance."
+    "Implemented high-throughput real-time data pipelines on AWS EMR with Kafka and Samza, ensuring near-zero-latency stream processing.",
+    "Optimized driver-matching and personalized ad-targeting algorithms, boosting throughput and lowering cost of operations.",
   ]
 
-  [[info.sections]]
-  title = "[Tubee](https://projects.tomy.me/projects/tubee/) - Automated YouTube Subscription Platform"
-  points = [
-    "Constructed the project from scratch with Flask, PostgreSQL, and Docker.",
-    "Processed over 1,000 new videos daily and delivered personalized recommendations to users faster than official app."
-  ]
+  # [[info.sections]]
+  # title = "[Tubee](https://projects.tomy.me/projects/tubee/) - Automated YouTube Subscription Platform"
+  # points = [
+  #   "Constructed the project from scratch with Flask, PostgreSQL, and Docker.",
+  #   "Processed over 1,000 new videos daily and delivered personalized recommendations to users faster than official app."
+  # ]
 
   # [[info.sections]]
   # title = "NCHU NLP Lab - [Lab API](https://github.com/NCHU-NLP-Lab/api) + [Querator AI](http://app.queratorai.com)"
@@ -140,8 +150,9 @@ name = "Projects"
   [[info.sections]]
   title = "[tw-invoice](https://github.com/tomy0000000/tw-invoice) + [K](https://github.com/tomy0000000/k-backend)"
   points = [
-    "Created and Engineered an SDK for exchanging data with Taiwan MoF e-Invoice platform, accelerated application development by incorporating built-in data-validating features.",
-    "Architected a spending tracking system with FastAPI, PostgreSQL, and Docker, enabling users to manage and analyze their spending habits.",
+    "Developed a single source of truth for personal finances system with FastAPI, PostgreSQL, Next.js and Docker Compose, automating invoice retrieval, and streamlining multi-country expense management.",
+    "Implemented multi-currency & i18n with UTC-based data storage and Decimal fields for reliable cross-border, multi-account expense tracking.",
+    "Ensured high reliability and scalability via containerized architecture, CI/CD pipelines, and Pydantic data validation.",
   ]
 
 
