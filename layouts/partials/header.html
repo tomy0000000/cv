@@ -1,45 +1,41 @@
 {{ $data := index site.Data site.Language.Lang }}
 {{ with $data.content }}
 <header>
-  <hgroup>
-    <div class="page-title">
-      <h1>
-        {{ range .name }}
-          <span>{{ . }}</span>
-        {{ end }}
-      </h1>
-    </div>
-    {{ with $data.content.headline }}
-      <div class="headline">
-        <h3>
-        {{ range . }}
-          <span>{{ . }}</span>
-        {{ end }}
-        </h3>
-      </div>
+  <h1>
+    {{ range .name }}
+      <span>{{ . }}</span>
     {{ end }}
-  </hgroup>
-  <address>
-    <a target="_blank" href="mailto:{{ .email }}">
-      {{ readFile "assets/icon/envelope.svg" | safeHTML }}
-      {{ .email }}
-    </a>
-    <a target="_blank" href="tel:{{ .phone }}">
-      {{ readFile "assets/icon/phone.svg" | safeHTML }}
-      {{ .phone }}
-    </a>
-    <a target="_blank" href="{{ .website }}">
-      {{ readFile "assets/icon/globe.svg" | safeHTML }}
-      {{ .website }}
-    </a>
-    <a target="_blank" href="https://github.com/{{ .github }}">
-      {{ readFile "assets/icon/github.svg" | safeHTML }}
-      {{ .github }}
-    </a>
-    <a target="_blank" href="https://linkedin.com/in/{{ .linkedin }}">
-      {{ readFile "assets/icon/linkedin.svg" | safeHTML }}
-      {{ .linkedin }}
-    </a>
-  </address>
+  </h1>
+  <p>
+    <address>
+      <a target="_blank" href="mailto:{{ .email }}">
+        {{ readFile "assets/icon/envelope.svg" | safeHTML }}
+        {{ .email }}
+      </a>
+      <a target="_blank" href="tel:{{ .phone }}">
+        {{ readFile "assets/icon/phone.svg" | safeHTML }}
+        {{ .phone }}
+      </a>
+      <a target="_blank" href="{{ .website }}">
+        {{ readFile "assets/icon/globe.svg" | safeHTML }}
+        {{ .website }}
+      </a>
+      <a target="_blank" href="https://github.com/{{ .github }}">
+        {{ readFile "assets/icon/github.svg" | safeHTML }}
+        {{ .github }}
+      </a>
+      <a target="_blank" href="https://linkedin.com/in/{{ .linkedin }}">
+        {{ readFile "assets/icon/linkedin.svg" | safeHTML }}
+        {{ .linkedin }}
+      </a>
+    </address>
+  </p>
+  {{ with $data.content.headline }}
+    <h3>
+    {{ range . }}
+      <span>{{ . }}</span>
+    {{ end }}
+    </h3>
+  {{ end }}
 </header>
 {{ end }}
