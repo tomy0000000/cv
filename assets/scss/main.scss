@@ -11,10 +11,10 @@ $desktop: 1024px;
 
 // $paper: A4;
 $paper: letter;
-$paper_width: if($paper==A4, 210mm, 8.5in);
-$paper_height: if($paper==A4, 297mm, 11in);
 $paper_margin: 0.5in; // Web Margin
-$print_margin: 0.25in; // Print Margin
+$print_margin: 0.25in; // Actual Print Margin
+$paper_width: if($paper==A4, 210mm, 8.5in) + ($paper_margin - $print_margin) * 2;
+$paper_height: if($paper==A4, 297mm, 11in);
 
 /* STYLES */
 
@@ -158,7 +158,7 @@ main {
   position: absolute;
   box-sizing: border-box;
   border: 1px solid red;
-  top: calc(#{$paper_height} - #{$paper_margin});
+  top: calc(#{$paper_height} - #{$print_margin});
   width: calc(#{$paper_width} - #{$paper_margin} * 2);
 }
 
