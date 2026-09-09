@@ -8,28 +8,6 @@ linkedin = "tomy0000000"
 headline = ["Software Engineer specialized in scalable backend, DevOps, and distributed systems for production-grade applications."]
 
 [[info]]
-name = "Education"
-
-  [[info.sections]]
-  title = "Carnegie Mellon University"
-  subheadings = ["Master of Software Engineering - Scalable Systems"]
-  date = "December 2024"
-  location = "Pittsburgh, PA"
-  points = [
-    "Coursework: Cloud Computing, Intro to Database Systems, Introduction to Computer Systems",
-  ]
-
-  [[info.sections]]
-  title = "National Chung Hsing University"
-  subheadings = ["Bachelor of Science in Computer Science"]
-  date = "June 2022"
-  location = "Taichung, Taiwan"
-  points = [
-    "Honorable Mention for Graduate Capstone Project: *Question Generation Quality Enhancement based on BART*"
-  ]
-
-
-[[info]]
 name = "Work Experience"
 
   [[info.sections]]
@@ -78,6 +56,27 @@ name = "Work Experience"
   #   "Spearheaded the development of the NLP Lab API, a unified platform for research demonstration powered by FastAPI.",
   #   "Built the Question Generation Platform, Querator AI with React, leveraging Lab API for seamless performance.",
   # ]
+
+[[info]]
+name = "Education"
+
+  [[info.sections]]
+  title = "Carnegie Mellon University"
+  subheadings = ["Master of Software Engineering - Scalable Systems"]
+  date = "December 2024"
+  location = "Pittsburgh, PA"
+  points = [
+    "Coursework: Cloud Computing, Intro to Database Systems, Introduction to Computer Systems",
+  ]
+
+  [[info.sections]]
+  title = "National Chung Hsing University"
+  subheadings = ["Bachelor of Science in Computer Science"]
+  date = "June 2022"
+  location = "Taichung, Taiwan"
+  points = [
+    "Honorable Mention for Graduate Capstone Project: *Question Generation Quality Enhancement based on BART*"
+  ]
 
 
 [[info]]
