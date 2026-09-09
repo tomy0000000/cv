@@ -81,12 +81,6 @@ span {
   display: inline-block;
 }
 
-.keywords {
-  color: white;
-  font-size: 0.1px;
-  position: absolute; // this prevent the empty line height
-}
-
 .container {
   margin: $paper_margin;
 }
